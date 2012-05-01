@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  min-height: 100%;
+  background: url("../images/chargers_tailgate-adjusted.jpg") right no-repeat fixed;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0;
+  font-family: Bookman;
+}
+
+p {
+  font-family: Arial;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+  width: 1020px;
+}
+
+  #content {
+    margin: 50px 0px;
+    padding: 20px 20px;
+    width: 1020px;
+    background: url("../images/grass.jpg");
+    border-radius: 20px;
+  }
+
+  #header {
+
+  }
+  
+    #header #logo {
+      float: left;
+      width: 420px;
+    }
+
+      #header #logo img {
+        height: 216px;
+        width: 420px;
+      }
+
+  #header #video {
+    margin-left: 465px;
+  }
+
+  .divider {
+    background-color: #c8dcdd;
+    margin: 20px 10px;
+    border: solid 1px #c8dcdd;
+    border-radius: 10px;
+    height: 7px;
+  }
+
+  #body {
+    margin-top: 30px;
+  }
+
+  #body .column-left {
+    float: left;
+    width: 430px;
+    margin-right: 25px;
+  }
+
+  #body .column-right {
+    width: 565px;
+    float: left;
+  }
+
+  #body .block {
+    background-color: #c8dcdd;
+    min-height: 150px;
+    padding: 7px;
+    margin-bottom: 14px;
+  }
+
+    #body .content-block {
+      border: solid 2px #6D929B;
+      padding: 7px;
+    }
+
+      #call_to_action img {
+        float: right;
+      }
+
+      #schedule ul {
+        float: left;
+        list-style-type: none;
+        margin-left: 0px;
+        padding: 0 8px 0 0;
+      }
+
+
+/** Blog Styles **/
+.post .details {
+  font-style: italic;
+  font-size: 12px;
+  display: block;
+}
