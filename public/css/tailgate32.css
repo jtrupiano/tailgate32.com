@@ -1,12 +1,21 @@
 body {
-  color: #222;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #323232;
+  font-family: Arial, Helvetica;
+  margin: 0;
   line-height: 1.5;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 
-h3 {
-  margin: 0;
+.divider {
+  height: 8px;
+  width: 100%;
+  background-color: #fff;
 }
 
 .clear {
@@ -14,107 +23,195 @@ h3 {
 }
 
 #menu {
-  width: 100%;
-  background-color: #FFC;
-  padding: 10px 0;
-  border-bottom: solid 2px #125a34;
+  width: 1000px;
+  height: 43px;
+  margin: 37px auto 0px auto;
+  text-align: right;
 }
 
-  #menu #menu-links {
-    width: 500px;
-    float: left;
-    padding-left: 20px;
+  #menu a {
+    margin-left: 12px;
   }
 
-  #menu #social-media {
-    float: right;
+#masthead {
+  background: url("../images/asphalt.jpg");
+}
+
+  #logo_container {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+.row {
+  margin: 30px auto;
+  width: 1000px;
+}
+
+  #main .left {
+    width: 553px;
+    float: left;
+  }
+
+    #video-container {
+      border: solid 8px white;
+      border-radius: 10px;
+      background-color: white;
+      width: 537px;
+    }
+
+    #social-media {
+      margin: 15px auto;
+      padding: 5px;
+      background: white;
+      width: 100%;
+    }
+
+  #main .right {
+    width: 422px;
+    margin-left: 25px;
+    float: left
+  }
+
+    #call-to-action {
+
+    }
+
+      #call-to-action p {
+        font-size: 14px;
+        color: white;
+      }
+
+      #call-to-action img {
+        margin: 12px 0px 0px 12px;
+      }
+
+  #secondary .left {
+    width: 260px;
+    float: left;
+    background-color: #fff100;
+    padding: 10px 0px;
+  }
+
+    #secondary .left h2 {
+      text-align: center;
+    }
+
+    #secondary .left div {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+      #secondary .left div span {
+        width: 8em;
+        text-align: right;
+        font-weight: normal;
+        display: block;
+        float: left;
+        margin-right: 0.5em;
+      }
+
+  #secondary .right {
+    width: 700px;
+    margin-left: 40px;
+    float: left;
+  }
+
+    #secondary .right .content-box {
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+      .content-box .headline img {
+        float: left;
+        margin-right: 15px;
+      }
+
+      .content-box .headline h2 {
+        color: black;
+        padding-left: 10px;
+        position: relative;
+        top: 5px;
+      }
+
+    #latest-blog .latest-blog-left {
+      width: 420px;
+      float: left;
+    }
+
+    #latest-blog .latest-blog-right {
+      width: 220px;
+      float: left;
+      padding: 0px 20px;
+    }
+
+    #latest-blog .blog-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    #latest-blog .blog-body {
+      font-weight: normal;
+      font-size: 14px;
+    }
+
+.button-container {
+  text-align: right;
+}
+
+  .button-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button-container a, .button-container a:visited {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  .button-container a:hover {
+    text-decoration: underline;
+  }
+
+    .button-container a span {
+      position: relative;
+      top: -14px;
+      left: 8px;
+    }
+
+
+  #favorite-photos-container {
+
+  }
+
+    #favorite-photos-container .favorite-photo {
+      width: 148px;
+      margin: 0px 10px;
+      float: left;
+    }
+
+      #favorite-photos-container .favorite-photo .title {
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      #favorite-photos-container .favorite-photo .shared-by {
+        font-size: 9px;
+        font-style: italic;
+      }
+
+  #favorite-photos-content-box .button-container {
+    margin-top: 25px;
     padding-right: 20px;
   }
 
-#header {
-  width: 1050px;
-  margin: 0 auto;
-}
-
-  #header #logo-container {
-    text-align: center;
-    margin: 20px 0;
-
-  }
-
-#content {
-  width: 100%;
-}
-
-.row-wrapper {
-  padding: 25px;
-  background-color: #E4E4E4;
-  border-top: solid 2px #125a34;
-  border-bottom: solid 2px #125a34;
-}
-
-.row {
-  width: 1050px;
-  margin: 15px auto 0px auto;
-}
-
-  .left-column {
-    width: 585px;
-    float: left;
-    margin-right: 12px;
-  }
-
-  .right-column {
-    width: 435px;
-    float: left;
-  }
-
-  .call-out {
-    background-color: #FFC;
-    border-radius: 20px;
-    padding: 7px;
-    border: solid 2px #125a34;
-  }
-
-#call-to-action img#tshirt {
-  float: right;
-}
-
-#schedule ul {
-  float: left;
-  list-style-type: none;
-  margin-left: 0px;
-  padding: 0 8px 0 0;
-}
-
-  #schedule ul li {
-    font-weight: bold;
-  }
-
-  #schedule ul li span.date {
-    font-weight: normal;
-    text-align: right;
-    width: 4em;
-    float: left;
-    margin-right: 0.5em;
-  }
-
-.post .details {
-  font-style: italic;
-  font-size: 12px;
-  display: block;
-}
-
-
 #footer {
   width: 100%;
-  text-align: center;
-  background-color: #E4E4E4;
-  border-top: solid 2px #125a34;
-  padding: 10px 0;
+  background-color: white;
 }
-
-  #footer p {
-    padding: 0;
-    margin: 0;
+  
+  #footer .row {
+    padding: 10px 0;
   }
