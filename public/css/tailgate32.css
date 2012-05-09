@@ -262,3 +262,15 @@ h2 {
   #footer .row {
     padding: 10px 0;
   }
+
+
+#hidden-content {
+  display: none;
+}
+
+  #tshirt-viewer {
+    background-color: white;
+    width: 500px;
+    padding: 20px 10px;
+    margin: auto;
+  }

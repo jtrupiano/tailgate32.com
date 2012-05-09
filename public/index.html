@@ -3,11 +3,14 @@
 <head>
   <title>Tailgate32: The Ultimate Football Fan Roadtrip</title>
   <link rel="stylesheet" type="text/css" href="css/tailgate32.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js?v=2.0.6"></script>
 </head>
 <body>
   <!-- Facebook SDK -->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
+    <script type="text/javascript">(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
@@ -15,7 +18,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
   <!-- End Facebook SDK -->  
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
   <div id="navigation">
     <div id="social-media-header">
@@ -47,7 +50,6 @@
           <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
           <a href="https://twitter.com/tailgate_32" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @tailgate_32</a>
         </div>
-
       </div>
     </div>
     <div class="right">
@@ -196,5 +198,21 @@
       </div>
     </div>
   </div>
+  <div id="hidden-content">
+    <div id="tshirt-viewer">
+      <h3>Here's the t-shirt viewer!</h3>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $().ready(function() {
+      $('#tshirt-box a').click(function() {
+        var options = {
+          beforeLoad: function() { $('#video-container').css('visibility', 'hidden'); },
+          afterClose: function() { $('#video-container').css('visibility', 'visible'); }
+        };
+        $.fancybox.open($('#tshirt-viewer'), options);
+      });
+    });
+  </script>
 </body>
 </html>
