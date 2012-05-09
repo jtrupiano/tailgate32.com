@@ -22,16 +22,30 @@ h2 {
   clear: both;
 }
 
-#menu {
+#navigation {
   width: 1000px;
-  height: 43px;
   margin: 37px auto 0px auto;
-  text-align: right;
+  height: 43px;
 }
 
-  #menu a {
-    margin-left: 12px;
+  #social-media-header {
+    width: 200px;
+    float: left;
   }
+
+    #social-media-header a {
+      margin-right: 5px;
+    }
+
+  #menu {
+    width: 800px;
+    float: left;
+    text-align: right;
+  }
+
+    #menu a {
+      margin-left: 12px;
+    }
 
 #masthead {
   background: url("../images/asphalt.jpg");
