@@ -57,13 +57,14 @@ h2 {
       border-radius: 10px;
       background-color: white;
       width: 537px;
+      height: 301px;
     }
 
     #social-media {
       margin: 15px auto;
       padding: 5px;
       background: white;
-      width: 100%;
+      width: 537px;
     }
 
   #main .right {
