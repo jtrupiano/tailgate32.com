@@ -91,13 +91,45 @@ h2 {
 
     }
 
+    #tshirt-container {
+      float: right;
+      margin: 0px 0px 12px 12px;
+    }
+
+        #tshirt-box {
+          border: solid 2px white;
+          border-radius: 20px 20px 0px 0px;
+          width: 180px;
+          text-align: center;
+          padding: 15px 0 10px 0;
+        }
+
+          #tshirt-box a {
+            color: white;
+            font-size: 10px;
+            text-decoration: none;
+          }
+
+          #tshirt-box a:hover {
+            text-decoration: underline;
+          }
+
+        #kickstarter {
+          border: solid 2px white;
+          border-top: none;
+          border-radius: 0px 0px 20px 20px;
+          background-color: #ff9a28;
+          text-align: center;
+          padding: 10px 0px 5px 0px;
+        }
+
+          #kickstarter a {
+            display: block;
+          }
+
       #call-to-action p {
         font-size: 14px;
         color: white;
-      }
-
-      #call-to-action img {
-        margin: 12px 0px 0px 12px;
       }
 
   #secondary .left {
