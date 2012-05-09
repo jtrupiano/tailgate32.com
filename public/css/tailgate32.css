@@ -268,9 +268,7 @@ h2 {
   display: none;
 }
 
-  #tshirt-viewer {
-    background-color: white;
-    width: 500px;
-    padding: 20px 10px;
-    margin: auto;
+  #tshirt-menu {
+    text-align: center;
+    margin: 20px auto 0px auto;
   }
