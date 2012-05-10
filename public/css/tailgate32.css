@@ -91,7 +91,7 @@ form label {
   }
 
 .divider {
-  height: 8px;
+  height: 4px;
   width: 100%;
   background-color: #fff;
 }
@@ -102,7 +102,7 @@ form label {
 
 #navigation {
   width: 1000px;
-  margin: 37px auto 0px auto;
+  margin: 17px auto 0px auto;
   height: 43px;
 }
 
