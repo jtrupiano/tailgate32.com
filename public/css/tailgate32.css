@@ -5,12 +5,27 @@ body {
   line-height: 1.5;
 }
 
-h2 {
+h1 {
   color: white;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
+
+    .headline img {
+      float: left;
+      margin-right: 15px;
+    }
+
+    .headline h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      color: black;
+      padding-left: 10px;
+      position: relative;
+      top: 5px;
+    }
 
 .divider {
   height: 8px;
@@ -169,18 +184,6 @@ h2 {
       margin-bottom: 20px;
     }
 
-      .content-box .headline img {
-        float: left;
-        margin-right: 15px;
-      }
-
-      .content-box .headline h2 {
-        color: black;
-        padding-left: 10px;
-        position: relative;
-        top: 5px;
-      }
-
     #latest-blog .latest-blog-left {
       width: 420px;
       float: left;
@@ -271,4 +274,8 @@ h2 {
   #tshirt-menu {
     text-align: center;
     margin: 20px auto 0px auto;
+  }
+
+  #contact-us {
+    width: 600px;
   }

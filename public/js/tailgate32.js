@@ -1,11 +1,11 @@
 $().ready(function() {
-    // Set up tshirt viewer fancybox
+  // set fancybox defaults
+  $.fancybox.defaults.beforeLoad = function() { $('#video-container').css('visibility', 'hidden'); };
+  $.fancybox.defaults.afterClose = function() { $('#video-container').css('visibility', 'visible'); };
+  
+  // Set up tshirt viewer fancybox
   $('#tshirt-box a').click(function() {
-    var options = {
-      beforeLoad: function() { $('#video-container').css('visibility', 'hidden'); },
-      afterClose: function() { $('#video-container').css('visibility', 'visible'); }
-    };
-    $.fancybox.open($('#tshirt-viewer'), options);
+    $.fancybox.open($('#tshirt-viewer'));
     $('#tshirt-options').focus();
   });
 
@@ -58,5 +58,10 @@ $().ready(function() {
   $('#tshirt-options').change(function() {
     $('#tshirt-front').attr("src", "images/tshirts/" + $(this).val() + "-front.png");
     $('#tshirt-back').attr("src", "images/tshirts/" + $(this).val() + "-back.png");
+  });
+
+  // Set up contact us fancybox
+  $('#contact-us-nav').click(function() {
+    $.fancybox.open($('#contact-us'));
   });
 });
