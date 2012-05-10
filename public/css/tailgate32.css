@@ -247,17 +247,6 @@ form label {
       margin-bottom: 20px;
     }
 
-    #latest-blog .latest-blog-left {
-      width: 420px;
-      float: left;
-    }
-
-    #latest-blog .latest-blog-right {
-      width: 220px;
-      float: left;
-      padding: 0px 20px;
-    }
-
     #latest-blog .blog-title {
       font-size: 16px;
       font-weight: bold;
@@ -268,8 +257,15 @@ form label {
       font-size: 14px;
     }
 
+      .blog-post img {
+        float: right;
+        margin: 0 0 12px 12px;
+      }
+
 .button-container {
   text-align: right;
+  margin-top: 25px;
+  padding-right: 20px;
 }
 
   .button-container img {
@@ -314,11 +310,6 @@ form label {
         font-size: 9px;
         font-style: italic;
       }
-
-  #favorite-photos-content-box .button-container {
-    margin-top: 25px;
-    padding-right: 20px;
-  }
 
 #hidden-content {
   display: none;
