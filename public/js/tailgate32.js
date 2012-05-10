@@ -64,4 +64,10 @@ $().ready(function() {
   $('#contact-us-nav').click(function() {
     $.fancybox.open($('#contact-us'));
   });
+
+  // Set up contact us form AJAX
+  $('#contact-us-submit').click(function() {
+    $('#contact-us-form').fadeOut('slow');
+    $('#contact-us-thanks').fadeIn('slow');
+  });
 });
