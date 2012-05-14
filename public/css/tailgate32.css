@@ -227,12 +227,12 @@ form label {
     }
 
       #secondary .left div span {
-        width: 8em;
+        width: 45%;
         text-align: right;
         font-weight: normal;
         display: block;
         float: left;
-        margin-right: 0.5em;
+        padding-right: 5%;
       }
 
   #secondary .right {
