@@ -210,6 +210,15 @@ form label {
         color: white;
       }
 
+#secondary {
+  background: url("../images/asphalt.jpg");
+}
+
+  #secondary .row {
+    margin: auto;
+    padding: 20px 0px;
+  }
+
   #secondary .left {
     width: 260px;
     float: left;
@@ -310,6 +319,12 @@ form label {
         font-size: 9px;
         font-style: italic;
       }
+
+#footer {
+  height: 30px;
+  width: 1000px;
+  margin: auto;
+}
 
 #hidden-content {
   display: none;
