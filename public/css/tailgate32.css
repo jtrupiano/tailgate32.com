@@ -249,13 +249,29 @@ form label {
       font-weight: bold;
     }
 
-      #secondary .left div span {
-        width: 45%;
+      #secondary .left div span.date {
+        color: #404000;
         text-align: right;
         font-weight: normal;
+        font-size: 13px;
+        width: 7em;
         display: block;
         float: left;
-        padding-right: 5%;
+        padding-right: 5px;
+        position: relative;
+        top: 2px;
+      }
+
+      #secondary .left div span.home {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      #secondary .left div span.away {
+        color: #404000;
+        font-weight: normal;
+        font-size: 14px;
+        display: none;
       }
 
   #secondary .right {
