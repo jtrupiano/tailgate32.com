@@ -154,6 +154,10 @@ form label {
   width: 1000px;
 }
 
+#main {
+  color: #f5fffa;
+}
+
   #main .left {
     width: 553px;
     float: left;
@@ -183,7 +187,8 @@ form label {
   }
 
     #call-to-action {
-      color: #f5fffa;
+      border-left: solid 1px #555;
+      padding-left: 20px;
     }
 
     #tshirt-container {
