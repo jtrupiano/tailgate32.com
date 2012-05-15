@@ -1,14 +1,28 @@
 body {
   background-color: #323232;
-  font-family: Arial, Helvetica;
   margin: 0;
+}
+
+body, p {
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
 }
 
 h1 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
   color: #f5fffa;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
   margin: 0;
 }
 
@@ -18,14 +32,14 @@ h1 {
   }
 
   .headline h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    color: black;
     padding-left: 10px;
     position: relative;
     top: 5px;
   }
+
+h3, h4 {
+  font-family: "PT Serif", serif;
+}
 
 input {
   margin: 0;
