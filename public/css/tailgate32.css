@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #f5fffa;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
@@ -93,7 +93,7 @@ form label {
 .divider {
   height: 4px;
   width: 100%;
-  background-color: #fff;
+  background-color: #f5fffa;
 }
 
 .clear {
@@ -146,9 +146,8 @@ form label {
   }
 
     #video-container {
-      border: solid 6px white;
-      border-radius: 10px;
-      background-color: white;
+      border: solid 6px #f5fffa;
+      border-radius: 6px;
       width: 537px;
       height: 301px;
     }
@@ -179,15 +178,15 @@ form label {
     }
 
         #tshirt-box {
-          border: solid 2px white;
-          border-radius: 20px 20px 0px 0px;
+          border: solid 4px #f5fffa;
+          border-radius: 6px 6px 0px 0px;
           width: 180px;
           text-align: center;
           padding: 15px 0 10px 0;
         }
 
           #tshirt-box a {
-            color: white;
+            color: #f5fffa;
             font-size: 10px;
             text-decoration: none;
           }
@@ -197,9 +196,9 @@ form label {
           }
 
         #kickstarter {
-          border: solid 2px white;
+          border: solid 4px #f5fffa;
           border-top: none;
-          border-radius: 0px 0px 20px 20px;
+          border-radius: 0px 0px 6px 6px;
           background-color: #ff9a28;
           text-align: center;
           padding: 10px 0px 5px 0px;
@@ -211,7 +210,7 @@ form label {
 
       #call-to-action p {
         font-size: 14px;
-        color: white;
+        color: #f5fffa;
       }
 
 #secondary {
@@ -257,7 +256,7 @@ form label {
   }
 
     #secondary .right .content-box {
-      background-color: white;
+      background-color: #f5fffa;
       padding: 20px;
       margin-bottom: 20px;
       box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
