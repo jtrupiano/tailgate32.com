@@ -154,11 +154,14 @@ form label {
     }
 
     #social-media {
-      margin: 20px auto 0;
+      margin: 5px auto 0;
       padding: 5px;
-      background: white;
       width: 537px;
     }
+
+      .fb-like {
+        height: 25px;
+      }
 
   #main .right {
     width: 427px;
