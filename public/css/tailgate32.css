@@ -154,15 +154,15 @@ form label {
     }
 
     #social-media {
-      margin: 15px auto;
+      margin: 20px auto 0;
       padding: 5px;
       background: white;
       width: 537px;
     }
 
   #main .right {
-    width: 422px;
-    margin-left: 25px;
+    width: 427px;
+    margin-left: 20px;
     float: left
   }
 
@@ -246,8 +246,8 @@ form label {
       }
 
   #secondary .right {
-    width: 700px;
-    margin-left: 40px;
+    width: 720px;
+    margin-left: 20px;
     float: left;
   }
 
@@ -255,6 +255,10 @@ form label {
       background-color: white;
       padding: 10px;
       margin-bottom: 20px;
+    }
+
+    #secondary .right .content-box.last {
+      margin-bottom: 0;
     }
 
     #latest-blog .blog-title {
