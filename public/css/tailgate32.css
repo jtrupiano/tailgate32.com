@@ -6,6 +6,7 @@ body {
 body, p {
   font-family: "PT Sans", sans-serif;
   line-height: 1.5;
+  font-size: 15px;
 }
 
 h1 {
@@ -183,7 +184,7 @@ form label {
   }
 
     #call-to-action {
-
+      color: #f5fffa;
     }
 
     #tshirt-container {
@@ -222,11 +223,6 @@ form label {
             display: block;
           }
 
-      #call-to-action p {
-        font-size: 14px;
-        color: #f5fffa;
-      }
-
 #secondary {
   background: url("../images/asphalt.jpg");
 }
@@ -251,7 +247,6 @@ form label {
 
     #secondary .left div {
       font-weight: bold;
-      font-size: 14px;
     }
 
       #secondary .left div span {
@@ -284,11 +279,6 @@ form label {
     #latest-blog .blog-title {
       font-size: 16px;
       font-weight: bold;
-    }
-
-    #latest-blog .blog-body {
-      font-weight: normal;
-      font-size: 14px;
     }
 
       .blog-post img {
@@ -336,7 +326,6 @@ form label {
     }
 
       #favorite-photos-container .favorite-photo .title {
-        font-size: 14px;
         font-weight: bold;
       }
 
