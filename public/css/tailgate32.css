@@ -102,13 +102,14 @@ form label {
 
 #navigation {
   width: 1000px;
-  margin: 17px auto 0px auto;
+  margin: 8px auto 0px auto;
   height: 43px;
 }
 
   #social-media-header {
     width: 200px;
     float: left;
+    margin-top: 6px;
   }
 
     #social-media-header a {
