@@ -228,6 +228,8 @@ form label {
     float: left;
     background-color: #fff100;
     padding: 10px 0px;
+    box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
+    border-radius: 6px;
   }
 
     #secondary .left h2 {
@@ -256,8 +258,10 @@ form label {
 
     #secondary .right .content-box {
       background-color: white;
-      padding: 10px;
+      padding: 20px;
       margin-bottom: 20px;
+      box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
+      border-radius: 6px;
     }
 
     #secondary .right .content-box.last {
