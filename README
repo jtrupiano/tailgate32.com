@@ -1,2 +1,14 @@
 Website for Tailgate32: The Ultimate Football Fan Roadtrip
 
+-----------------------------------------------------------
+
+Several assets are shared with blog.tailgate32.com -- still need to come up with a better solutions for managing these.
+
+  * tailgate32.css
+  * tailgate32.js
+  * various images in public/images/   (document these)
+  * various snippets in index.html    (all found in footer.php and header.php on the blog)
+
+The relative paths to all of these assets differ in WP and it currently is a manual process to ensure that we don't fuck these up when moving the changes over.
+
+Need to come up with a solution for this ASAP.
