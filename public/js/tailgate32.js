@@ -1,6 +1,8 @@
 $().ready(function() {
   // Set up contact us fancybox
   $('#contact-us-nav').click(function() {
+    // clear the form
+    $('#contact-us-form input[type="text"], #contact-us-form textarea').val("");
     $('#contact-us-form').show();
     $('#contactu-us-thanks').hide();
     $.fancybox.open($('#contact-us'));
@@ -10,7 +12,5 @@ $().ready(function() {
   $('#contact-us-submit').click(function() {
     $('#contact-us-form').fadeOut('slow');
     $('#contact-us-thanks').fadeIn('slow');
-    // clear the form
-    $('#contact-us-form input[type="text"], #contact-us-form textarea').val("");
   });
 });
