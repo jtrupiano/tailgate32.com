@@ -1,6 +1,7 @@
 body {
   background-color: #323232;
   margin: 0;
+  color: #222;
 }
 
 body, p {
@@ -23,7 +24,7 @@ h2 {
   font-size: 22px;
   font-weight: normal;
   text-transform: uppercase;
-  color: black;
+  color: #222;
   margin: 0;
 }
 
@@ -39,7 +40,8 @@ h2 {
 
 h3, h4 {
   font-family: "PT Serif", serif;
-  margin: 0;
+  margin: 0 0 10px 0;
+  color: #222
 }
 
 input {
@@ -62,7 +64,7 @@ input.submit {
   border: none;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: #222;
   box-shadow: none;
   background: url("../images/submit-icon-40.png") no-repeat;
   width: auto;
@@ -321,7 +323,7 @@ form label {
   .button-container a, .button-container a:visited {
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color: #222;
     text-decoration: none;
   }
 
