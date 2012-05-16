@@ -31,6 +31,8 @@ h2 {
   .headline img {
     float: right;
     margin-left: 15px;
+    width: 34px;
+    height: 40px;
   }
 
   .headline h2 {
@@ -133,6 +135,11 @@ form label {
       margin-right: 10px;
     }
 
+    #social-media-header img {
+      width: 24px;
+      height: 24px;
+    }
+
   #menu {
     width: 800px;
     float: left;
@@ -151,6 +158,11 @@ form label {
     margin: 20px 0 10px 0;
     text-align: center;
   }
+
+    #logo_container img {
+      width: 1000px;
+      height: 142px;
+    }
 
 .row {
   margin: 20px auto;
@@ -331,6 +343,11 @@ form label {
       margin: 0px 10px;
       float: left;
     }
+
+      #favorite-photos-container img {
+        width: 160px;
+        height: 96px;
+      }
 
       #favorite-photos-container .favorite-photo .title {
         font-weight: bold;
