@@ -123,6 +123,8 @@ form label {
   clear: both;
 }
 
+
+/** Header Styles **/
 #navigation {
   width: 1000px;
   margin: 8px auto 0px auto;
@@ -168,213 +170,24 @@ form label {
       height: 142px;
     }
 
+/** Body Styles **/
 .row {
   margin: 20px auto;
   width: 1000px;
 }
 
-#main {
-  color: #f5fffa;
-}
 
-  #main a, #main a:visited {
-    color: #fff100;
-    text-decoration: none;
-  }
-
-  #main a:hover {
-    text-decoration: underline;
-  }
-
-  #main .left {
-    width: 553px;
-    float: left;
-  }
-
-    #video-container {
-      border: solid 6px #f5fffa;
-      border-radius: 6px;
-      width: 537px;
-      height: 301px;
-    }
-
-    #social-media {
-      margin: 5px auto 0;
-      padding: 5px;
-      width: 537px;
-    }
-
-      .fb-like {
-        height: 25px;
-      }
-
-  #main .right {
-    width: 427px;
-    margin-left: 20px;
-    float: left
-  }
-
-    #call-to-action {
-      border-left: solid 1px #555;
-      padding-left: 20px;
-    }
-
-    #tshirt-container {
-      float: right;
-      margin: 10px 0px 0 -10px;
-      width: 221px;
-      text-align: center;
-      display: inline-block;
-      position: relative;
-      left: 20px;
-    }
-
-#secondary {
-  background: url("../images/asphalt.jpg");
-}
-
-  #secondary .row {
-    margin: auto;
-    padding: 20px 0px;
-  }
-
-  #secondary .left {
-    width: 260px;
-    float: left;
-    background-color: #fff100;
-    padding: 10px 0px;
-    box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
-    border-radius: 6px;
-  }
-
-    #secondary .left h2 {
-      text-align: center;
-    }
-
-    #secondary .left div {
-      font-weight: bold;
-    }
-
-      #secondary .left div span.date {
-        color: #404000;
-        text-align: right;
-        font-weight: normal;
-        font-size: 13px;
-        width: 7em;
-        display: block;
-        float: left;
-        padding-right: 5px;
-        position: relative;
-        top: 2px;
-      }
-
-      #secondary .left div span.home {
-        font-size: 16px;
-        font-weight: bold;
-      }
-
-      #secondary .left div span.away {
-        color: #404000;
-        font-weight: normal;
-        font-size: 14px;
-        display: none;
-      }
-
-  #secondary .right {
-    width: 720px;
-    margin-left: 20px;
-    float: left;
-  }
-
-    #secondary .right .content-box {
-      background-color: #f5fffa;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
-      border-radius: 6px;
-    }
-
-    #secondary .right .content-box.last {
-      margin-bottom: 0;
-    }
-
-    #latest-blog .blog-title {
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-      .blog-post img {
-        float: right;
-        margin: 0 0 12px 12px;
-      }
-
-.button-container {
-  text-align: right;
-  margin-top: 25px;
-  padding-right: 20px;
-}
-
-  .button-container img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .button-container a, .button-container a:visited {
-    font-size: 16px;
-    font-weight: bold;
-    color: #222;
-    text-decoration: none;
-  }
-
-  .button-container a:hover {
-    text-decoration: underline;
-  }
-
-    .button-container a span {
-      position: relative;
-      top: -14px;
-      left: 8px;
-    }
-
-
-  #favorite-photos-container {
-
-  }
-
-    #favorite-photos-container .favorite-photo {
-      width: 148px;
-      margin: 0px 10px;
-      float: left;
-    }
-
-      #favorite-photos-container img {
-        width: 160px;
-        height: 96px;
-      }
-
-      #favorite-photos-container .favorite-photo .title {
-        font-weight: bold;
-      }
-
-      #favorite-photos-container .favorite-photo .shared-by {
-        font-size: 9px;
-        font-style: italic;
-      }
-
+/** Footer Styles **/
 #footer {
   height: 30px;
   width: 1000px;
   margin: auto;
 }
 
+/** Popups **/
 #hidden-content {
   display: none;
 }
-
-  #tshirt-menu {
-    text-align: center;
-    margin: 20px auto 0px auto;
-  }
 
   #contact-us {
     width: 600px;
