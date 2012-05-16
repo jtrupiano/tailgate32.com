@@ -10,6 +10,10 @@ body, p {
   font-size: 15px;
 }
 
+a, a:visited {
+  color: inherit;
+}
+
 h1 {
   font-family: "Alfa Slab One", serif;
   font-size: 24px;
@@ -174,13 +178,12 @@ form label {
 }
 
   #main a, #main a:visited {
+    color: #fff100;
     text-decoration: none;
-    color: #ffdd00;
   }
 
   #main a:hover {
     text-decoration: underline;
-    color: #87c543;
   }
 
   #main .left {
