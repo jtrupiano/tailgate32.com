@@ -218,7 +218,7 @@ form label {
 
     #tshirt-container {
       float: right;
-      margin: 10px -20px 0 -20px;
+      margin: 10px 0px 0 -10px;
       width: 221px;
       text-align: center;
       display: inline-block;
