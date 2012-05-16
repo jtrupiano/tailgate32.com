@@ -20,7 +20,7 @@ $().ready(function() {
     cincinnati: "Cincinnati Bengals",
     cleveland: "Cleveland Browns",
     dallas: "Dallas Cowboys",
-    denver: "Denver Cowboys",
+    denver: "Denver Broncos",
     detroit: "Detroit Lions",
     greenbay: "Green Bay Packers",
     houston: "Houston Texans",
