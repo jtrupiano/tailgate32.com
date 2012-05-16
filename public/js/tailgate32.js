@@ -4,7 +4,7 @@ $().ready(function() {
   $.fancybox.defaults.afterClose = function() { $('#video-container').css('visibility', 'visible'); };
   
   // Set up tshirt viewer fancybox
-  $('#tshirt-box a').click(function() {
+  $('#call-to-action a.tshirt-viewer').click(function() {
     $.fancybox.open($('#tshirt-viewer'));
     $('#tshirt-options').focus();
   });

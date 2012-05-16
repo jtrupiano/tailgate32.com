@@ -161,6 +161,16 @@ form label {
   color: #f5fffa;
 }
 
+  #main a, #main a:visited {
+    text-decoration: none;
+    color: #ffdd00;
+  }
+
+  #main a:hover {
+    text-decoration: underline;
+    color: #87c543;
+  }
+
   #main .left {
     width: 553px;
     float: left;
@@ -196,39 +206,13 @@ form label {
 
     #tshirt-container {
       float: right;
-      margin: 0px 0px 20px 20px;
+      margin: 10px -20px 0 -20px;
+      width: 221px;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      left: 20px;
     }
-
-        #tshirt-box {
-          border: solid 4px #f5fffa;
-          border-radius: 6px 6px 0px 0px;
-          width: 180px;
-          text-align: center;
-          padding: 15px 0 10px 0;
-        }
-
-          #tshirt-box a {
-            color: #f5fffa;
-            font-size: 10px;
-            text-decoration: none;
-          }
-
-          #tshirt-box a:hover {
-            text-decoration: underline;
-          }
-
-        #kickstarter {
-          border: solid 4px #f5fffa;
-          border-top: none;
-          border-radius: 0px 0px 6px 6px;
-          background-color: #ff9a28;
-          text-align: center;
-          padding: 10px 0px 5px 0px;
-        }
-
-          #kickstarter a {
-            display: block;
-          }
 
 #secondary {
   background: url("../images/asphalt.jpg");
