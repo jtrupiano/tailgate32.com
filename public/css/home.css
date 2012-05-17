@@ -125,8 +125,9 @@
       margin-bottom: 0;
     }
 
-    #latest-blog .blog-title {
-      font-size: 16px;
+    #latest-blog .published-on {
+      font-size: 14px;
+      font-style: italic;
       font-weight: bold;
     }
 
