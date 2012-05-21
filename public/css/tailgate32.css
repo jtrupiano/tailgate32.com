@@ -127,6 +127,33 @@ form label {
   clear: both;
 }
 
+.button-container {
+  text-align: right;
+  margin-top: 25px;
+  padding-right: 20px;
+}
+
+  .button-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button-container a, .button-container a:visited {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+  }
+
+  .button-container a:hover {
+    text-decoration: underline;
+  }
+
+    .button-container a span {
+      position: relative;
+      top: -14px;
+      left: 8px;
+    }
 
 /** Header Styles **/
 #navigation {
@@ -196,3 +223,18 @@ form label {
   #contact-us {
     width: 600px;
   }
+
+  #tshirt-viewer .left, #tshirt-viewer .right {
+    width: 483px;
+    float: left;
+  }
+
+    #tshirt-viewer .left .team-selector {
+      margin-top: 25px;
+      text-align: center;
+      line-height: 40px;
+    }
+
+    #tshirt-viewer .right .button-container {
+      text-align: center;
+    }
