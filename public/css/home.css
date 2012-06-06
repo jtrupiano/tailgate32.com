@@ -107,6 +107,11 @@
         display: none;
       }
 
+    #secondary .left div#print-schedule {
+      text-align: center;
+      margin-top: 10px;
+    }
+
   #secondary .right {
     width: 720px;
     margin-left: 20px;
