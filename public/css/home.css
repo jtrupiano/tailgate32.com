@@ -14,21 +14,21 @@
   }
 
   #main .left {
-    width: 553px;
+    width: 616px;
     float: left;
   }
 
     #video-container {
       border: solid 6px #f5fffa;
       border-radius: 6px;
-      width: 537px;
-      height: 301px;
+      width: 600px;
+      height: 338px;
     }
 
     #social-media {
       margin: 5px auto 0;
       padding: 5px;
-      width: 537px;
+      width: 600px;
     }
 
       .fb-like {
@@ -36,7 +36,7 @@
       }
 
   #main .right {
-    width: 427px;
+    width: 364px;
     margin-left: 20px;
     float: left
   }
@@ -44,16 +44,6 @@
     #call-to-action {
       border-left: solid 1px #555;
       padding-left: 20px;
-    }
-
-    #tshirt-container {
-      float: right;
-      margin: -10px 0px 0 -10px;
-      width: 221px;
-      text-align: center;
-      display: inline-block;
-      position: relative;
-      left: 20px;
     }
 
 #secondary {
