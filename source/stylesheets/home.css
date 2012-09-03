@@ -1,3 +1,13 @@
+/** Migrate these to tailgate32.css **/
+#navigation {
+  height: 29px;
+}
+
+#social-media-header {
+  margin-top: -3px;
+}
+
+
 /** Styles specific to the home page of tailgate32.com **/
 
 #main {
