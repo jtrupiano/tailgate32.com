@@ -7,26 +7,87 @@
   margin-top: -3px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  text-transform: none;
+  color: #f5fffa;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: "Alfa Slab One", serif;
+  text-transform: uppercase;
+  color: #f5fffa;
+  margin-top: 15px;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 24px;
+  text-align: center;
+}
 
 /** Styles specific to the home page of tailgate32.com **/
 
-#main {
+.row {
   color: #f5fffa;
 }
 
-  #main a, #main a:visited {
+  .row a, .row a:visited {
     color: #fff100;
     text-decoration: none;
   }
 
-  #main a:hover {
+  .row a:hover {
     text-decoration: underline;
   }
 
-  #main .left {
-    width: 616px;
+  #home .left {
+    width: 180px;
+    margin-right: 20px;
     float: left;
   }
+
+  #home .center {
+    width: 600px;
+    float: left;
+  }
+
+    #home .center h1 {
+      text-align: center;
+    }
+
+    #home .center h2 {
+      text-align: center;
+      color: #c1c1c1;
+      line-height: 28px;
+    }
+
+  #home .right {
+    width: 180px;
+    margin-left: 20px;
+    float: left;
+    text-align: right;
+  }
+
+
+  #home .left  h3 { padding-left:  10px; }
+  #home .right h3 { padding-right: 10px; }
+
+  #home p {
+    line-height: 1.3;
+    font-size: 13px;
+    color: #c1c1c1;
+    padding-left: 10px;
+  }
+    #home .left  p { padding-left:  10px; }
+    #home .right p { padding-right: 10px; }
 
     #video-container {
       border: solid 6px #f5fffa;
@@ -43,6 +104,67 @@
 
       .fb-like {
         height: 25px;
+      }
+
+    #upcoming-highlight {
+      width: 560px;
+      height: 355px;
+      background-color: #f5fffa;
+      box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #ccc inset;
+      border-radius: 6px;
+      padding: 20px;
+    }
+
+    #upcoming-highlight p {
+      color: #222;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+
+    #upcoming-highlight a {
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    .recent-episode a, .upcoming-episode a {
+      color: inherit;
+    }
+
+    #recent-episodes .recent-episode {
+      width: 176px;
+      height: 76px;
+      background: url("../images/recent-arrow.png") no-repeat;
+      padding: 13px 0px 0px 13px;
+      line-height: 1.3;
+    }
+
+    #upcoming-episodes .upcoming-episode {
+      width: 163px;
+      height: 76px;
+      text-align: right;
+      background: url("../images/upcoming-arrow.png") no-repeat;
+      padding: 13px 13px 0px 0px;
+      line-height: 1.3;
+    }
+
+      .episode-number, .upcoming-welcome {
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+      }
+
+      .episode-title, .upcoming-city {
+        font-size: 16px;
+        font-family: "Alfa Slab One", serif;
+        color: #fff100;
+        display: block;
+      }
+
+      .episode-date, .upcoming-date {
+        font-size: 14px;
+        font-style: italic;
+        color: #c1c1c1;
+        display: block;
       }
 
   #main .right {
@@ -115,119 +237,3 @@
         font-size: 12px;
       }
 
-
-
-
-
-
-/*** TO BE REMOVED ***/
-
-#secondary {
-  background: url("../images/asphalt.jpg");
-}
-
-  #secondary .row {
-    margin: auto;
-    padding: 20px 0px;
-  }
-
-  #secondary .left {
-    width: 260px;
-    float: left;
-    background-color: #fff100;
-    padding: 10px 0px;
-    box-shadow: 4px 4px 20px #ccc inset, -4px -4px 20px #ccc inset;
-    border-radius: 6px;
-  }
-
-    #secondary .left h2 {
-      text-align: center;
-    }
-
-    #secondary .left div {
-      font-weight: bold;
-    }
-
-      #secondary .left div span.date {
-        color: #404000;
-        text-align: right;
-        font-weight: normal;
-        font-size: 13px;
-        width: 7em;
-        display: block;
-        float: left;
-        padding-right: 5px;
-        position: relative;
-        top: 2px;
-      }
-
-      #secondary .left div span.home {
-        font-size: 16px;
-        font-weight: bold;
-      }
-
-      #secondary .left div span.away {
-        color: #404000;
-        font-weight: normal;
-        font-size: 14px;
-        display: none;
-      }
-
-    #secondary .left div#print-schedule {
-      text-align: center;
-      margin-top: 10px;
-    }
-
-  #secondary .right {
-    width: 720px;
-    margin-left: 20px;
-    float: left;
-  }
-
-    #secondary .right .content-box {
-      background-color: #f5fffa;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #666 inset;
-      border-radius: 6px;
-    }
-
-    #secondary .right .content-box.last {
-      margin-bottom: 0;
-    }
-
-    #latest-blog .published-on {
-      font-size: 14px;
-      font-style: italic;
-      font-weight: bold;
-    }
-
-      .blog-post img {
-        float: right;
-        margin: 0 0 12px 12px;
-      }
-
-
-  #favorite-photos-container {
-
-  }
-
-    #favorite-photos-container .favorite-photo {
-      width: 148px;
-      margin: 0px 10px;
-      float: left;
-    }
-
-      #favorite-photos-container img {
-        width: 160px;
-        height: 96px;
-      }
-
-      #favorite-photos-container .favorite-photo .title {
-        font-weight: bold;
-      }
-
-      #favorite-photos-container .favorite-photo .shared-by {
-        font-size: 12px;
-        font-style: italic;
-      }
