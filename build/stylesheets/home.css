@@ -1,18 +1,3 @@
-/** Migrate these to tailgate32.css **/
-#navigation {
-  height: 35px;
-}
-
-#social-media-header {
-  margin-top: 6px;
-  width: 160px;
-}
-
-#menu {
-  width: 840px;
-}
-
-
 .left {
   width: 616px;
   float: left;
