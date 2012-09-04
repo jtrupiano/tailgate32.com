@@ -7,31 +7,6 @@
   margin-top: -3px;
 }
 
-#home h1 {
-  font-size: 36px;
-}
-
-#home h2 {
-  text-transform: none;
-  color: #f5fffa;
-  margin-bottom: 10px;
-  font-size: 28px;
-}
-
-#home h3 {
-  font-family: "Alfa Slab One", serif;
-  text-transform: uppercase;
-  color: #f5fffa;
-  margin-top: 15px;
-  line-height: 1;
-  margin-bottom: 0px;
-}
-
-#home h4 {
-  font-family: "Alfa Slab One", serif;
-  font-size: 24px;
-  text-align: center;
-}
 
 .left {
   width: 616px;
@@ -44,8 +19,6 @@
   float: left
 }
 
-/** Styles specific to the home page of tailgate32.com **/
-
 .row {
   color: #f5fffa;
 }
@@ -57,6 +30,33 @@
 
   .row a:hover {
     text-decoration: underline;
+  }
+
+/** Styles specific to the home page of tailgate32.com **/
+  #home h1 {
+    font-size: 36px;
+  }
+
+  #home h2 {
+    text-transform: none;
+    color: #f5fffa;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  #home h3 {
+    font-family: "Alfa Slab One", serif;
+    text-transform: uppercase;
+    color: #f5fffa;
+    margin-top: 15px;
+    line-height: 1;
+    margin-bottom: 0px;
+  }
+
+  #home h4 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 24px;
+    text-align: center;
   }
 
   #home .left {
