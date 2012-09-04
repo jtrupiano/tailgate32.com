@@ -64,7 +64,7 @@ function loadVideo(id, index) {
   $($('#recent-episodes .recent-episode')[index]).css("background", "url('images/recent-arrow-selected.png') no-repeat");
   $('#episode-highlight').show();
 
-  $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + id + '?vq=hd720&rel=0&showinfo=0&autoplay=0');
+  $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + id + '?vq=hd720&rel=0&showinfo=0&autoplay=1');
   $('#home-chrome h2').text(Episodes[index].number + ": " + Episodes[index].title);
 
 }
