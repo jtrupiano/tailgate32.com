@@ -7,7 +7,7 @@
 # require 'rack/contrib'
 # require 'rack/rewrite'
 
-use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts", "/about.html", "press.html"], :root => 'build'
+use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts", "/about.html", "/press.html"], :root => 'build'
 run lambda { |env| 
   [
     200, 
