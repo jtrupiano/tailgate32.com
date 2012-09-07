@@ -168,6 +168,10 @@
         display: block;
       }
 
+      .upcoming-game-data {
+        display: none;
+      }
+
 /** Widgets **/
     #widgets {
       border-left: solid 1px #555;

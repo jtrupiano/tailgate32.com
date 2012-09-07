@@ -53,10 +53,10 @@ var Episodes = [
 ];
 
 var Upcoming = [
-  { title: "GAME 1: Dallas @ New York", city: "New York", date: "September 5th, 2012" },
   { title: "GAME 2: Philadelphia @ Cleveland", city: "Cleveland", date: "September 9th, 2012" },
   { title: "GAME 3: Cincinnati @ Baltimore", city: "Baltimore", date: "September 10th, 2012" },
-  { title: "GAME 4: Chicago @ Green Bay", city: "Green Bay", date: "September 13th, 2012" }
+  { title: "GAME 4: Chicago @ Green Bay", city: "Green Bay", date: "September 13th, 2012" },
+  { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" }
 ];
 
 function loadVideo(id, index) {
@@ -75,6 +75,7 @@ function loadUpcoming(game, index) {
   $('#upcoming-highlight').show();
 
   $('#upcoming-game-title').text(game.title);
+  $('#upcoming-game-description').html($('#data' + index).html());
 }
 
 function unselectAll() {
