@@ -31,10 +31,10 @@ $().ready(function() {
     ep_elem.find('.episode-title').text(Episodes[index].title);
     ep_elem.find('.episode-date').text(Episodes[index].date);
     ep_elem.find('a').click(function() {
-      loadVideo(Episodes[index].video_id, index);
+      loadVideo(Episodes[index].episode_number, index);
     });
   });
-  loadVideo(Episodes[0].video_id, 0);
+  loadVideo(Episodes[0].episode_number, 0);
 
   // Load up the upcoming games
   $.each(Upcoming, function(index, game) {
@@ -49,7 +49,8 @@ $().ready(function() {
 });
 
 var Episodes = [
-  { number: "Tailgate32", title: "The Trailer", date: "August 15th, 2012", video_id: "q3eWWvPwXEA" },
+  { number: "Episode 01", title: "New York", date: "September 5th, 2012", episode_number: "ep01", video_id: "ctxN8gKQ_L8" },
+  { number: "Tailgate32", title: "The Trailer", date: "August 15th, 2012", episode_number: "trailer", video_id: "q3eWWvPwXEA" }
 ];
 
 var Upcoming = [
@@ -59,12 +60,13 @@ var Upcoming = [
   { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" }
 ];
 
-function loadVideo(id, index) {
+function loadVideo(episode_number, index) {
   unselectAll();
   $($('#recent-episodes .recent-episode')[index]).css("background", "url('images/recent-arrow-selected.png') no-repeat");
   $('#episode-highlight').show();
 
-  $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + id + '?vq=hd720&rel=0&showinfo=0&autoplay=1');
+  // $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + id + '?vq=hd720&rel=0&showinfo=0&autoplay=1');
+  $('#ytplayer').attr('src', '/tailgate32-' + episode_number);
   $('#home-chrome h2').text(Episodes[index].number + ": " + Episodes[index].title);
 
 }
