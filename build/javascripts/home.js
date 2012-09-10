@@ -54,10 +54,10 @@ var Episodes = [
 ];
 
 var Upcoming = [
-  { title: "GAME 2: Philadelphia @ Cleveland", city: "Cleveland", date: "September 9th, 2012" },
   { title: "GAME 3: Cincinnati @ Baltimore", city: "Baltimore", date: "September 10th, 2012" },
   { title: "GAME 4: Chicago @ Green Bay", city: "Green Bay", date: "September 13th, 2012" },
-  { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" }
+  { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" },
+  { title: "GAME 6: Denver @ Atlanta", city: "Atlanta", date: "September 17th, 2012" }
 ];
 
 function loadVideo(episode_number, index) {
