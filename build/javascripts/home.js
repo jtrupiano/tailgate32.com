@@ -31,10 +31,10 @@ $().ready(function() {
     ep_elem.find('.episode-title').text(Episodes[index].title);
     ep_elem.find('.episode-date').text(Episodes[index].date);
     ep_elem.find('a').click(function() {
-      loadVideo(Episodes[index].episode_number, index);
+      loadVideo(Episodes[index], index);
     });
   });
-  loadVideo(Episodes[0].episode_number, 0);
+  loadVideo(Episodes[0], 0);
 
   // Load up the upcoming games
   $.each(Upcoming, function(index, game) {
@@ -48,27 +48,20 @@ $().ready(function() {
   });
 });
 
-var Episodes = [
-  { number: "Episode 01", title: "New York", date: "September 5th, 2012", episode_number: "ep01", video_id: "ctxN8gKQ_L8" },
-  { number: "Tailgate32", title: "The Trailer", date: "August 15th, 2012", episode_number: "trailer", video_id: "q3eWWvPwXEA" }
-];
-
 var Upcoming = [
-  { title: "GAME 3: Cincinnati @ Baltimore", city: "Baltimore", date: "September 10th, 2012" },
   { title: "GAME 4: Chicago @ Green Bay", city: "Green Bay", date: "September 13th, 2012" },
   { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" },
-  { title: "GAME 6: Denver @ Atlanta", city: "Atlanta", date: "September 17th, 2012" }
+  { title: "GAME 6: Denver @ Atlanta", city: "Atlanta", date: "September 17th, 2012" },
+  { title: "GAME 7: New York @ Carolina", city: "Carolina", date: "September 20th, 2012" }
 ];
 
-function loadVideo(episode_number, index) {
+function loadVideo(episode, index) {
   unselectAll();
   $($('#recent-episodes .recent-episode')[index]).css("background", "url('images/recent-arrow-selected.png') no-repeat");
   $('#episode-highlight').show();
 
-  // $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + id + '?vq=hd720&rel=0&showinfo=0&autoplay=1');
-  $('#ytplayer').attr('src', '/tailgate32-' + episode_number);
-  $('#home-chrome h2').text(Episodes[index].number + ": " + Episodes[index].title);
-
+  $('#ytplayer').attr('src', 'http://www.youtube.com/embed/' + episode.video_id + '?vq=hd720&rel=0&showinfo=0');
+  $('#home-chrome h2').text(episode.number + ": " + episode.title);
 }
 
 function loadUpcoming(game, index) {

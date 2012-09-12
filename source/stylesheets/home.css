@@ -236,3 +236,7 @@
         font-size: 12px;
       }
 
+/** Specific for play.html **/
+#play #social-media {
+  height: 16px;
+}

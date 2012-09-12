@@ -15,7 +15,7 @@ use Rack::Rewrite do
   r301 "/tailgate32-trailer", "http://www.youtube.com/embed/q3eWWvPwXEA?vq=hd720&rel=0&showinfo=0"
 end
 
-use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts", "/about.html", "/press.html"], :root => 'build'
+use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts", "/about.html", "/play.html", "/press.html"], :root => 'build'
 
 run lambda { |env| 
   [

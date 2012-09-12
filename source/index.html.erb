@@ -1,3 +1,8 @@
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'episodes' %>
+  <%= javascript_include_tag 'home' %>
+<% end %>
+
 <div id="home" class="row">
   <div id="home-chrome">
     <div class="left">
@@ -69,18 +74,14 @@
     </div>
     <div id="upcoming-episodes" class="right">
       <div class="upcoming-episode">
-        <a>
           <div class="upcoming-welcome">Coming to...</div>
           <div class="upcoming-city"></div>
           <div class="upcoming-date"></div>
-        </a>
       </div>
       <div class="upcoming-episode">
-        <a>
           <div class="upcoming-welcome">See you soon...</div>
           <div class="upcoming-city"></div>
           <div class="upcoming-date"></div>
-        </a>
       </div>
       <div class="upcoming-episode">
           <div class="upcoming-welcome">Rolling into...</div>

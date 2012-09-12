@@ -1,0 +1,36 @@
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'episodes' %>
+  <%= javascript_include_tag 'play' %>
+<% end %>
+
+<div id="play" class="row">
+  <div class="left">
+    <div id="featured-video">
+      <div class="headline">
+        <img src="http://assets.tailgate32.com/images/arrow-left.png" />
+        <h1>Episode 01: New York</h1>
+      </div>
+      <br />
+      <div id="video-container">
+        <iframe id="ytplayer" width="600" height="338" src="http://www.youtube.com/embed/ctxN8gKQ_L8?vq=hd720&rel=0&showinfo=0" frameborder="0" allowFullScreen></iframe>
+      </div>
+      <div id="social-media">
+        <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
+      </div>
+    </div>
+    <div id="all-videos" class="three-column">
+      <div class="headline">
+        <img src="http://assets.tailgate32.com/images/arrow-left.png" alt="" />
+        <h1>Episode Archive</h1>
+      </div>
+      <br />
+    </div>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial "promos/upcoming" %>
+      <%= partial "promos/shirt" %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>
