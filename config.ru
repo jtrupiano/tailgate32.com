@@ -1,29 +1,21 @@
-# require 'rubygems'
-# require 'middleman'
+# encoding: utf-8
 
-# run Middleman.server
-
-require 'bundler/setup'
-# require 'rack/contrib'
+require File.expand_path("../rack_try_static", __FILE__)
 require 'rack/rewrite'
 
 use Rack::Rewrite do 
   r301 %r{.*}, 'http://tailgate32.footballnation.com$&', :if => Proc.new {|rack_env|
-    rack_env['SERVER_NAME'] != 'tailgate32.footballnation.com'
+    !['tailgate32.footballnation.com', 'localhost', '127.0.0.1'].include?(rack_env['SERVER_NAME'])
   }
+
+  # links previously distributed to SI.com -- keep around so that those links don't break
   r301 "/tailgate32-ep01",    "http://www.youtube.com/embed/ctxN8gKQ_L8?vq=hd720&rel=0&showinfo=0"
   r301 "/tailgate32-trailer", "http://www.youtube.com/embed/q3eWWvPwXEA?vq=hd720&rel=0&showinfo=0"
 end
 
-use Rack::Static, :urls => ["/stylesheets", "/images", "/javascripts", "/about.html", "/play.html", "/press.html"], :root => 'build'
+use ::Rack::TryStatic,
+  :root => "build",
+  :urls => ["/"],
+  :try  => [".html", "index.html", "/index.html"]
 
-run lambda { |env| 
-  [
-    200, 
-    { 
-      'Content-Type' => 'text/html', 
-      'Cache-Control' => 'public, max-age=86400' 
-    }, 
-    File.open('build/index.html', File::RDONLY)
-  ] 
-}
+run lambda { [404, {"Content-Type" => "text/plain"}, ["File not found!"]] }

@@ -1,15 +1,13 @@
 Website for Tailgate32: The Ultimate Football Fan Roadtrip
 
------------------------------------------------------------
+Rack / Middleman / Heroku configuration borrowed from: https://gist.github.com/1718367
 
-Several assets are shared with blog.tailgate32.com -- still need to come up with a 
-better solutions for managing these.  The relative paths to all of these assets differ 
-in WP and it currently is a manual process to ensure that we don't fuck these up when 
-moving the changes over.
+Start development server: 
 
-  * tailgate32.css -- some of the paths in here are affected.
-  * tailgate32.js
-  * various images in public/images/   (document these)
-  * various snippets in index.html    (all found in footer.php and header.php on the blog)
+  bundle exec thin start -p 3000
 
-Need to come up with a solution for this ASAP.
+Start watchr (to run "middleman build" on save)
+
+  bundle exec watcher ./Watchrfile
+
+
