@@ -1,0 +1,2 @@
+<% elems = data.episodes.keys.map {|key| data.episodes[key].merge({:abbreviation => key})} %>
+var Episodes = <%= elems.to_json %>;

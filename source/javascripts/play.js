@@ -11,10 +11,6 @@ function getParameterByName(name) {
 }
 
 $().ready(function() {
-  function buildEpisodeThumbnail(episode, index) {
-    return "<div class='item'><a href='#featured-video'><img src='http://img.youtube.com/vi/" + episode.video_id + "/maxresdefault.jpg' /></a><h3>" + episode.number + ": " + episode.title + "</h3><span class='description'>" + episode.date + "</span></div>";
-  }
-
   function firstEpisodeToPlay() {
     var preload = getParameterByName("episode");
     var episode_to_preload = Episodes[0];
@@ -27,12 +23,10 @@ $().ready(function() {
   }
 
   $.each(Episodes, function(index, episode) {
-    $('#all-videos').append(buildEpisodeThumbnail(episode));
     $($('#all-videos .item')[index]).click(function() {
       Play.loadEpisode(Episodes[index]);
     });
   });
-  $('#all-videos').append("<br />");
   Play.loadEpisode(firstEpisodeToPlay());
 });
 
