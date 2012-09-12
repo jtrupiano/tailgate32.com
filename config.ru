@@ -5,7 +5,7 @@ require 'rack/rewrite'
 
 use Rack::Rewrite do 
   r301 %r{.*}, 'http://tailgate32.footballnation.com$&', :if => Proc.new {|rack_env|
-    !['tailgate32.footballnation.com', 'localhost', '127.0.0.1'].include?(rack_env['SERVER_NAME'])
+    !['tailgate32.footballnation.com', 'tailgate32-staging.herokuapp.com', 'localhost', '127.0.0.1'].include?(rack_env['SERVER_NAME'])
   }
 
   # links previously distributed to SI.com -- keep around so that those links don't break
