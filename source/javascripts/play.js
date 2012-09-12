@@ -1,6 +1,29 @@
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+  var regexS = "[\\?&]" + name + "=([^&#]*)";
+  var regex = new RegExp(regexS);
+  var results = regex.exec(window.location.search);
+  if(results == null) {
+    return "";
+  } else {
+    return decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+}
+
 $().ready(function() {
   function buildEpisodeThumbnail(episode, index) {
     return "<div class='item'><a href='#featured-video'><img src='http://img.youtube.com/vi/" + episode.video_id + "/maxresdefault.jpg' /></a><h3>" + episode.number + ": " + episode.title + "</h3><span class='description'>" + episode.date + "</span></div>";
+  }
+
+  function firstEpisodeToPlay() {
+    var preload = getParameterByName("episode");
+    var episode_to_preload = Episodes[0];
+    $.each(Episodes, function(index, episode) {
+      if (episode.abbreviation == preload) {
+        episode_to_preload = episode;
+      }
+    });
+    return episode_to_preload;
   }
 
   $.each(Episodes, function(index, episode) {
@@ -10,7 +33,7 @@ $().ready(function() {
     });
   });
   $('#all-videos').append("<br />");
-  Play.loadEpisode(Episodes[0]);
+  Play.loadEpisode(firstEpisodeToPlay());
 });
 
 var Play = {
