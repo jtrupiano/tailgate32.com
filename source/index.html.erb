@@ -1,5 +1,6 @@
 <% content_for :javascripts do %>
   <%= javascript_include_tag 'episodes' %>
+  <%= javascript_include_tag 'upcoming' %>
   <%= javascript_include_tag 'home' %>
 <% end %>
 
@@ -73,26 +74,19 @@
       </div>
     </div>
     <div id="upcoming-episodes" class="right">
-      <div class="upcoming-episode">
-          <div class="upcoming-welcome">Coming to...</div>
-          <div class="upcoming-city"></div>
-          <div class="upcoming-date"></div>
-      </div>
-      <div class="upcoming-episode">
-          <div class="upcoming-welcome">See you soon...</div>
-          <div class="upcoming-city"></div>
-          <div class="upcoming-date"></div>
-      </div>
-      <div class="upcoming-episode">
-          <div class="upcoming-welcome">Rolling into...</div>
-          <div class="upcoming-city"></div>
-          <div class="upcoming-date"></div>
-      </div>
-      <div class="upcoming-episode">
-          <div class="upcoming-welcome">Join us in...</div>
-          <div class="upcoming-city"></div>
-          <div class="upcoming-date"></div>
-      </div>
+      <% data.upcoming.each_pair do |key, game| %>
+        <div class="upcoming-episode">
+          <% if game.description %>
+            <a href="javascript:void(0)">
+          <% end %>
+            <div class="upcoming-welcome"><%= game.leadin %></div>
+            <div class="upcoming-city"><%= game.city %></div>
+            <div class="upcoming-date"><%= game.date %></div>
+          <% if game.description %>
+            </a>
+          <% end %>
+        </div>
+      <% end %>
       <p>
         Want the full scoop?<br />
         <a target="_blank" href="images/printable-schedule.pdf">VIEW THE SCHEDULE</a>

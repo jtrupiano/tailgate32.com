@@ -18,21 +18,11 @@ $().ready(function() {
   // Load up the upcoming games
   $.each(Upcoming, function(index, game) {
     var game_elem = $($('#upcoming-episodes .upcoming-episode')[index]);
-    game_elem.find('.upcoming-city').text(Upcoming[index].city);
-    game_elem.find('.upcoming-date').text(Upcoming[index].date);
-    game_elem.find('a').attr("href", "javascript:void(0)");
     game_elem.find('a').click(function() {
       loadUpcoming(Upcoming[index], index);
     });
   });
 });
-
-var Upcoming = [
-  { title: "GAME 4: Chicago @ Green Bay", city: "Green Bay", date: "September 13th, 2012" },
-  { title: "GAME 5: Houston @ Jacksonville", city: "Jacksonville", date: "September 16th, 2012" },
-  { title: "GAME 6: Denver @ Atlanta", city: "Atlanta", date: "September 17th, 2012" },
-  { title: "GAME 7: New York @ Carolina", city: "Carolina", date: "September 20th, 2012" }
-];
 
 function loadVideo(episode, index) {
   unselectAll();
@@ -49,7 +39,7 @@ function loadUpcoming(game, index) {
   $('#upcoming-highlight').show();
 
   $('#upcoming-game-title').text(game.title);
-  $('#upcoming-game-description').html($('#data' + index).html());
+  $('#upcoming-game-description').html(game.description);
 }
 
 function unselectAll() {

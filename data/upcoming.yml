@@ -1,0 +1,37 @@
+gb:
+  title: "GAME 4: Chicago @ Green Bay"
+  city: "Green Bay"
+  date: "September 13th, 2012"
+  leadin: "Coming to..."
+  description: |
+    <p>
+      Tailgate starts at 4:30pm, kickoff at 7:30pm.  The Tailgate32 RV
+      will be parked in the Blue Lot next to the <a href="http://www.reschcenter.com/" target="_blank">Resch Center</a>.
+      A representative from <a target="_blank" href="http://www.northernplainsdistributing.com/">Northern Plains Distributing</a>
+      will be onsite to cook brisket, pork butt, and marinated chicken wings on our 
+      <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+      We will be featuring beer from <a target="_blank" href="http://www.titletownbrewing.com/">Titletown Brewery</a>.
+    </p>
+    <p>
+      Follow us on twitter at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      for updates on our specific parking spot and to see photos throughout the tailgate.
+    </p>
+
+
+jax:
+  title: "GAME 5: Houston @ Jacksonville"
+  city: "Jacksonville"
+  date: "September 16th, 2012"
+  leadin: "See you soon..."
+
+atl:
+  title: "GAME 6: Denver @ Atlanta"
+  city: "Atlanta"
+  date: "September 17th, 2012"
+  leadin: "Rolling into..."
+
+car:
+  title: "GAME 7: New York @ Carolina"
+  city: "Carolina"
+  date: "September 20th, 2012"
+  leadin: "Join us in..."
