@@ -1,0 +1,18 @@
+<% 
+  while (games.size < 4) do
+    games << OpenStruct.new
+  end
+%>
+<% games.each do |game| %>
+  <div class="upcoming-episode">
+    <% if game.description %>
+      <a href="javascript:void(0)">
+    <% end %>
+      <div class="upcoming-welcome"><%= game.leadin %></div>
+      <div class="upcoming-city"><%= game.city %></div>
+      <div class="upcoming-date"><%= game.date %></div>
+    <% if game.description %>
+      </a>
+    <% end %>
+  </div>
+<% end %>

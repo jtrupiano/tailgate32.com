@@ -1,0 +1,14 @@
+<%
+  while (episodes.size < 4) do
+    episodes << OpenStruct.new
+  end
+%>
+<% episodes[0..3].each do |episode| %>
+  <div class="recent-episode">
+    <a href="javascript:void(0)">
+      <div class="episode-number"><%= episode.number %></div>
+      <div class="episode-title"><%= episode.title %></div>
+      <div class="episode-date"><%= episode.date %></div>
+    </a>
+  </div>
+<% end %>

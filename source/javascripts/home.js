@@ -6,14 +6,11 @@ $().ready(function() {
   // Load up the episodes
   $.each(Episodes, function(index, ep) {
     var ep_elem = $($('#recent-episodes .recent-episode')[index]);
-    ep_elem.find('.episode-number').text(Episodes[index].number);
-    ep_elem.find('.episode-title').text(Episodes[index].title);
-    ep_elem.find('.episode-date').text(Episodes[index].date);
     ep_elem.find('a').click(function() {
       loadVideo(Episodes[index], index);
     });
   });
-  loadVideo(Episodes[0], 0);
+  loadVideo(Episodes[0], 0); 
 
   // Load up the upcoming games
   $.each(Upcoming, function(index, game) {

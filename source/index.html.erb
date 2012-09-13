@@ -22,34 +22,7 @@
   </div>
   <div id="home-video">
     <div id="recent-episodes" class="left">
-      <div class="recent-episode">
-        <a href="javascript:void(0)">
-          <div class="episode-number">Tailgate32</div>
-          <div class="episode-title">The Trailer</div>
-          <div class="episode-date">August 15th, 2012</div>
-        </a>
-      </div>
-      <div class="recent-episode">
-        <a href="javascript:void(0)">
-          <div class="episode-number"></div>
-          <div class="episode-title"></div>
-          <div class="episode-date"></div>
-        </a>
-      </div>
-      <div class="recent-episode">
-        <a href="javascript:void(0)">
-          <div class="episode-number"></div>
-          <div class="episode-title"></div>
-          <div class="episode-date"></div>
-        </a>
-      </div>
-      <div class="recent-episode">
-        <a href="javascript:void(0)">
-          <div class="episode-number"></div>
-          <div class="episode-title"></div>
-          <div class="episode-date"></div>
-        </a>
-      </div>
+      <%= partial :recent_episodes, :locals => {:episodes => data.episodes.values} %>
       <p>
         Missed an episode?<br />
         <a href="/play">VIEW THE ARCHIVES</a>
@@ -74,41 +47,12 @@
       </div>
     </div>
     <div id="upcoming-episodes" class="right">
-      <% data.upcoming.each_pair do |key, game| %>
-        <div class="upcoming-episode">
-          <% if game.description %>
-            <a href="javascript:void(0)">
-          <% end %>
-            <div class="upcoming-welcome"><%= game.leadin %></div>
-            <div class="upcoming-city"><%= game.city %></div>
-            <div class="upcoming-date"><%= game.date %></div>
-          <% if game.description %>
-            </a>
-          <% end %>
-        </div>
-      <% end %>
+      <%= partial :upcoming_episodes, :locals => {:games => data.upcoming.values} %>
       <p>
         Want the full scoop?<br />
         <a target="_blank" href="images/printable-schedule.pdf">VIEW THE SCHEDULE</a>
       </p>
     </div>
     <br class="clear" />
-  </div>
-</div>
-<div class="upcoming-game-data">
-  <div id="data0">
-    <p>
-      Tailgate starts at 4:00pm, kickoff at 7:00pm.  Find the Tailgate32 RV
-      in the off-site lot at Scott &amp; Ostend.  Food is being provided and 
-      cooked by our friends at  <a target="_blank" href="http://biggreenegg.com">Big Green Egg</a>.
-      Beer is being donated by the friendly folks at
-      <a target="_blank" href="http://flyingdogales.com">Flying Dog</a>.
-    </p>
-    <p>
-      Look for the Tailgate32 RV downtown before the game as we're
-      shooting video around the city.  Send us a tweet 
-      <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a> 
-      if you spot us or want to find out where we are.
-    </p>
   </div>
 </div>
