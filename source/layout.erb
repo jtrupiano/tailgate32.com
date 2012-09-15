@@ -11,6 +11,7 @@
   <link rel="icon" type="image/png" href="http://assets.tailgate32.com/images/favicon.ico" />
 </head>
 <body>
+  <div id="fbNationBarLoader" style="margin:0;padding:0;height:28px;width:100%;"></div><script src="http://www.footballnation.com/jsapi/load.js?service=tailgate32&js=false&bg=true" type="text/javascript"></script>
   <!-- Facebook SDK -->
     <div id="fb-root"></div>
     <script type="text/javascript">(function(d, s, id) {
@@ -43,7 +44,7 @@
   <div id="masthead">
     <div class="divider"></div>
     <div id="logo_container">
-      <a href="/" title="Tailgate32 Home"><img src="http://assets.tailgate32.com/images/T32Header.png" alt="Tailgate32: The Ultimate Football Fan Roadtrip" /></a>
+      <a href="/" title="Tailgate32 Home"><%= image_tag "T32Header.png", :alt => "Tailgate32: The Ultimate Football Fan Roadtrip" %></a>
     </div>
     <div class="divider"></div>
   </div>

@@ -22,6 +22,24 @@
     text-decoration: underline;
   }
 
+/** Override tailgate32.css **/
+#social-media-header {
+  margin-top: 3px;
+}
+
+/** Override FB Nation Bar **/
+#fbNationBar {
+  margin-top: 0px !important;
+}
+
+#fbNationBarWrap {
+  background: url("../images/tg32-bar.png") repeat-x top left !important;
+}
+
+td.fbNationLoginButtons a strong {
+  color: #f5fffa !important;
+}
+
 /** Styles specific to the home page of tailgate32.com **/
   #home h1 {
     font-size: 36px;
