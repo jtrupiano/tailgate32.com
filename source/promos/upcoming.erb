@@ -1,8 +1,6 @@
 <div id="upcoming-stops" class="widget">
   <h1>Upcoming Stops</h1>
-  <div><span class="city">Green Bay</span> - September 13</div>
-  <div><span class="city">Jacksonville</span> - September 16</div>
-  <div><span class="city">Atlanta</span> - September 17</div>
-  <div><span class="city">Carolina</span> - September 20</div>
-  <div><span class="city">Miami</span> - September 23</div>
+  <% data.upcoming.keys[0..4].each do |key| %>
+    <div><span class="city"><%= data.upcoming[key].city %></span> - <%= data.upcoming[key].date %></div>
+  <% end %>
 </div>

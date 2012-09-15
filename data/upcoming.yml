@@ -33,3 +33,9 @@ mia:
   city: "Miami"
   date: "September 23rd, 2012"
   leadin: "Coming to..."
+
+hou:
+  title: "GAME 9: Tennessee @ Houston"
+  city: "Houston"
+  date: "September 30th, 2012"
+  leadin: "See you soon..."
