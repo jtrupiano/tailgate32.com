@@ -41,6 +41,10 @@ td.fbNationLoginButtons a strong {
 }
 
 /** Styles specific to the home page of tailgate32.com **/
+  #home-chrome {
+    margin-top: -8px;
+  }
+
   #home h1 {
     font-size: 36px;
   }
