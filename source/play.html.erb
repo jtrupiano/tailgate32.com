@@ -1,6 +1,11 @@
 <% content_for :javascripts do %>
   <%= javascript_include_tag 'episodes' %>
   <%= javascript_include_tag 'play' %>
+  <script type="text/javascript">
+    $().ready(function() {
+      Play.loadFirstEpisode("<%= @episode_to_preload %>");
+    });
+  </script>
 <% end %>
 
 <div id="play" class="row">

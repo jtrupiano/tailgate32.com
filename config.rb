@@ -15,6 +15,12 @@
 # Page options, layouts, aliases and proxies
 ###
 
+data.episodes.keys.each do |abbr|
+  page "/play/#{abbr}.html", :proxy => "/play.html" do
+    @episode_to_preload = abbr
+  end
+end
+
 # Per-page layout changes:
 # 
 # With no layout
