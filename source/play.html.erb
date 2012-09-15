@@ -1,3 +1,6 @@
+<% content_for(:title) { "Tailgate32 #{@episode.number}: #{@episode.city}" } %>
+<% content_for(:description) { @episode.description.gsub("\n", " ").gsub("\"", "") } %>
+
 <div id="play" class="row">
   <div class="left">
     <div id="featured-video">
