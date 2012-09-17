@@ -1,26 +1,19 @@
-jax:
-  title: "GAME 5: Houston @ Jacksonville"
-  city: "Jacksonville"
-  date: "September 16th, 2012"
-  leadin: "See you soon..."
-  description: |
-    <p>
-      Tailgate starts at 10am, kickoff at 1pm.  Look for the Tailgate32 RV in Lot
-      H where we have teamed up with <a target="_blank" href="http://www.intuitionaleworks.com/">Intuition Ale Works</a>
-      to throw a fantastic tailgate party.  Ben from Intuition is smoking a pork shoulder
-      for 15 hours on our <a href="http://www.biggreenegg.com/">Big Green Eggs</a>.  Don''t miss out!
-    </p>
-    <p>
-      We are giving away a pair of tickets to the game Saturday on twitter.  
-      Follow us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
-      for contest details and also for updates on our specific parking spot.
-    </p>
-
 atl:
   title: "GAME 6: Denver @ Atlanta"
   city: "Atlanta"
   date: "September 17th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      Tailgate starts at 4:30pm, kickoff at 8:20pm.  The Tailgate32 RV is parked in the
+      Vine City lots on the SW side of the Georgia Dome (at Northside and Rhodes).
+      Beer is being provided by <a target="_blank" href="http://www.redharebrewing.com/">Red Hare Brewing Company</a>
+      and <a target="_blank" href="http://www.redbrickbrewing.com/">Red Brick Brewing Company</a>.
+    </p>
+    <p>
+      Follow <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a> for
+      up to minute updates on what''s happening during the tailgate.
+    </p>
 
 car:
   title: "GAME 7: New York @ Carolina"
@@ -39,3 +32,9 @@ hou:
   city: "Houston"
   date: "September 30th, 2012"
   leadin: "See you soon..."
+
+dal:
+  title: "GAME 10: Chicago @ Dallas"
+  city: "Dallas"
+  date: "October 1st, 2012"
+  leadin: "Rolling into..."
