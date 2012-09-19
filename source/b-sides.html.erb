@@ -1,0 +1,42 @@
+<% content_for(:title) { "Tailgate32 B-Side \##{@bside.number}: #{@bside.title}" } %>
+<% content_for(:description) { @bside.description.gsub("\n", " ").gsub("\"", "") } %>
+
+<div id="play" class="row">
+  <div class="left">
+    <div id="featured-video">
+      <div class="headline">
+        <img src="http://assets.tailgate32.com/images/arrow-left.png" />
+        <h1>B-Side #<%= @bside.number %>: <%= @bside.title %></h1>
+      </div>
+      <br />
+      <div id="video-container">
+        <iframe id="ytplayer" width="600" height="338" src="http://www.youtube.com/embed/<%= @bside.video_id %>?vq=hd720&rel=0&showinfo=0" frameborder="0" allowFullScreen></iframe>
+      </div>
+      <div id="social-media">
+        <div class="fb-like" data-href="http://tailgate32.com/play/<%= @abbr %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
+      </div>
+    </div>
+    <div id="all-videos" class="three-column">
+      <div class="headline">
+        <img src="http://assets.tailgate32.com/images/arrow-left.png" alt="" />
+        <h1>B-Side Archive</h1>
+      </div>
+      <br />
+      <% data.bsides.each_pair do |abbr, bside| %>
+        <div class="item">
+          <a href="/play/<%= abbr %>"><img src="http://img.youtube.com/vi/<%= bside.video_id %>/maxresdefault.jpg" alt="<%= bside.title %>" /></a>
+          <h3>B-Side #<%= bside.number %>: <%= bside.title %></h3>
+          <span class="description"><%= bside.date %></span>
+        </div>
+      <% end %>
+      <br class="clear" />
+    </div>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial "promos/upcoming" %>
+      <%= partial "promos/shirt" %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>

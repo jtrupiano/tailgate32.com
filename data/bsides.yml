@@ -1,0 +1,20 @@
+declined:
+  number: "03"
+  title: "Declined"
+  date: "August 31, 2012"
+  video_id: "GCZBl7JLc1Y"
+  description: "John and Mike have a difficult time using their credit cards on the road"
+
+ontheroad:
+  number: "02"
+  title: "On The Road"
+  date: "August 30, 2012"
+  video_id: "vifrRRKP_xs"
+  description: "Tailgate32 finally hits the road."
+
+schedule:
+  number: "01"
+  title: "The Schedule"
+  date: "August 1, 2012"
+  video_id: "FivnVw92bxI"
+  description: "How do you hit 32 games in only 17 weeks?  Just check out the schedule."

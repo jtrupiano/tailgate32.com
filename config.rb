@@ -27,6 +27,18 @@ data.episodes.keys.each do |abbr|
   end
 end
 
+page "/b-sides.html" do
+  @abbr  = data.bsides.keys.first
+  @bside = data.bsides[@abbr]
+end
+
+data.bsides.keys.each do |abbr|
+  page "/b-sides/#{abbr}.html", :proxy => "/b-sides.html" do
+    @abbr  = abbr
+    @bside = data.bsides[abbr]
+  end
+end
+
 # Per-page layout changes:
 # 
 # With no layout
