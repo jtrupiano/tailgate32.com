@@ -1,25 +1,25 @@
-atl:
-  title: "GAME 6: Denver @ Atlanta"
-  city: "Atlanta"
-  date: "September 17th, 2012"
-  leadin: "Rolling into..."
-  description: |
-    <p>
-      Tailgate starts at 4:30pm, kickoff at 8:20pm.  The Tailgate32 RV is parked in the
-      Vine City lots on the SW side of the Georgia Dome (at Northside and Rhodes).
-      Beer is being provided by <a target="_blank" href="http://www.redharebrewing.com/">Red Hare Brewing Company</a>
-      and <a target="_blank" href="http://www.redbrickbrewing.com/">Red Brick Brewing Company</a>.
-    </p>
-    <p>
-      Follow <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a> for
-      up to minute updates on what''s happening during the tailgate.
-    </p>
-
 car:
   title: "GAME 7: New York @ Carolina"
   city: "Carolina"
   date: "September 20th, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="https://maps.google.com/maps/ms?msid=214540428740833154808.0004ca11f661920044b74&msa=0&ll=35.228899,-80.854504&spn=0.012375,0.020642">
+        <img src="images/maps/carolina.png" style="float: right; width: 200px" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 4:30pm, kickoff at 8:20pm.  Find us in the Cedar Yard One 
+      lot.  <a target="_blank" href="http://nodabrewing.com/">NoDa Brewing Company</a> 
+      is providing the beer, <a target="_blank" href="http://www.queencityq.com/">Queen City Q</a>
+      is bringing barbecue, and Wayne Womack will be cooking up brats on our 
+      <a target="_blank" href="http://biggreenegg.com/">Big Green Eggs</a>.  
+      <a target="_blank" href="http://www.yelp.com/events/charlotte-tailgate-32-the-ultimate-football-fan-tailgate">Yelp Charlotte</a>
+      will also be on hand passing out plenty of swag.
+    </p>
+    <p>
+      Follow <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      for up to minute updates on what''s happening during the tailgate.
+    </p>
 
 mia:
   title: "GAME 8: New York @ Miami"
@@ -38,3 +38,136 @@ dal:
   city: "Dallas"
   date: "October 1st, 2012"
   leadin: "Rolling into..."
+
+stl:
+  title: "GAME 11: Arizona @ St. Louis"
+  city: "St. Louis"
+  date: "October 4th, 2012"
+  leadin: "Join us in..."
+
+kc:
+  title: "GAME 12: Baltimore @ Kansas City"
+  city: "Kansas City"
+  date: "October 7th, 2012"
+  leadin: "Coming to..."
+
+tn:
+  title: "GAME 13: Pittsburgh @ Tennessee"
+  city: "Tennessee"
+  date: "October 11th, 2012"
+  leadin: "Rolling into..."
+
+az:
+  title: "GAME 14: Buffalo @ Arizona"
+  city: "Arizona"
+  date: "October 14th, 2012"
+  leadin: "Join us in..."
+
+sd:
+  title: "GAME 15: Denver @ San Diego"
+  city: "San Diego"
+  date: "October 15th, 2012"
+  leadin: "Coming to..."
+
+sf:
+  title: "GAME 16: Seattle @ San Francisco"
+  city: "San Francisco"
+  date: "October 18th, 2012"
+  leadin: "Rolling into..."
+
+oak:
+  title: "GAME 17: Jacksonville @ Oakland"
+  city: "Oakland"
+  date: "October 21st, 2012"
+  leadin: "Join us in..."
+
+minn:
+  title: "GAME 18: Tampa Bay @ Minnesota"
+  city: "Minnesota"
+  date: "October 25th, 2012"
+  leadin: "Coming to..."
+
+den:
+  title: "GAME 19: New Orleans @ Denver"
+  city: "Denver"
+  date: "October 28th, 2012"
+  leadin: "Rolling into..."
+
+sea:
+  title: "GAME 20: Minnesota @ Seattle"
+  city: "Seattle"
+  date: "November 4th, 2012"
+  leadin: "Join us in..."
+
+pitt:
+  title: "GAME 21: Kansas City @ Pittsburgh"
+  city: "Pittsburgh"
+  date: "November 12th, 2012"
+  leadin: "Coming to..."
+
+buff:
+  title: "GAME 22: Miami @ Buffalo"
+  city: "Buffalo"
+  date: "November 15th, 2012"
+  leadin: "Rolling into..."
+
+ne:
+  title: "GAME 23: Indianapolis @ New England"
+  city: "New England"
+  date: "November 18th, 2012"
+  leadin: "Join us in..."
+
+det:
+  title: "GAME 24: Houston @ Detroit"
+  city: "Detroit"
+  date: "November 22nd, 2012"
+  leadin: "Coming to..."
+
+cin:
+  title: "GAME 25: Oakland @ Cincinnati"
+  city: "Cincinnati"
+  date: "November 25th, 2012"
+  leadin: "Rolling into..."
+
+phi:
+  title: "GAME 26: Carolina @ Philadelphia"
+  city: "Philadelphia"
+  date: "November 26th, 2012"
+  leadin: "Join us in..."
+
+nyj:
+  title: "GAME 27: Arizona @ New York"
+  city: "New York"
+  date: "December 2nd, 2012"
+  leadin: "Coming to..."
+
+wash:
+  title: "GAME 28: New York @ Washington"
+  city: "Washington"
+  date: "December 3rd, 2012"
+  leadin: "Rolling into..."
+
+indy:
+  title: "GAME 29: Tennessee @ Indianapolis"
+  city: "Indianapolis"
+  date: "December 9th, 2012"
+  leadin: "Join us in..."
+
+chi:
+  title: "GAME 30: Green Bay @ Chicago"
+  city: "Chicago"
+  date: "December 16th, 2012"
+  leadin: "Coming to..."
+
+tb:
+  title: "GAME 31: St. Louis @ Tampa Bay"
+  city: "Tampa Bay"
+  date: "December 23rd, 2012"
+  leadin: "Rolling into..."
+
+no:
+  title: "GAME 32: Carolina @ New Orleans"
+  city: "New Orleans"
+  date: "December 30th, 2012"
+  leadin: "Join us in..."
+
