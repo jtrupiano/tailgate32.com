@@ -1,8 +1,25 @@
+jax:
+  number: "Episode 05"
+  title: "Jacksonville"
+  date: "September 16th, 2012"
+  video_id: "sfQieLGsu5w"
+  description: |
+    Tailgate32 races down to Jacksonville for one of their tightest turnarounds of the season.  Mike and John catch up with Jaxson Deville, the most daring mascot in football, get an introduction to boatgating, and discover a budding fan base.
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Production Coordinator: Amy Hall
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+    Additional music provided by 
+    Special thanks to Football Nation, Intuition Ale Works, Big Green Egg, Jacksonville Patio and Garden, Palm Coast Sales, Jacksonville Jaguars, D Dock Boatgaters, Teal St. Houligans, Curtis Dvorak, and Ben Davis
+    
+
 gb:
   number: "Episode 04"
   title: "Green Bay"
   date: "September 13th, 2012"
-  episode_number: "ep04"
   video_id: "Z8lGIDE2S4E"
   description: |
     The boys head north to Green Bay, home of the Cheese Head, for their 4th stop on the tour.  Follow them as they get a tour of the city from the mayor, visit a true Packer Man Cave, and tailgate with one of the most historic fan bases in the league.
@@ -20,7 +37,6 @@ bal:
   number: "Episode 03"
   title: "Baltimore"
   date: "September 10th, 2012"
-  episode_number: "ep03"
   video_id: "zzcWQDvqgo8"
   description: |
     Mike and John encounter their first back to back as they have only 20 hours to get from Cleveland and set up their Baltimore tailgate.  They meet the "Commissioner of Tailgating," party with the Tailgate Task Force crew, talk to The Purple Dame, and partake in a little bit of Maryland blue crab in the 3rd installment of this 32-episode series.
@@ -38,7 +54,6 @@ cle:
   number: "Episode 02"
   title: "Cleveland"
   date: "September 9th, 2012"
-  episode_number: "ep02"
   video_id: "3ALUVA6zAkA"
   description: |
     Tailgate32 cruises into Cleveland for the second stop on their tour. Follow Mike and John as they get help with their generator from folks at the KOA, check out the season opening Browns Backers Bash, and tailgate with some of the wildest fans in the infamous Muni Lots.
@@ -56,7 +71,6 @@ nyg:
   number: "Episode 01"
   title: "New York"
   date: "September 5th, 2012"
-  episode_number: "ep01"
   video_id: "ctxN8gKQ_L8"
   description: |
     Tailgate32 makes its first stop of the tour in America''s biggest market: New York.  Follow Mike and John as they travel to the Big Apple to find out what makes Giants fans some of the best in the league.
@@ -73,7 +87,6 @@ trailer:
   number: "Tailgate32"
   title: "The Trailer"
   date: "August 15, 2012"
-  episode_number: "trailer"
   video_id: "q3eWWvPwXEA"
   description: |
     Brothers John and Mike Trupiano are set to embark on a cross country journey that is sure to make any fan of the NFL and Tailgating a bit jealous. This fall, they are hopping in a RV and are attending one home game for all 32 NFL Teams. During their trip, they''ll interview fans, participate in local traditions, host a large public tailgate at each stadium, and uncover what makes these experiences special to each fan base.
