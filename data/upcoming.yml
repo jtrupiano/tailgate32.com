@@ -1,31 +1,28 @@
-car:
-  title: "GAME 7: New York @ Carolina"
-  city: "Carolina"
-  date: "September 20th, 2012"
-  leadin: "Join us in..."
-  description: |
-    <p>
-      <a target="_blank" href="https://maps.google.com/maps/ms?msid=214540428740833154808.0004ca11f661920044b74&msa=0&ll=35.228899,-80.854504&spn=0.012375,0.020642">
-        <img src="images/maps/carolina.png" style="float: right; width: 200px" alt="Map of Parking Lot" />
-      </a>
-      Tailgate starts at 4:30pm, kickoff at 8:20pm.  Find us in the Cedar Yard One 
-      lot.  <a target="_blank" href="http://nodabrewing.com/">NoDa Brewing Company</a> 
-      is providing the beer, <a target="_blank" href="http://www.queencityq.com/">Queen City Q</a>
-      is bringing barbecue, and Wayne Womack will be cooking up brats on our 
-      <a target="_blank" href="http://biggreenegg.com/">Big Green Eggs</a>.  
-      <a target="_blank" href="http://www.yelp.com/events/charlotte-tailgate-32-the-ultimate-football-fan-tailgate">Yelp Charlotte</a>
-      will also be on hand passing out plenty of swag.
-    </p>
-    <p>
-      Follow <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
-      for up to minute updates on what''s happening during the tailgate.
-    </p>
-
 mia:
   title: "GAME 8: New York @ Miami"
   city: "Miami"
   date: "September 23rd, 2012"
   leadin: "Coming to..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/EzPKb">
+        <img src="images/maps/miami.png" style="float: right; width: 200px" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 10:00am, kickoff at 1:00pm.  Find us in the RV Lot off NW 203rd
+      between NW 26th and NW 27th.  We'll have a whole bunch of beer and BBQ that we
+      picked up from <a target="_blank" href="http://www.miamiqcatering.com/">Miami Q Catering</a>,
+      and Dean will be grilling up some sausages on our <a target="_blank" href="http://biggreenegg.com">Big Green Egg</a>s.
+      Our buddy <a target="_blank" href="https://twitter.com/djrossespi">DJ Ross Espi</a> 
+      will be rocking the turntables until the game starts.
+    </p>
+    <p>
+      <a target="_blank" href="http://www.yelp.com/miami">Yelp Miami</a> will be on site
+      handing out swag.  Our tailgate is free to the public, swing on by anytime.
+    </p>
+    <p>
+      Follow <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      for updates on what's happening during the tailgate.
+    </p>
 
 hou:
   title: "GAME 9: Tennessee @ Houston"
