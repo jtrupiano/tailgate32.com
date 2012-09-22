@@ -5,13 +5,27 @@
   <meta name="description" content="<%= yield_content(:description) %> " />
   <meta name="keywords" content="Tailgate32, Tailgate, 32, tailgating, Tailgate 32, roadtrips, road trips, pro football, 17 weeks, 32 gmaes, 25000 miles, documentary, experience, journey, RV, cross country" />
   <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" href="http://assets.tailgate32.com/css/tailgate32.css?eo1" />
+  <%= stylesheet_link_tag 'tailgate32' %>
   <%= stylesheet_link_tag 'home' %>
-  <link rel="stylesheet" href="http://assets.tailgate32.com/js/fancybox/source/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
-  <link rel="icon" type="image/png" href="http://assets.tailgate32.com/images/favicon.ico" />
+  <%= stylesheet_link_tag '/javascripts/fancybox/source/jquery.fancybox.css?v=2.0.6' %>
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
 </head>
 <body>
   <div id="fbNationBarLoader" style="margin:0;padding:0;height:28px;width:100%;"></div><script src="http://www.footballnation.com/jsapi/load.js?service=tailgate32&js=false&bg=true" type="text/javascript"></script>
+  <style type="text/css">
+    /** Override FB Nation Bar **/
+    #fbNationBar {
+      margin-top: 0px !important;
+    }
+
+    #fbNationBarWrap {
+      background: url("../images/tg32-bar.png") repeat-x top left !important;
+    }
+
+    td.fbNationLoginButtons a strong {
+      color: #f5fffa !important;
+    }
+  </style>
   <!-- Facebook SDK -->
     <div id="fb-root"></div>
     <script type="text/javascript">(function(d, s, id) {
@@ -26,18 +40,18 @@
 
   <div id="navigation">
     <div id="social-media-header">
-      <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><img src="http://assets.tailgate32.com/images/icon_twitter.png" alt="See @tailgate_32 on Twitter" /></a>
-      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><img src="http://assets.tailgate32.com/images/icon_facebook.png" alt="Find Tailgate32 on Facebook" /></a>
-      <a href="http://www.youtube.com/user/tailgate32" target="_blank" title="The Official Tailgate32 YouTube Channel"><img src="http://assets.tailgate32.com/images/icon_youtube.png" alt="Subscribe to the Tailgate32 YouTube channel" /></a>
+      <a href="https://twitter.com/#!/tailgate_32" target="_blank" title="Follow @tailgate_32 on Twitter"><%= image_tag 'icon_twitter.png', :alt => "See @tailgate_32 on Twitter" %></a>
+      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><%= image_tag 'icon_facebook.png', :alt => "Find Tailgate32 on Facebook" %></a>
+      <a href="http://www.youtube.com/user/tailgate32" target="_blank" title="The Official Tailgate32 YouTube Channel"><%= image_tag 'icon_youtube.png', :alt => "Subscribe to the Tailgate32 YouTube channel" %></a>
     </div>
     <div id="menu">
-      <a href="/about"><img src="http://assets.tailgate32.com/images/nav-about.png" width="102" height="35" /></a>
-      <a href="/play"><img src="http://assets.tailgate32.com/images/nav-episodes.png" alt="Tailgate32 Episodes" width="102" height="35" /></a>
-      <a href="/b-sides"><img src="http://assets.tailgate32.com/images/nav-b-sides.png" alt="B-Sides" width="102" height="35" /></a>
-      <a href="http://blog.tailgate32.com/"><img src="http://assets.tailgate32.com/images/nav-blog.png" alt="Tailgate32 Blog" width="102" height="35" /></a>
-      <a href="/press"><img src="http://assets.tailgate32.com/images/nav-press.png" alt="Press" width="102" height="35" /></a>
-      <a id="contact-us-nav" class="contact-us-link" href="#"><img src="http://assets.tailgate32.com/images/nav-contact-us.png" alt="Contact Tailgate32" width="102" height="35" /></a>
-      <a href="http://store.tailgate32.com/"><img src="http://assets.tailgate32.com/images/nav-store.png" alt="Tailgate32 Store" width="102" height="35" /></a>
+      <a href="/about"><%= image_tag 'nav-about.png', :width => "102", :height => "35" %></a>
+      <a href="/play"><%= image_tag 'nav-episodes.png', :alt => "Tailgate32 Episodes", :width => "102", :height => "35" %></a>
+      <a href="/b-sides"><%= image_tag 'nav-b-sides.png', :alt => "B-Sides", :width => "102", :height => "35" %></a>
+      <a href="http://blog.tailgate32.com/"><%= image_tag 'nav-blog.png', :alt => "Tailgate32 Blog", :width => "102", :height => "35" %></a>
+      <a href="/press"><%= image_tag 'nav-press.png', :alt => "Press", :width => "102", :height => "35" %></a>
+      <a id="contact-us-nav" class="contact-us-link" href="#"><%= image_tag 'nav-contact-us.png', :alt => "Contact Tailgate32", :width => "102", :height => "35" %></a>
+      <a href="http://store.tailgate32.com/"><%= image_tag 'nav-store.png', :alt => "Tailgate32 Store", :width => "102", :height => "35" %></a>
     </div>
     <br class="break" />
   </div>
@@ -57,7 +71,7 @@
     <div id="contact-us">
       <iframe style="display: none;" name="contact.us.iframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dEY2MXNvVDRBWlN1SEE0RHRyQU42d3c6MQ"></iframe>
       <div class="headline">
-        <img src="http://assets.tailgate32.com/images/arrow-left.png" alt="" />
+        <%= image_tag 'arrow-left.png' %>
         <h2>Contact Tailgate32</h2>
         <br class="clear" />
       </div>
@@ -82,8 +96,8 @@
     </div>
   </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script type="text/javascript" src="http://assets.tailgate32.com/js/fancybox/source/jquery.fancybox.pack.js?v=2.0.6"></script>
-  <%= javascript_include_tag "http://assets.tailgate32.com/js/tailgate32.js" %>
+  <%= javascript_include_tag "fancybox/source/jquery.fancybox.pack.js?v=2.0.6" %>
+  <%= javascript_include_tag "tailgate32.js" %>
   <%= yield_content :javascripts %>
   <script type="text/javascript">
     var _gaq = _gaq || [];

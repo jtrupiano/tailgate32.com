@@ -1,0 +1,225 @@
+body {
+  background-color: #323232;
+  margin: 0;
+  color: #222;
+}
+
+body, p {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+img {
+  border: 0;
+}
+
+a, a:visited {
+  color: inherit;
+}
+
+h1 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #f5fffa;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #222;
+  margin: 0;
+}
+
+  .headline img {
+    float: right;
+    margin-left: 15px;
+    width: 34px;
+    height: 40px;
+  }
+
+  .headline h2 {
+    position: relative;
+    top: 5px;
+  }
+
+h3, h4 {
+  font-family: "PT Serif", serif;
+  margin: 0 0 10px 0;
+  color: #222
+}
+
+input {
+  margin: 0;
+  background-color: white;
+  border: 2px inset;
+  color: #444;
+  font-weight: normal;
+  padding: 5px;
+  width: 375px;
+  height: 24px;
+  font-size: 16px;
+  box-shadow: 0 0 0 #000, inset 0 3px 3px #eee;
+  border-radius: 3px;
+  border: 1px solid #A0A0A0;
+}
+
+input.submit {
+  background-color: inherit;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+  box-shadow: none;
+  background: url("../images/submit-icon-40.png") no-repeat;
+  width: auto;
+  padding-left: 45px;
+  height: 40px;
+  text-align: right;
+  cursor: pointer;
+  display: inline-block;
+}
+
+textarea {
+  margin: 0;
+  background-color: white;
+  border: 2px inset;
+  color: #444;
+  font-weight: normal;
+  padding: 5px;
+  width: 375px;
+  height: 125px;
+  font-size: 16px;
+  box-shadow: 0 0 0 #000, inset 0 3px 3px #eee;
+  border-radius: 3px;
+  border: 1px solid #A0A0A0;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 130px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 36px;
+}
+
+  form label.for-textarea {
+    position: relative;
+    top: -65px;
+  }
+
+.divider {
+  height: 4px;
+  width: 100%;
+  background-color: #f5fffa;
+}
+
+.clear {
+  clear: both;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 25px;
+  padding-right: 20px;
+}
+
+  .button-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button-container a, .button-container a:visited {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+  }
+
+  .button-container a:hover {
+    text-decoration: underline;
+  }
+
+    .button-container a span {
+      position: relative;
+      top: -14px;
+      left: 8px;
+    }
+
+/** Header Styles **/
+#navigation {
+  width: 1000px;
+  margin: 8px auto 0px auto;
+  height: 35px;
+}
+
+  #social-media-header {
+    width: 160px;
+    float: left;
+    margin-top: 3px;
+  }
+
+    #social-media-header a {
+      margin-right: 10px;
+    }
+
+    #social-media-header img {
+      width: 24px;
+      height: 24px;
+    }
+
+  #menu {
+    width: 840px;
+    float: left;
+    text-align: right;
+  }
+
+    #menu a {
+      margin-left: 12px;
+    }
+
+#masthead {
+  background: url("../images/asphalt.jpg");
+}
+
+  #logo_container {
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+
+    #logo_container img {
+      width: 1000px;
+      height: 142px;
+    }
+
+/** Body Styles **/
+.row {
+  margin: 20px auto;
+  width: 1000px;
+}
+
+
+/** Footer Styles **/
+#footer {
+  height: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+/** Popups **/
+#hidden-content {
+  display: none;
+}
+
+  #contact-us {
+    width: 600px;
+  }
