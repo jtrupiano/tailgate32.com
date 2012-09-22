@@ -205,7 +205,58 @@ form label {
 .row {
   margin: 20px auto;
   width: 1000px;
+  color: #f5fffa;
 }
+
+  .row a, .row a:visited {
+    color: #fff100;
+    text-decoration: none;
+  }
+
+  .row a:hover {
+    text-decoration: underline;
+  }
+
+  .left {
+    width: 616px;
+    float: left;
+  }
+
+  .right {
+    width: 364px;
+    margin-left: 20px;
+    float: left
+  }
+
+.three-column {
+  margin-top: 25px;
+}
+
+  .three-column .item {
+    width: 190px;
+    margin-right: 14px;
+    float: left;
+  }
+      
+    .three-column .item img {
+      max-width: 170px;
+      max-height: 170px;
+      border: solid 6px #555;
+      border-radius: 6px;
+    }
+
+    .three-column .item h3 {
+      color: yellow;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "PT Sans", sans-serif;
+      margin-bottom: 0px;
+    }
+
+    .three-column .item .description {
+      font-style: italic;
+      font-size: 12px;
+    }
 
 
 /** Footer Styles **/
@@ -213,6 +264,33 @@ form label {
   height: 30px;
   width: 1000px;
   margin: auto;
+}
+
+/** Widgets **/
+#widgets {
+  border-left: solid 1px #555;
+  padding-left: 20px;
+}
+
+.widget {
+  margin-bottom: 25px;
+  color: #929292;
+}
+
+  .widget .city {
+    color: #fff100;
+  }
+
+
+#press-promo dt {
+  color: #fff100;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#press-promo dd {
+  font-size: 14px;
+  padding-bottom: 8px;
 }
 
 /** Popups **/
@@ -223,3 +301,8 @@ form label {
   #contact-us {
     width: 600px;
   }
+
+/** Specific for play.html **/
+#play #social-media {
+  height: 16px;
+}
