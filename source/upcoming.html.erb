@@ -12,6 +12,12 @@
       <p id="featured-event-date"><%= @event.date %></p>
       <%= @event.description || "<p>Details TBA</p>" %>
     </div>
+    <div class="headline">
+      <%= image_tag 'arrow-left.png' %>
+      <h1>Are You Coming?</h1>
+    </div>
+    <br />
+    <div class="fb-comments" data-href="http://tailgate32.com/upcoming/<%= @abbr %>" data-num-posts="5" data-width="617"></div>
   </div>
   <div class="right">
     <div id="widgets">
