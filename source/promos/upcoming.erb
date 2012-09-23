@@ -1,6 +1,6 @@
 <div id="upcoming-stops" class="widget">
   <h1>Upcoming Stops</h1>
   <% data.upcoming.keys[0..4].each do |key| %>
-    <div><span class="city"><%= data.upcoming[key].city %></span> - <%= data.upcoming[key].date %></div>
+    <div><%= link_to data.upcoming[key].city, "/upcoming/#{key}" %> - <%= data.upcoming[key].date %></div>
   <% end %>
 </div>

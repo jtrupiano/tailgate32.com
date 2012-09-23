@@ -39,6 +39,18 @@ data.bsides.keys.each do |abbr|
   end
 end
 
+page "/upcoming.html" do
+  @abbr    = data.upcoming.keys.first
+  @event   = data.upcoming[@abbr]
+end
+
+data.upcoming.keys.each do |abbr|
+  page "/upcoming/#{abbr}.html", :proxy => "/upcoming.html" do
+    @abbr   = abbr
+    @event  = data.upcoming[abbr]
+  end
+end
+
 # Per-page layout changes:
 # 
 # With no layout

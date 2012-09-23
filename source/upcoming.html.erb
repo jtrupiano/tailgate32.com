@@ -1,0 +1,22 @@
+<% content_for(:title) { "Tailgate32 #{@event.title}" } %>
+<% content_for(:description) { @event.description.to_s.gsub("\n", " ").gsub("\"", "") } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :upcoming } %>
+
+<div id="upcoming" class="row">
+  <div class="left">
+    <div id="featured-event">
+      <div class="headline">
+        <%= image_tag 'arrow-left.png', :alt => '' %>
+        <h1><%= @event.title %></h1>
+      </div>
+      <p id="featured-event-date"><%= @event.date %></p>
+      <%= @event.description || "<p>Details TBA</p>" %>
+    </div>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial 'promos/upcoming' %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>
