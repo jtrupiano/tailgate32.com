@@ -10,7 +10,6 @@ $().ready(function() {
       loadVideo(Episodes[index], index);
     });
   });
-  loadVideo(Episodes[0], 0); 
 
   // Load up the upcoming games
   $.each(Upcoming, function(index, game) {

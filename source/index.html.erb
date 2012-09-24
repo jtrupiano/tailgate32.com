@@ -16,7 +16,7 @@
     </div>
     <div class="center">
       <h1>The Latest</h1>
-      <h2>Prologue: What's Your Story?</h2>
+      <h2><%= @episode.number %>: <%= @episode.title %></h2>
     </div>
     <div class="right">
       <h3>Upcoming</h3>
@@ -35,7 +35,7 @@
     <div class="center">
       <div id="episode-highlight">
         <div id="video-container">
-          <iframe id="ytplayer" width="600" height="338" src="" frameborder="0" allowFullScreen></iframe>
+          <iframe id="ytplayer" width="600" height="338" src="http://www.youtube.com/embed/<%= @episode.video_id %>?vq=hd720&showinfo=0" frameborder="0" allowFullScreen></iframe>
         </div>
         <div id="social-media">
         <!--

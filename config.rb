@@ -15,6 +15,11 @@
 # Page options, layouts, aliases and proxies
 ###
 
+page "/index.html" do
+  @abbr    = data.episodes.keys.first
+  @episode = data.episodes[@abbr]
+end
+
 page "/play.html" do
   @abbr    = data.episodes.keys.first
   @episode = data.episodes[@abbr]
