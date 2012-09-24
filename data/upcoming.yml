@@ -6,7 +6,7 @@ mia:
   description: |
     <p>
       <a target="_blank" href="http://goo.gl/maps/EzPKb">
-        <img src="/images/maps/miami.png" style="float: right; width: 200px" alt="Map of Parking Lot" />
+        <img src="/images/maps/miami.png" class="map" alt="Map of Parking Lot" />
       </a>
       Tailgate starts at 10:00am, kickoff at 1:00pm.  Find us in the RV Lot off NW 203rd
       between NW 26th and NW 27th.  We'll have a whole bunch of beer and BBQ that we

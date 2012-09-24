@@ -4,6 +4,12 @@
   line-height: 1;
 }
 
+#featured-event img.map {
+  float: right;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
 .fb-comments {
   background-color: #f5fffa !important;
 }
