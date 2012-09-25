@@ -29,6 +29,31 @@ hou:
   city: "Houston"
   date: "September 30th, 2012"
   leadin: "See you soon..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/bMXFH">
+        <img src="/images/maps/hou.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 9:30am, kickoff at 1:00pm.  Find our 
+      <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">giant RV</a> 
+      in the Blue Lot between sections 22 and 26 with the Twisted Tailgaters. Come on 
+      out and show us why Houston fans were ranked the #1 tailgaters in the league!
+    </p>
+    <p>
+      We'll be cooking up pork shoulder and brisket on our 
+      <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>, and we'll be
+      featuring Sam Adams beer.  The food and beer are FREE.
+    </p>
+    <p>
+      In order to tailgate with us you'll need to have either a game ticket or a 
+      <a target="_blank" href="http://www.houstontexans.com/gameday/tailgating/policy.html">special tailgating pass</a>.  
+      As we understand it, these are only available on the secondary market for Sunday's 
+      game--here's <a target="_blank" href="http://houston.craigslist.org/search/?areaID=23&subAreaID=&query=texans+titans+tailgating+passes&catAbb=sss">a suggested Craigslist search</a> to find some.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      if you have any questions or are having trouble finding us.
+    </p>
 
 dal:
   title: "GAME 10: Chicago @ Dallas"
