@@ -288,6 +288,23 @@ form label {
   padding-bottom: 8px;
 }
 
+  #recent-episodes .episode {
+    width: 212px;
+    text-align: center;
+  }
+
+    #recent-episodes img {
+      max-width: 200px;
+      max-height: 200px;
+      border: solid 6px #555;
+      border-radius: 6px;
+    }
+
+    #recent-episodes p {
+      margin-top: 0px;
+      line-height: 1.25;
+    }
+
 /** Popups **/
 #hidden-content {
   display: none;

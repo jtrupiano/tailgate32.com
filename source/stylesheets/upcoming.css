@@ -7,9 +7,15 @@
 #featured-event img.map {
   float: right;
   max-width: 200px;
-  border-radius: 5px;
+  border-radius: 6px;
+  border: solid 6px #555;
+  margin-left: 10px;
 }
 
 .fb-comments {
   background-color: #f5fffa !important;
+  width: 599px;
+  border: solid 6px #555;
+  border-radius: 6px;
+  padding: 3px;
 }
