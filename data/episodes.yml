@@ -4,7 +4,11 @@ atl:
   date: "September 17th, 2012"
   video_id: "zzxFVqwepDs"
   description: |
-    The TG32 crew hightails it out of Jacksonville up to Atlanta for their second back to back of the season.  The A-Town tailgaters come through in a big way as they help the guys deal with some parking woes. John samples the best of ATL tailgating food with local band Death on Two Wheels and Mike gets hugs from a few local legends.
+    The TG32 crew hightails it out of Jacksonville up to Atlanta for their second back 
+    to back of the season.  The A-Town tailgaters come through in a big way as they 
+    help the guys deal with some parking woes. John samples the best of ATL tailgating 
+    food with local band Death on Two Wheels and Mike gets hugs from a few local legends.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and Edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -12,8 +16,20 @@ atl:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by Death on Two Wheels, Dirty River Boys, Tree City
-    Special thanks to Football Nation, Big Green Egg, Red Brick Brewing, Red Hare Brewing, Hottie Hawgs BBQ, Amrit B, Mr. UnoUnoME G. Grimes, Juicy, Renee and Bill Goddard, Melissa and Melinda Wilson, and the rest of the “dirty dirty” crew.
+  bands:
+    -
+      name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+    - 
+      name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    - 
+      name: Tree City
+      link: http://treecityhiphop.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Red Brick Brewing, Red Hare Brewing, 
+    Hottie Hawgs BBQ, Amrit B, Mr. UnoUnoME G. Grimes, Juicy, Renee and Bill Goddard, 
+    Melissa and Melinda Wilson, and the rest of the “dirty dirty” crew.
 
 jax:
   number: "Episode 05"
@@ -21,7 +37,10 @@ jax:
   date: "September 16th, 2012"
   video_id: "sfQieLGsu5w"
   description: |
-    Tailgate32 races down to Jacksonville for one of their tightest turnarounds of the season.  Mike and John catch up with Jaxson Deville, the most daring mascot in football, get an introduction to boatgating, and discover a budding fan base.
+    Tailgate32 races down to Jacksonville for one of their tightest turnarounds of the 
+    season.  Mike and John catch up with Jaxson Deville, the most daring mascot in 
+    football, get an introduction to boatgating, and discover a budding fan base.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and Edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -29,8 +48,17 @@ jax:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by Beakr and Tree City (w/ production from Ashod, L05, and SOTO)
-    Special thanks to Football Nation, Intuition Ale Works, Big Green Egg, Jacksonville Patio and Garden, Palm Coast Sales, Jacksonville Jaguars, D Dock Boatgaters, Teal St. Houligans, Curtis Dvorak, and Ben Davis
+  bands:
+    -
+      name: Beakr
+      link: http://beakr.bandcamp.com/
+    -
+      name: Tree City
+      link: http://treecityhiphop.com/
+  thanks: |
+    Special thanks to Football Nation, Intuition Ale Works, Big Green Egg, Jacksonville 
+    Patio and Garden, Palm Coast Sales, Jacksonville Jaguars, D Dock Boatgaters, 
+    Teal St. Houligans, Curtis Dvorak, and Ben Davis
 
 gb:
   number: "Episode 04"
@@ -38,7 +66,10 @@ gb:
   date: "September 13th, 2012"
   video_id: "Z8lGIDE2S4E"
   description: |
-    The boys head north to Green Bay, home of the Cheese Head, for their 4th stop on the tour.  Follow them as they get a tour of the city from the mayor, visit a true Packer Man Cave, and tailgate with one of the most historic fan bases in the league.
+    The boys head north to Green Bay, home of the Cheese Head, for their 4th stop on the 
+    tour.  Follow them as they get a tour of the city from the mayor, visit a true Packer 
+    Man Cave, and tailgate with one of the most historic fan bases in the league.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and Edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -46,8 +77,21 @@ gb:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by The Orwells, New Electric Sound, Blackfoot Gypsies, Secret Colours
-    Special thanks to Football Nation, Big Green Egg, Northern Plains Distributing, Furniture and Appliance Mart, Titletown Brewing Co., City of Green Bay, PMI Entertainment Group, Brent Weyker, Cheryl Marti, Mayor James Schmitt, John Basel, Nicole Henquinet
+  bands:
+    -
+      name: The New Electric Sound
+      link: http://thenewelectricsound.com/
+    -
+      name: Blackfoot Gypsies
+      link: http://blackfootgypsies.bandcamp.com/
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Northern Plains Distributing, 
+    Furniture and Appliance Mart, Titletown Brewing Co., City of Green Bay, PMI 
+    Entertainment Group, Brent Weyker, Cheryl Marti, Mayor James Schmitt, John Basel, 
+    Nicole Henquinet
 
 bal:
   number: "Episode 03"
@@ -55,7 +99,12 @@ bal:
   date: "September 10th, 2012"
   video_id: "zzcWQDvqgo8"
   description: |
-    Mike and John encounter their first back to back as they have only 20 hours to get from Cleveland and set up their Baltimore tailgate.  They meet the "Commissioner of Tailgating," party with the Tailgate Task Force crew, talk to The Purple Dame, and partake in a little bit of Maryland blue crab in the 3rd installment of this 32-episode series.
+    Mike and John encounter their first back to back as they have only 20 hours to get 
+    from Cleveland and set up their Baltimore tailgate.  They meet the "Commissioner of 
+    Tailgating," party with the Tailgate Task Force crew, talk to The Purple Dame, and 
+    partake in a little bit of Maryland blue crab in the 3rd installment of this 
+    32-episode series.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and Edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -63,8 +112,17 @@ bal:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by Blackfoot Gypsies and Death On Two Wheels
-    Special thanks to Football Nation, Big Green Egg, Seasonal Distributors, Clark''s Ace Hardware, Flying Dog, Purple Dame, Rob Nichol, Tailgate Task Force, Rob Storey, Redwing Hoover and Bo Brooks.
+  bands:
+    -
+      name: Blackfoot Gypsies
+      link: http://blackfootgypsies.bandcamp.com/
+    -
+      name: Death On Two Wheels
+      link: http://deathontwowheels.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Seasonal Distributors, Clark's 
+    Ace Hardware, Flying Dog, Purple Dame, Rob Nichol, Tailgate Task Force, Rob Storey, 
+    Redwing Hoover and Bo Brooks.
 
 cle:
   number: "Episode 02"
@@ -72,7 +130,11 @@ cle:
   date: "September 9th, 2012"
   video_id: "3ALUVA6zAkA"
   description: |
-    Tailgate32 cruises into Cleveland for the second stop on their tour. Follow Mike and John as they get help with their generator from folks at the KOA, check out the season opening Browns Backers Bash, and tailgate with some of the wildest fans in the infamous Muni Lots.
+    Tailgate32 cruises into Cleveland for the second stop on their tour. Follow Mike and 
+    John as they get help with their generator from folks at the KOA, check out the 
+    season opening Browns Backers Bash, and tailgate with some of the wildest fans in 
+    the infamous Muni Lots.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -80,8 +142,17 @@ cle:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by The Dirty River Boys, Death on Two Wheels
-    Special thanks to Football Nation, Big Green Egg, Indigo Imp Brewery, Flannery''s Pub, Uncle Pete and Bill at the Delaware Gap KOA, Burnt River Bob, Michele DeScilio, Lynn McGreevey, Grandma & Grandpa, Mom & Dad, and Anthony Trupiano
+  bands:
+    -
+      name: The Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    -
+      name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Indigo Imp Brewery, Flannery's Pub, 
+    Uncle Pete and Bill at the Delaware Gap KOA, Burnt River Bob, Michele DeScilio, Lynn 
+    McGreevey, Grandma & Grandpa, Mom & Dad, and Anthony Trupiano
 
 nyg:
   number: "Episode 01"
@@ -89,7 +160,10 @@ nyg:
   date: "September 5th, 2012"
   video_id: "ctxN8gKQ_L8"
   description: |
-    Tailgate32 makes its first stop of the tour in America''s biggest market: New York.  Follow Mike and John as they travel to the Big Apple to find out what makes Giants fans some of the best in the league.
+    Tailgate32 makes its first stop of the tour in America's biggest market: New York.  
+    Follow Mike and John as they travel to the Big Apple to find out what makes Giants 
+    fans some of the best in the league.
+  credits: |
     Produced by Mike and John Trupiano
     Directed and edited by Aidan Brezonick
     Cinematography by Dustin Supencheck
@@ -97,7 +171,20 @@ nyg:
     Production Coordinator: Amy Hall
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by The Dirty River Boys, Death on Two Wheels, and The New Electric Sound
+  bands:
+    -
+      name: The Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    - 
+      name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+    -
+      name: The New Electric Sound
+      link: http://thenewelectricsound.com/
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, Brooklyn Brewery, Top Shelf Tailgate,
+    Ottomanelli & Sons Meat Market, Mike Luca, Bill Enright, Glenn Gentzke, Adam Goldstein,
+    Dave Rothenberg, and Adam Hagge.
 
 trailer:
   number: "Tailgate32"
@@ -105,7 +192,15 @@ trailer:
   date: "August 15, 2012"
   video_id: "q3eWWvPwXEA"
   description: |
-    Brothers John and Mike Trupiano are set to embark on a cross country journey that is sure to make any fan of the NFL and Tailgating a bit jealous. This fall, they are hopping in a RV and are attending one home game for all 32 NFL Teams. During their trip, they''ll interview fans, participate in local traditions, host a large public tailgate at each stadium, and uncover what makes these experiences special to each fan base.
-    Learn more about Tailgate32: http://tailgate32.com
-    Like Tailgate32 on Facebook (http://facebook.com/tailgate32) and follow them on twitter (@tailgate_32).
-    Video is set to the song "Faust" contributed by Secret Colours: https://www.facebook.com/secretcolours
+    Brothers John and Mike Trupiano are set to embark on a cross country journey that is 
+    sure to make any fan of the NFL and Tailgating a bit jealous. This fall, they are 
+    hopping in a RV and are attending one home game for all 32 NFL Teams. During their 
+    trip, they''ll interview fans, participate in local traditions, host a large public 
+    tailgate at each stadium, and uncover what makes these experiences special to each 
+    fan base.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and edited by Aidan Brezonick
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+  thanks:

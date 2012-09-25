@@ -48,6 +48,14 @@ h2 {
     top: 5px;
   }
 
+  .headline p {
+    line-height: 1;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+    color: #929292;
+  }
+
 h3, h4 {
   font-family: "PT Serif", serif;
   margin: 0 0 10px 0;
@@ -256,6 +264,9 @@ form label {
     .three-column .item .description {
       font-style: italic;
       font-size: 12px;
+      display: block;
+      margin: 0 0 10px 0;
+      line-height: 1;
     }
 
 
