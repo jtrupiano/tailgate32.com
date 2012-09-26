@@ -24,6 +24,16 @@ helpers do
   def episodes
     episodes_as_ostructs.reject {|ep| !ep.video_id }
   end
+
+  def bsides_as_ostructs
+    data.bsides.keys.map {|key|
+      OpenStruct.new(data.bsides[key].merge({abbr: key}))
+    }
+  end
+
+  def bsides
+    bsides_as_ostructs.reject {|bside| !bside.video_id }
+  end
 end
 
 ###
@@ -45,14 +55,12 @@ episodes.each do |episode|
 end
 
 page "/b-sides.html" do
-  @abbr  = data.bsides.keys.first
-  @bside = data.bsides[@abbr]
+  @bside = bsides.first
 end
 
-data.bsides.keys.each do |abbr|
-  page "/b-sides/#{abbr}.html", :proxy => "/b-sides.html" do
-    @abbr  = abbr
-    @bside = data.bsides[abbr]
+bsides.each do |bside|
+  page "/b-sides/#{bside.abbr}.html", :proxy => "/b-sides.html" do
+    @bside = bside
   end
 end
 
