@@ -11,24 +11,36 @@
 #   config.output_style = :compact
 # end
 
+##
+# Helpers
+###
+helpers do
+  def episodes_as_ostructs
+    data.episodes.keys.map {|key|
+      OpenStruct.new(data.episodes[key].merge({abbr: key}))
+    }
+  end
+
+  def episodes
+    episodes_as_ostructs.reject {|ep| !ep.video_id }
+  end
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
 
-page "/index.html" do
-  @abbr    = data.episodes.keys.first
-  @episode = data.episodes[@abbr]
+page "/index.html" do 
+  @episode = episodes.first
 end
 
 page "/play.html" do
-  @abbr    = data.episodes.keys.first
-  @episode = data.episodes[@abbr]
+  @episode = episodes.first
 end
 
-data.episodes.keys.each do |abbr|
-  page "/play/#{abbr}.html", :proxy => "/play.html" do
-    @abbr    = abbr
-    @episode = data.episodes[abbr]
+episodes.each do |episode|
+  page "/play/#{episode.abbr}.html", :proxy => "/play.html" do
+    @episode = episode
   end
 end
 
@@ -73,10 +85,6 @@ end
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
-
-###
-# Helpers
-###
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes

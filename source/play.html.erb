@@ -23,9 +23,9 @@
         <h1>Episode Archive</h1>
       </div>
       <br />
-      <% data.episodes.each_pair do |abbr, episode| %>
+      <% episodes.each do |episode| %>
         <div class="item">
-          <a href="/play/<%= abbr %>"><img src="http://img.youtube.com/vi/<%= episode.video_id %>/maxresdefault.jpg" alt="<%= episode.title %>" /></a>
+          <a href="/play/<%= episode.abbr %>"><img src="http://img.youtube.com/vi/<%= episode.video_id %>/maxresdefault.jpg" alt="<%= episode.title %>" /></a>
           <h3><%= episode.number %>: <%= episode.title %></h3>
           <span class="description"><%= episode.date %></span>
         </div>

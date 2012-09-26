@@ -1,9 +1,8 @@
 <div id="recent-episodes" class="widget">
   <h1>Recent Episodes</h1>
-  <% data.episodes.keys[0..1].each do |key| %>
-    <% episode = data.episodes[key] %>
+  <% episodes[0..1].each do |episode| %>
     <div class="episode">
-      <a href="/play/<%= key %>">
+      <a href="/play/<%= episode.abbr %>">
         <img src="http://img.youtube.com/vi/<%= episode.video_id %>/maxresdefault.jpg" alt="<%= episode.title %>" />
         <p><%= episode.title %></p>
       </a>
