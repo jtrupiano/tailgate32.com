@@ -1,3 +1,28 @@
+car:
+  number: "Episode 07"
+  title: "Carolina"
+  date: "September 20th, 2012"
+  video_id: "Y0kuL8OqkGs"
+  description: |
+    Mike and John head north to the land of Carolina and immediately find they
+    haven't quite left the south.  On the search for Panthers fans among a sea of
+    transplants from all over the country, they discover the true meaning of "Southern 
+    Hospitality."
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - 
+      name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, NoDa Brewing, Queen City Q, 
+    Georgia Hearth Sales, and Janet and Dale Sarjeant.
+
 atl:
   number: "Episode 06"
   title: "Atlanta"
