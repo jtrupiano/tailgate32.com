@@ -1,17 +1,18 @@
 <% 
-  while (games.size < 4) do
-    games << OpenStruct.new
+  _events = upcoming_events.dup
+  while (_events.size < 4) do
+    _events << OpenStruct.new
   end
 %>
-<% games[0..3].each do |game| %>
+<% _events[0..3].each do |event| %>
   <div class="upcoming-episode">
-    <% if game.description %>
+    <% if event.description %>
       <a href="javascript:void(0)">
     <% end %>
-      <div class="upcoming-welcome"><%= game.leadin %></div>
-      <div class="upcoming-city"><%= game.city %></div>
-      <div class="upcoming-date"><%= game.date %></div>
-    <% if game.description %>
+      <div class="upcoming-welcome"><%= event.leadin %></div>
+      <div class="upcoming-city"><%= event.city %></div>
+      <div class="upcoming-date"><%= event.date %></div>
+    <% if event.description %>
       </a>
     <% end %>
   </div>

@@ -90,7 +90,7 @@
 
     #upcoming-highlight {
       width: 560px;
-      height: 355px;
+      min-height: 355px;
       background-color: #f5fffa;
       box-shadow: 4px 4px 20px #666 inset, -4px -4px 20px #ccc inset;
       border-radius: 6px;
@@ -98,16 +98,23 @@
       display: none;
     }
 
-    #upcoming-highlight p {
-      color: #222;
-      line-height: 1.5;
-      font-size: 16px;
-    }
+      #upcoming-highlight img.map {
+        float: right;
+        border-radius: 6px;
+        max-width: 170px;
+        max-height: 170px;
+      }
 
-    #upcoming-highlight a {
-      color: inherit;
-      text-decoration: underline;
-    }
+      #upcoming-highlight p {
+        color: #222;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+
+      #upcoming-highlight a {
+        color: inherit;
+        text-decoration: underline;
+      }
 
     .recent-episode a, .upcoming-episode a {
       color: inherit;

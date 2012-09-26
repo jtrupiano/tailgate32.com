@@ -1,2 +1,1 @@
-<% elems = data.upcoming.keys.map {|key| data.upcoming[key].merge({:abbreviation => key})} %>
-var Upcoming = <%= elems.to_json %>;
+var Upcoming = <%= upcoming_events.as_json.map{|hsh| hsh["table"]}.to_json %>;

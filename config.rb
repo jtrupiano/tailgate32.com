@@ -15,24 +15,26 @@
 # Helpers
 ###
 helpers do
-  def episodes_as_ostructs
-    data.episodes.keys.map {|key|
-      OpenStruct.new(data.episodes[key].merge({abbr: key}))
+  def _as_ostructs(hsh)
+    hsh.keys.map {|key|
+      OpenStruct.new(hsh[key].merge({abbr: key}))
     }
   end
 
   def episodes
-    episodes_as_ostructs.reject {|ep| !ep.video_id }
-  end
-
-  def bsides_as_ostructs
-    data.bsides.keys.map {|key|
-      OpenStruct.new(data.bsides[key].merge({abbr: key}))
-    }
+    _as_ostructs(data.episodes).reject {|ep| !ep.video_id }
   end
 
   def bsides
-    bsides_as_ostructs.reject {|bside| !bside.video_id }
+    _as_ostructs(data.bsides).reject {|bside| !bside.video_id }
+  end
+
+  def events
+    _as_ostructs(data.events)
+  end
+
+  def upcoming_events
+    events.reject {|event| Date.today - 1 > Date.parse(event.date)}
   end
 end
 
@@ -65,14 +67,12 @@ bsides.each do |bside|
 end
 
 page "/events.html" do
-  @abbr    = data.upcoming.keys.first
-  @event   = data.upcoming[@abbr]
+  @event   = upcoming_events.first
 end
 
-data.upcoming.keys.each do |abbr|
-  page "/events/#{abbr}.html", :proxy => "/events.html" do
-    @abbr   = abbr
-    @event  = data.upcoming[abbr]
+events.each do |event|
+  page "/events/#{event.abbr}.html", :proxy => "/events.html" do
+    @event  = event
   end
 end
 

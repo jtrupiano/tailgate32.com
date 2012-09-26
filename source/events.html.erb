@@ -1,6 +1,6 @@
 <% content_for(:title) { "Tailgate32 #{@event.title}" } %>
 <% content_for(:description) { @event.description.to_s.gsub("\n", " ").gsub("\"", "") } %>
-<% content_for(:stylesheets) { stylesheet_link_tag :upcoming } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :events } %>
 
 <div id="upcoming" class="row">
   <div class="left">
@@ -17,7 +17,7 @@
       <h1>Are You Coming?</h1>
     </div>
     <br />
-    <div class="fb-comments" data-href="http://tailgate32.com/upcoming/<%= @abbr %>" data-num-posts="5" data-width="599"></div>
+    <div class="fb-comments" data-href="http://tailgate32.com/events/<%= @abbr %>" data-num-posts="5" data-width="599"></div>
   </div>
   <div class="right">
     <div id="widgets">
