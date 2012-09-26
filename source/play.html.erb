@@ -39,7 +39,7 @@
         <h1>Episode Details</h1>
         <p><%= @episode.description %></p>
         <% if @episode.bands %>
-          <h1>Featured Bands</h1>
+          <h1>Featured Artists</h1>
           <p class="bands">
           <% @episode.bands.each do |band| %>
             <%= link_to band.name, band.link, :target => '_blank' %>
