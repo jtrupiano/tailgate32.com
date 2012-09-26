@@ -1,3 +1,8 @@
 #episode-details .bands a {
   display: block;
 }
+
+#all-videos .item img {
+  max-height: 96px;
+  max-width: 170px;
+}
