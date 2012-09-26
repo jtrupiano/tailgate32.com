@@ -1,5 +1,17 @@
 <% content_for(:title) { "Tailgate32 #{@episode.number}: #{@episode.title}" } %>
 <% content_for(:description) { @episode.description.gsub("\n", " ").gsub("\"", "") } %>
+<% content_for(:og_meta) do %>
+
+  <meta property="og:title"       content="Tailgate32 <%= @episode.number %>: <%= @episode.title %>" />
+  <meta property="og:type"        content="video.episode" />
+  <meta property="og:image"       content="http://img.youtube.com/vi/<%= @episode.video_id %>/maxresdefault.jpg" />
+  <meta property="og:url"         content="http://tailgate32.com/play/<%= @episode.abbr %>" />
+  <meta property="og:site_name"   content="Tailgate32: The Ultimate Football Fan Roadtrip" />
+  
+  <meta property="og:video"       content="http://tailgate32.com/play/<%= @episode.abbr %>" />
+  <meta property="og:video:type"  content="text/html" />
+  <meta property="video:series"   content="http://tailgate32.com" />
+<% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag :play } %>
 
 <div id="play" class="row">
