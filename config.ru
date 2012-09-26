@@ -21,6 +21,9 @@ use Rack::Rewrite do
   # links previously distributed to SI.com -- keep around so that those links don't break
   r301 "/tailgate32-ep01",    "http://www.youtube.com/embed/ctxN8gKQ_L8?vq=hd720&rel=0&showinfo=0"
   r301 "/tailgate32-trailer", "http://www.youtube.com/embed/q3eWWvPwXEA?vq=hd720&rel=0&showinfo=0"
+
+  # for a short while we used /upcoming/hou instead of /events/hou
+  r301 %r{/upcoming/(\w+)}, "/events/$1"
 end
 
 use ::Rack::TryStatic,

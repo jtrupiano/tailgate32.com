@@ -64,13 +64,13 @@ bsides.each do |bside|
   end
 end
 
-page "/upcoming.html" do
+page "/events.html" do
   @abbr    = data.upcoming.keys.first
   @event   = data.upcoming[@abbr]
 end
 
 data.upcoming.keys.each do |abbr|
-  page "/upcoming/#{abbr}.html", :proxy => "/upcoming.html" do
+  page "/events/#{abbr}.html", :proxy => "/events.html" do
     @abbr   = abbr
     @event  = data.upcoming[abbr]
   end
