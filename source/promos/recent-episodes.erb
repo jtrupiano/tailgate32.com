@@ -3,7 +3,7 @@
   <% episodes[0..1].each do |episode| %>
     <div class="episode">
       <a href="/play/<%= episode.abbr %>">
-        <img src="http://img.youtube.com/vi/<%= episode.video_id %>/maxresdefault.jpg" alt="<%= episode.title %>" />
+        <%= image_tag episode.thumbnail_url, :alt => episode.title %>
         <p><%= episode.title %></p>
       </a>
     </div>

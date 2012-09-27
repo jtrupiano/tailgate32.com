@@ -1,15 +1,4 @@
-### 
-# Compass
-###
-
-# Susy grids in Compass
-# First: gem install compass-susy-plugin
-# require 'susy'
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+require './obj/episode'
 
 ##
 # Helpers
@@ -22,7 +11,11 @@ helpers do
   end
 
   def episodes
-    _as_ostructs(data.episodes).reject {|ep| !ep.video_id }
+    data.episodes.keys.reject {|key| 
+      !data.episodes[key].video_id 
+    }.map {|abbr| 
+      Episode.new(data.episodes[abbr].merge({abbr: abbr}))
+    }
   end
 
   def bsides

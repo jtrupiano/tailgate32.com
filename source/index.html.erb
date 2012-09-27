@@ -43,7 +43,7 @@
     <div class="center">
       <div id="episode-highlight">
         <div id="video-container">
-          <iframe id="ytplayer" width="600" height="338" src="http://www.youtube.com/embed/<%= @episode.video_id %>?vq=hd720&showinfo=0" frameborder="0" allowFullScreen></iframe>
+          <iframe id="ytplayer" width="600" height="338" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
         </div>
         <div id="social-media">
         <!--

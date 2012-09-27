@@ -1,6 +1,6 @@
 <%
   while (episodes.size < 4) do
-    episodes << OpenStruct.new
+    episodes << Episode.new
   end
 %>
 <% episodes[0..3].each do |episode| %>
