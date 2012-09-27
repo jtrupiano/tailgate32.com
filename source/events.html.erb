@@ -2,10 +2,13 @@
 <% content_for(:description) { @event.description_for_meta_tags } %>
 <% content_for(:og_meta) do %>
 
+  <meta name="twitter:card"       content="summary" />
+
   <meta property="og:title"       content="<%= @event.title %> | <%= @event.date %> | Free Tailgate Party | Tailgate32" />
   <meta property="og:type"        content="article" />
   <meta property="og:url"         content="http://tailgate32.footballnation.com/events/<%= @event.abbr %>" />
   <meta property="og:image"       content="http://tailgate32.com/images/32logo-320px.png" />
+  <meta property="og:description" content="<%= @event.description_for_meta_tags %>" />
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag :events } %>
 
