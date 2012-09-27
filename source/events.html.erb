@@ -1,5 +1,12 @@
 <% content_for(:title) { "Tailgate32 #{@event.title}" } %>
 <% content_for(:description) { @event.description.to_s.gsub("\n", " ").gsub("\"", "") } %>
+<% content_for(:og_meta) do %>
+
+  <meta property="og:title"       content="<%= @event.title %> | <%= @event.date %> | Free Tailgate Party | Tailgate32" />
+  <meta property="og:type"        content="article" />
+  <meta property="og:url"         content="http://tailgate32.com/events/<%= @event.abbr %>" />
+  <meta property="og:image"       content="http://tailgate32.com/images/32logo-320px.png" />
+<% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag :events } %>
 
 <div id="upcoming" class="row">
