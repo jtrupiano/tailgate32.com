@@ -1,5 +1,5 @@
 <% content_for(:title) { "Tailgate32 #{@event.title}" } %>
-<% content_for(:description) { @event.description.to_s.gsub("\n", " ").gsub("\"", "") } %>
+<% content_for(:description) { @event.description_for_meta_tags } %>
 <% content_for(:og_meta) do %>
 
   <meta property="og:title"       content="<%= @event.title %> | <%= @event.date %> | Free Tailgate Party | Tailgate32" />

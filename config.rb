@@ -1,4 +1,5 @@
 require './obj/episode'
+require './obj/event'
 
 ##
 # Helpers
@@ -23,7 +24,7 @@ helpers do
   end
 
   def events
-    _as_ostructs(data.events)
+    data.events.keys.map {|key| Event.new(data.events[key].merge({abbr: key}))}
   end
 
   def upcoming_events
