@@ -56,6 +56,26 @@ dal:
   city: "Dallas"
   date: "October 1st, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/gOZJU">
+        <img src="/images/maps/dal.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 4:00pm CT, kickoff at 7:20pm.  Look for the
+      <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      in the parking lot behind <a target="_blank" href="http://goo.gl/maps/ywFCt">Cici's Pizza</a>, 
+      across the street from Lot 10 and next to Lot 15.
+    </p>
+    <p>
+      <a target="_blank" href="http://www.samueladams.com/">Sam Adams</a> will be there
+      with Boston Lager and Octoberfest on tap, and we'll be cooking up barbecue on
+      our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+    </p>
+    <p>
+      As always, the food and beer are FREE.
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      if you have any questions or are having trouble finding us.
+    </p>
 
 stl:
   title: "GAME 11: Arizona @ St. Louis"
