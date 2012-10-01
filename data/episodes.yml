@@ -1,3 +1,28 @@
+mia:
+  number: "Episode 08"
+  title: "Miami"
+  date: "September 23rd, 2012"
+  video_id: "B4JowroGIA4"
+  description: |
+    Miami sunshine awaits the Tailgate32 team, but not before a torrential downpour.  
+    Join Mike and John as they seek out gators in the Everglades, get a taste of a 
+    colorful and vibrant Cuban culture, and venture just a little too far into The Deep 
+    End.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Culinary Concepts, Miami Q Catering, 
+    Sam Adams, DJ Ross Espi, Ezel CJ Baltali, and The Deep End.
+
 car:
   number: "Episode 07"
   title: "Carolina"
