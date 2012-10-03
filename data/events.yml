@@ -83,6 +83,24 @@ stl:
   city: "St. Louis"
   date: "October 4th, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/uyzq0">
+        <img src="/images/maps/stl.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 4:30pm CT, kickoff at 7:20pm.  Look for the
+      <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      in the parking lot at Broadway and Cole, just across the street from the Edward Jones Dome.
+    </p>
+    <p>
+      Bring your own beer to the lot or purchase it from vendors that are set up there. 
+      We'll have free BBQ coming off our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>
+      and Yelp St Louis will be there with cornhole!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      if you have any questions or are having trouble finding us.
+    </p>
 
 kc:
   title: "GAME 12: Baltimore @ Kansas City"
