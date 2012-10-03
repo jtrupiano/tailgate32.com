@@ -7,7 +7,7 @@
 <% _events[0..3].each do |event| %>
   <div class="upcoming-episode">
     <% if event.description %>
-      <a href="javascript:void(0)">
+      <a href="/events/<%= event.abbr %>">
     <% end %>
       <div class="upcoming-welcome"><%= event.leadin %></div>
       <div class="upcoming-city"><%= event.city %></div>

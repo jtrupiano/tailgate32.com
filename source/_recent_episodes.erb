@@ -1,11 +1,11 @@
 <%
-  while (episodes.size < 4) do
+  while (episodes.size < 5) do
     episodes << Episode.new
   end
 %>
-<% episodes[0..3].each do |episode| %>
+<% episodes[1..4].each do |episode| %>
   <div class="recent-episode">
-    <a href="javascript:void(0)">
+    <a href="/play/<%= episode.abbr %>">
       <div class="episode-number"><%= episode.number %></div>
       <div class="episode-title"><%= episode.title %></div>
       <div class="episode-date"><%= episode.date %></div>
