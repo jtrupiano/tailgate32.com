@@ -1,0 +1,45 @@
+<% content_for(:title) { "Man Crates Contest" } %>
+<% content_for(:description) { "" } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :contests } %>
+
+<div class="row">
+  <div class="left">
+    <div class="headline">
+      <%= image_tag 'arrow-left.png' %>
+      <h1>Man Crates Contest</h1>
+    </div>
+    <p>
+      We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
+      -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
+      for all sorts of people, from the outdoorsman to the insomniac to, yup,
+      you guessed it, the traveling tailgater.
+    </p>
+    <p>
+      We're running contests over the next several weeks where you can win a Tailgate32 
+      Man Crate Supply Drop.  It only takes a few seconds, enter to win one below.
+    </p>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial "promos/upcoming" %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>
+<div id="contest" class="row">
+  <div class="left">
+    <a id="rc-<%= @contest.rafflecopter_id %>" class="rafl" href="http://www.rafflecopter.com/rafl/display/<%= @contest.rafflecopter_id %>/" rel="nofollow">a Rafflecopter giveaway</a>
+    <script src="//d12vno17mo87cx.cloudfront.net/embed/rafl/cptr.js"></script>
+  </div>
+  <div class="right">
+    <div id="featured-video">
+      <div id="video-container">
+        <iframe id="ytplayer" width="538" height="303" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
+      </div>
+      <div id="social-media">
+        <div class="fb-like" data-href="<%= @episode.canonical_url %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
+      </div>
+    </div>
+  </div>
+  <br class="clear" />
+</div>

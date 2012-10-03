@@ -1,3 +1,4 @@
+require './obj/contest'
 require './obj/episode'
 require './obj/event'
 
@@ -29,6 +30,14 @@ helpers do
 
   def upcoming_events
     events.reject {|event| Date.today - 1 > Date.parse(event.date)}
+  end
+
+  def contests
+    data.contests.keys.map {|contest_key|
+      abbr = data.contests[contest_key].episode
+      episode = Episode.new(data.episodes[abbr].merge({abbr: abbr}))
+      Contest.new(data.contests[contest_key].merge({key: contest_key, episode: episode}))
+    }
   end
 end
 
@@ -67,6 +76,18 @@ end
 events.each do |event|
   page "/events/#{event.abbr}.html", :proxy => "/events.html" do
     @event  = event
+  end
+end
+
+page "/contests.html" do
+  @contest = contests.first
+  @episode = @contest.episode
+end
+
+contests.each do |contest|
+  page "/contests/#{contest.episode.abbr}.html", :proxy => "/contests.html" do
+    @contest = contest
+    @episode = @contest.episode
   end
 end
 

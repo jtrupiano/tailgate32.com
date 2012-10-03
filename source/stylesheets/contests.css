@@ -1,0 +1,18 @@
+#contest .left {
+  width: 430px;
+
+}
+
+#contest .right {
+  width: 550px;
+  padding-top: 10px;
+}
+
+  #contest #featured-video {
+    width: 538px;
+  }
+
+  #contest #video-container {
+    width: 538px;
+    height: 303px;
+  }
