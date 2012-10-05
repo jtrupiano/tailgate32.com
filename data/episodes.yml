@@ -1,3 +1,29 @@
+hou:
+  number: "Episode 09"
+  title: "Houston"
+  date: "September 30th, 2012"
+  video_id: "CJXvGu9x9NQ"
+  description: |
+    The crew makes the trek around the Gulf of Mexico for their first of two stops in 
+    the great state of Texas.  After a brief detour to the music mecca Luckenbach, Mike 
+    and John catch up with more than a half dozen crews in one the richest tailgating 
+    communities they’ve encountered.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Sam Adams, Jamey Rootes, 
+    Stephanie Stradley, Stephanie Miranda, Derek Johnson, Joe Texan, Sweet, 
+    Raging Bull, Bulls Eye, Lone Spot, Twisted Tailgaters, and the Blue Crew.
+    
 mia:
   number: "Episode 08"
   title: "Miami"
