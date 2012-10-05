@@ -107,6 +107,24 @@ kc:
   city: "Kansas City"
   date: "October 7th, 2012"
   leadin: "Coming to..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/or48j">
+        <img src="/images/maps/kc.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      The gates open at 8am CT, tailgate starts at 9am.  The
+      <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a>
+      will be parked in Lot G in the midst of the KC faithful.
+    </p>
+    <p>
+      We're excited to be serving up beer from <a target="_blank" href="http://www.tallgrassbeer.com/">Tallgrass Brewing</a>
+      and BBQ off our <a target="_blank" href="http://biggreenegg.com">Big Green Egg</a> grills.
+      As always the tailgate is free and open to the public!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you need to find us on Sunday.
+    </p>
 
 tn:
   title: "GAME 13: Pittsburgh @ Tennessee"
