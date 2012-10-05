@@ -12,4 +12,8 @@ class Contest < OpenStruct
   def canonical_url
     "http://tailgate32.footballnation.com/contests/#{self.key}"
   end
+
+  def description
+    "Tailgate32 and Man Crates have teamed up to run several contests over the next few weeks where you can win a Tailgate32 Man Crate."
+  end
 end

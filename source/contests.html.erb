@@ -1,11 +1,12 @@
-<% content_for(:title) { "Man Crates Contest" } %>
-<% content_for(:description) { "" } %>
+<% content_for(:title) { "Win a Tailgate32 Man Crate!" } %>
+<% content_for(:description) { @contest.description } %>
 <% content_for(:og_meta) do %>
 
   <meta name="twitter:card"          content="summary" />
 
   <meta property="og:title"       content="Tailgate32 Man Crates Giveaway" />
   <meta property="og:type"        content="article" />
+  <meta property="og:description" content="<%= @contest.description %>" />
   <meta property="og:image"       content="<%= @contest.thumbnail_url %>" />
   <meta property="og:url"         content="<%= @contest.canonical_url %>" />
 <% end %>
