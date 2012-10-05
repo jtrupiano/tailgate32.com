@@ -16,3 +16,11 @@
     width: 538px;
     height: 303px;
   }
+
+#widgets img.contest {
+  max-width: 180px;
+  border-radius: 6px;
+  border: solid 6px #555;
+  margin-left: 40px;
+  margin-top: -6px;
+}
