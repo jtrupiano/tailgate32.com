@@ -28,4 +28,13 @@ class Episode < OpenStruct
   def youtube_og_url
     "http://www.youtube.com/v/#{self.video_id}?version=3&amp;list=SPA41D72FECDA1002A"
   end
+
+  def youtube_watch_url
+    "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
+  end
+
+  def itunes_url
+    # default to show's home page
+    self.itunes || "http://itunes.apple.com/us/podcast/tailgate32-ultimate-football/id566340798"
+  end
 end
