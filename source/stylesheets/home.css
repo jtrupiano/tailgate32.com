@@ -85,7 +85,28 @@
     }
 
       .fb-like {
-        height: 25px;
+        float: left;
+        width: 420px;
+        height: 26px;
+      }
+
+      #subscribe {
+        float: right;
+        width: 180px;
+        text-align: right;
+        font-size: 11px;
+        font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+        line-height: 1.28;
+        margin-top: 5px;
+        color: gray;
+      }
+
+        #subscribe a { 
+          color: #fff;
+        }
+
+      #twitter {
+        margin-top: 8px;
       }
 
     .recent-episode a, .upcoming-episode a, 
