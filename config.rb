@@ -13,11 +13,12 @@ helpers do
   end
 
   def episodes
-    data.episodes.keys.reject {|key| 
-      !data.episodes[key].video_id 
-    }.map {|abbr| 
-      Episode.new(data.episodes[abbr].merge({abbr: abbr}))
-    }
+    @episodes ||= 
+      data.episodes.keys.reject {|key| 
+        !data.episodes[key].video_id 
+      }.map {|abbr| 
+        Episode.new(data.episodes[abbr].merge({abbr: abbr}))
+      }
   end
 
   def bsides
@@ -25,11 +26,15 @@ helpers do
   end
 
   def events
-    data.events.keys.map {|key| Event.new(data.events[key].merge({abbr: key}))}
+    @events ||= 
+      data.events.keys.map {|key| 
+        episode = episodes.detect {|ep| ep.abbr == key }
+        Event.new(data.events[key].merge({abbr: key, episode: episode}))
+      }
   end
-
+  
   def upcoming_events
-    events.reject {|event| Date.today - 1 > Date.parse(event.date)}
+    events.reject {|event| Date.today > Date.parse(event.date)}
   end
 
   def contests
@@ -89,6 +94,10 @@ contests.each do |contest|
     @contest = contest
     @episode = @contest.episode
   end
+end
+
+page "/schedule.html" do
+
 end
 
 # Per-page layout changes:

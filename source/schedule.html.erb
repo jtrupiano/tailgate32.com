@@ -1,0 +1,57 @@
+<% content_for(:title) { "Tailgate32: The Schedule" } %>
+<% content_for(:description) { "The entire schedule for 2012 tour schedule for Tailgate32: The Ultimate Football Fan Roadtrip" } %>
+<% content_for(:og_meta) do %>
+
+  <meta name="twitter:card"          content="summary" />
+
+  <meta property="og:title"         content="Tailgate32: The Schedule" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:image"         content="http://tailgate32.com/images/32logo-320.png" />
+  <meta property="og:url"           content="http://tailgate32.footballnation.com/schedule" />
+<% end %>
+<% content_for(:stylesheets) { stylesheet_link_tag :schedule } %>
+<div id="schedule" class="row">
+  <div class="left">
+    <div class="headline">
+      <%= image_tag 'arrow-left.png' %>
+      <h1>Tailgate32: The Schedule</h1>
+    </div>
+    <p>Yup, we figured it out, 32 games in 17 weeks. Follow along below or <%= link_to 'download a printable schedule.', "/images/printable-schedule.pdf", :target => '_blank' %></p>
+    <table class="schedule" cellpadding="0" cellspacing="0">
+      <tr>
+        <th colspan="2">Game</th>
+        <th colspan="3">Matchup</th>
+        <th>&nbsp;</th>
+      </tr>
+      <% events.each_with_index do |event, i| %>
+        <tr class="<%= "past" if event.past? %>">
+          <td>#<%= i + 1 %></td>
+          <td><%= event.short_date %></td>
+          <td class="away"><%= event.away_team %></td>
+          <td>@</td>
+          <td class="home"><%= event.home_team %></td>
+          <td class="watch">
+          <% if event.has_episode? %>
+            <%= link_to "Watch", event.episode.relative_url %> |
+            <%= link_to "YouTube", event.episode.youtube_watch_url %>
+            <% if event.episode.on_itunes? %>
+              | <%= link_to 'iTunes', event.episode.itunes_url %>
+            <% end %>
+            </td>
+          <% elsif event.past? %>
+            &nbsp;
+          <% else %>
+            <%= link_to "View Tailgate Info", event.relative_url %>
+          <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial "promos/press" %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>

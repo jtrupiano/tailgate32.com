@@ -17,8 +17,12 @@ class Episode < OpenStruct
     "http://img.youtube.com/vi/#{self.video_id}/maxresdefault.jpg"
   end
 
+  def relative_url
+    "/play/#{self.abbr}"
+  end
+
   def canonical_url
-    "http://tailgate32.footballnation.com/play/#{self.abbr}"
+    "http://tailgate32.footballnation.com#{relative_url}"
   end
 
   def youtube_embed_url
@@ -31,6 +35,10 @@ class Episode < OpenStruct
 
   def youtube_watch_url
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
+  end
+
+  def on_itunes?
+    !self.itunes.nil?
   end
 
   def itunes_url

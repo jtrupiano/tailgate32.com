@@ -1,3 +1,46 @@
+nyg:
+  game: 1
+  title: "GAME 1: Dallas @ New York"
+  city: "New York"
+  date: "September 5th, 2012"
+  leadin: "See you soon..."
+
+cle:
+  title: "GAME 2: Philadelphia @ Cleveland"
+  city: "Cleveland"
+  date: "September 9th, 2012"
+  leadin: "Rolling into..."
+
+bal:
+  title: "GAME 3: Cincinnati @ Baltimore"
+  city: "Baltimore"
+  date: "September 10th, 2012"
+  leadin: "Join us in..."
+
+gb:
+  title: "GAME 4: Chicago @ Green Bay"
+  city: "Green Bay"
+  date: "September 13th, 2012"
+  leadin: "Coming to..."
+
+jax:
+  title: "GAME 5: Houston @ Jacksonville"
+  city: "Jacksonville"
+  date: "September 16th, 2012"
+  leadin: "See you soon..."
+
+atl:
+  title: "GAME 6: Denver @ Atlanta"
+  city: "Atlanta"
+  date: "September 17th, 2012"
+  leadin: "Rolling into..."
+
+car:
+  title: "GAME 7: New York @ Carolina"
+  city: "Carolina"
+  date: "September 20th, 2012"
+  leadin: "Join us in..."
+
 mia:
   title: "GAME 8: New York @ Miami"
   city: "Miami"
