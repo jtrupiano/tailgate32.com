@@ -1,3 +1,35 @@
+dal:
+  number: "Episode 10"
+  title: "Dallas"
+  date: "October 1st, 2012"
+  video_id: "uzCqEcywQJA"
+  description: |
+    The boys sprint up I-45 to Big D for the back half of another back to back.  Take a 
+    peak behind the scenes at Cowboys Stadium where John and Mike don pads for a couple 
+    hits, kick a few field goals, and challenge each other to a 40-yard dash, all before
+    heading out to the parking lots to tailgate with the world's most famous fan base.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    -
+      name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+    - 
+      name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, The Dallas Cowboys, Sam Adams, 
+    Paragon Distributing, MARL's Bar, Meagen Anderson, Robb Liekis, Joe Trahan, Shelby 
+    Kelly, Mom and Dad
+
 hou:
   number: "Episode 09"
   title: "Houston"

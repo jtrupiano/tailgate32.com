@@ -247,8 +247,8 @@ form label {
   }
       
     .three-column .item img {
-      max-width: 170px;
-      max-height: 170px;
+      width: 170px;
+      height: 98px;
       border: solid 6px #555;
       border-radius: 6px;
     }
