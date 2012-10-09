@@ -174,6 +174,25 @@ tn:
   city: "Tennessee"
   date: "October 11th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/or48j">
+        <img src="/images/maps/tn.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 4:30pm CT, kickoff at 7:20pm.
+      Look for the <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a>
+      in Lot P south of Gateway Bridge, west of S 2nd St.
+    </p>
+    <p>
+      The fine folks over at <a target="_blank" href="http://www.jackalopebrew.com/">Jackalope Brewery</a>
+      are supplying the beer and <a target="_blank" href="http://www.thechoppinblock.com/">Choppin' Block</a>
+      is grilling up the BBQ on our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+      The tailgate is free and open to the public!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you need to find us on Thursday.
+    </p>
 
 az:
   title: "GAME 14: Buffalo @ Arizona"
