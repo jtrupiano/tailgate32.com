@@ -7,6 +7,9 @@ $().ready(function() {
     $('#contactu-us-thanks').hide();
     $.fancybox.open($('#contact-us'));
   });
+  
+  // Set the action after load (to prevent spam)
+  $('#contact-us-form').attr('action', 'https://docs.google.com/spreadsheet/formResponse?formkey=dEY2MXNvVDRBWlN1SEE0RHRyQU42d3c6MQ&ifq');
 
   // Set up contact us form AJAX
   $('#contact-us-submit').click(function() {
