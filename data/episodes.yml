@@ -1,3 +1,35 @@
+stl:
+  number: "Episode 11"
+  title: "St. Louis"
+  date: "October 4th, 2012"
+  video_id: "Gs7CTeZOaiQ"
+  description: |
+    The Gateway to the West awaits the brothers, but not before getting tripped up in 
+    Tulsa at the infamous Mercury Lounge.  The boys spend a day in the Lou with Ram Man, 
+    tour the stadium lots with King Ram, and take a ride on the Short Bus, all before 
+    witnessing a revitalized St. Louis Rams team take down the division leading Cardinals.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+    -
+      name: Blackfoot Gypsies
+      link: http://blackfootgypsies.bandcamp.com/
+    -
+      name: Wink Burcham
+      link: http://www.winkburcham.com/
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, The St. Louis Rams, Marjorie Sackman, 
+    Karl "Ram Man" Sides, Dave "King Ram," Brian Killingsworth, Maria Mannino, 
+    Crown Candy Kitchen, and SubZero
+
 dal:
   number: "Episode 10"
   title: "Dallas"
