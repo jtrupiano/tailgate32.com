@@ -37,7 +37,7 @@
         </div>
         <br class="clear" />
       </div>
-      <% if @episode.has_contest? %>
+      <% if @episode.has_contest? && @episode.contest.active? %>
         <p id="win" class="fb-text"><%= link_to 'Win a tailgate prize', "/contests/#{@episode.abbr}" %> for watching this episode.</p>
       <% end %>
     </div>
