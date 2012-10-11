@@ -1,3 +1,7 @@
 mia:
   episode: "mia"
   rafflecopter_id: "b70c400"
+  ends_at: "on Wednesday, October 10 at 12:01AM"
+  active: false
+  prize: "A Tailgate32 Supply Drop"
+  prize_image: "crate.jpg"

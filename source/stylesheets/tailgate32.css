@@ -56,6 +56,18 @@ h2 {
     color: #929292;
   }
 
+.fb-text {
+  font-size: 11px;
+  line-height: 1.28;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  color: gray;
+}
+
+  .fb-text a {
+    color: #fff
+  }
+
+
 h3, h4 {
   font-family: "PT Serif", serif;
   margin: 0 0 10px 0;

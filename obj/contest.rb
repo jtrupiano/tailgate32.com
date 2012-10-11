@@ -16,4 +16,12 @@ class Contest < OpenStruct
   def description
     "Tailgate32 and Man Crates have teamed up to run several contests over the next few weeks where you can win a Tailgate32 Man Crate."
   end
+
+  def active?
+    self.active
+  end
+
+  def prize_is_crate?
+    prize_image == "crate.jpg"
+  end
 end

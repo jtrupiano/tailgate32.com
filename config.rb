@@ -17,7 +17,8 @@ helpers do
       data.episodes.keys.reject {|key| 
         !data.episodes[key].video_id 
       }.map {|abbr| 
-        Episode.new(data.episodes[abbr].merge({abbr: abbr}))
+        contest = data.contests.has_key?(abbr) ? Contest.new(data.contests[abbr]) : nil
+        Episode.new(data.episodes[abbr].merge({abbr: abbr, contest: contest}))
       }
   end
 
@@ -43,6 +44,10 @@ helpers do
       episode = Episode.new(data.episodes[abbr].merge({abbr: abbr}))
       Contest.new(data.contests[contest_key].merge({key: contest_key, episode: episode}))
     }
+  end
+
+  def active_contests
+    contests.select {|c| c.active? }
   end
 end
 

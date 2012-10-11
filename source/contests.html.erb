@@ -1,4 +1,4 @@
-<% content_for(:title) { "Win a Tailgate32 Man Crate!" } %>
+<% content_for(:title) { "Win #{@contest.prize}!" } %>
 <% content_for(:description) { @contest.description } %>
 <% content_for(:og_meta) do %>
 
@@ -12,46 +12,40 @@
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag :contests } %>
 
-<div class="row">
+<div class="row" id="contest">
   <div class="left">
     <div class="headline">
       <%= image_tag 'arrow-left.png' %>
-      <h1>Man Crates Contest</h1>
+      <h1>Win <%= @contest.prize %></h1>
     </div>
+    <% if @contest.prize_is_crate? %>
+      <p>
+        <%= image_tag("/images/prizes/#{@contest.prize_image}", :class => 'contest') %>
+        We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
+        -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
+        for all sorts of people, from the outdoorsman to the insomniac to, yup,
+        you guessed it, the traveling tailgater.
+      </p>
+      <p>
+        Answer a question about something in this episode and you can win a prize.
+        Use the form on the right to enter the contest.
+      </p>
+    <% else %>
+      <p>
+        <%= image_tag("/images/prizes/#{@contest.prize_image}", :class => 'contest shirt') %>
+        You've seen Mike and John wearing them in the episodes, and you've seen dozens
+        of others posting photos to Facebook.  Now is your chance to get one of your
+        own.
+      </p>
+      <p>
+        That's right, we're giving away official Tailgate32 T-Shirts!  Just use the contest form
+        to the right to enter for your chance to win.
+      </p>
+    <% end %>
     <p>
-      We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
-      -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
-      for all sorts of people, from the outdoorsman to the insomniac to, yup,
-      you guessed it, the traveling tailgater.
+      This contest ends <%= @contest.ends_at %>
     </p>
-    <p>
-      We're running contests over the next several weeks where you can win a Tailgate32 
-      Man Crate Supply Drop.  We've hidden easter eggs in each of our videos--if you can
-      find them you can win one of these awesome Man Crates.  It only takes a few minutes, 
-      enter to win one below.
-    </p>
-    <p>
-      Our first contest ends at 12:01AM Wednesday, October 10.
-    </p>
-  </div>
-  <div class="right">
-    <div id="widgets">
-      <div class="headline">
-        <%= image_tag 'arrow-left.png' %>
-        <h1>Win a Man Crate</h1>
-      </div>
-      <br />
-      <%= image_tag 'contest.jpg', :class => 'contest' %>
-    </div>
-  </div>
-  <br class="clear" />
-</div>
-<div id="contest" class="row">
-  <div class="left">
-    <a id="rc-<%= @contest.rafflecopter_id %>" class="rafl" href="http://www.rafflecopter.com/rafl/display/<%= @contest.rafflecopter_id %>/" rel="nofollow">a Rafflecopter giveaway</a>
-    <script src="//d12vno17mo87cx.cloudfront.net/embed/rafl/cptr.js"></script>
-  </div>
-  <div class="right">
+    <br class="clear" />
     <div id="featured-video">
       <div class="headline">
         <%= image_tag 'arrow-left.png' %>
@@ -63,6 +57,25 @@
       </div>
       <div id="social-media">
         <div class="fb-like" data-href="<%= @episode.canonical_url %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <div id="contest-entry">
+        <div class="headline">
+          <%= image_tag 'arrow-left.png' %>
+          <h1>Contest Entry</h1>
+        </div>
+        <a id="rc-<%= @contest.rafflecopter_id %>" class="rafl" href="http://www.rafflecopter.com/rafl/display/<%= @contest.rafflecopter_id %>/" rel="nofollow">a Rafflecopter giveaway</a>
+        <script src="//d12vno17mo87cx.cloudfront.net/embed/rafl/cptr.js"></script>
+      </div>
+      <div id="other-contests">
+        <h1>All Contests</h1>
+        <ul>
+        <% active_contests.each do |contest| %>
+          <li><%= link_to "Win #{contest.prize}", "/contests/#{contest.episode}" %></li>
+        <% end %>
       </div>
     </div>
   </div>

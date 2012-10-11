@@ -32,11 +32,14 @@
       </div>
       <div id="social-media">
         <div class="fb-like" data-href="<%= @episode.canonical_url %>" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
-        <div id="subscribe">
+        <div id="subscribe" class="fb-text">
           Subscribe <a target="_blank" href="<%= @episode.itunes_url %>">iTunes</a> | <a target="_href" href="<%= @episode.youtube_watch_url %>">YouTube</a>
         </div>
         <br class="clear" />
       </div>
+      <% if @episode.has_contest? %>
+        <p id="win" class="fb-text"><%= link_to 'Win a tailgate prize', "/contests/#{@episode.abbr}" %> for watching this episode.</p>
+      <% end %>
     </div>
     <div id="all-videos" class="three-column">
       <div class="headline">

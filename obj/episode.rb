@@ -45,4 +45,8 @@ class Episode < OpenStruct
     # default to show's home page
     self.itunes || "http://itunes.apple.com/us/podcast/tailgate32-ultimate-football/id566340798"
   end
+
+  def has_contest?
+    !self.contest.nil?
+  end
 end

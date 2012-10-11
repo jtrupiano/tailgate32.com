@@ -16,15 +16,13 @@
 #subscribe {
   float: right;
   width: 180px;
-  text-align: right;
-  font-size: 11px;
   margin-top: 4px;
-  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
-  line-height: 1.28;
   margin-top: 5px;
-  color: gray;
+  text-align: right;
 }
 
-  #subscribe a {
-    color: #fff;
-  }
+p#win {
+  margin-left: 142px;
+  position: relative;
+  top: -10px;
+}
