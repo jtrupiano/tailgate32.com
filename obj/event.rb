@@ -38,6 +38,6 @@ class Event < OpenStruct
   end
 
   def past?
-    Date.parse(self.date) <= Date.today
+    Date.parse(self.date) < Date.today
   end
 end
