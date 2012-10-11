@@ -74,7 +74,7 @@
         <h1>All Contests</h1>
         <ul>
         <% active_contests.each do |contest| %>
-          <li><%= link_to "Win #{contest.prize}", "/contests/#{contest.episode}" %></li>
+          <li><%= link_to "Win #{contest.prize}", "/contests/#{contest.episode.abbr}" %></li>
         <% end %>
       </div>
     </div>
