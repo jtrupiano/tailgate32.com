@@ -20,7 +20,7 @@
     </div>
     <% if @contest.prize_is_crate? %>
       <p>
-        <%= image_tag("/images/prizes/#{@contest.prize_image}", :class => 'contest') %>
+        <%= image_tag(@contest.thumbnail_url, :class => 'contest') %>
         We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
         -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
         for all sorts of people, from the outdoorsman to the insomniac to, yup,
@@ -32,7 +32,7 @@
       </p>
     <% else %>
       <p>
-        <%= image_tag("/images/prizes/#{@contest.prize_image}", :class => 'contest shirt') %>
+        <%= image_tag(@contest.thumbnail_url, :class => 'contest shirt') %>
         You've seen Mike and John wearing them in the episodes, and you've seen dozens
         of others posting photos to Facebook.  Now is your chance to get one of your
         own.
