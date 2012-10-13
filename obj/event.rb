@@ -38,7 +38,7 @@ class Event < OpenStruct
   end
 
   def thumbnail_url
-    "http://tailgate32.footballnation.com/images/heads.jpg"
+    "http://tailgate32.footballnation.com/images/32logo-320px.png"
   end
 
   def has_episode?
