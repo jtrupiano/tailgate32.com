@@ -10,7 +10,7 @@ class Episode < OpenStruct
   end
 
   def description_for_meta_tags
-    self.description.to_s.gsub("\n", " ").gsub("\"", "")
+    self.description.to_s.gsub(/<\/?[^>]*>/, "").gsub(/\s+/, " ").gsub("\"", "")
   end
 
   def thumbnail_url
