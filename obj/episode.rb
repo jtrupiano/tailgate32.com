@@ -13,8 +13,12 @@ class Episode < OpenStruct
     self.description.to_s.gsub(/<\/?[^>]*>/, "").gsub(/\s+/, " ").gsub("\"", "")
   end
 
-  def thumbnail_url
+  def image_url
     "http://tailgate32.footballnation.com/images/episodes/#{abbr}.png"
+  end
+
+  def thumbnail_url
+    "/images/episodes/thumbs/#{abbr}.png"
   end
 
   def relative_url
