@@ -3,6 +3,7 @@
 <% content_for(:og_meta) do %>
 
   <meta property="og:title"         content="<%= @episode.full_title %>" />
+  <meta property="og:description"   content="<%= @episode.description_for_meta_tags %>" />
   <meta property="og:type"          content="video.episode" />
   <meta property="og:image"         content="<%= @episode.thumbnail_url %>" />
   <meta property="og:url"           content="<%= @episode.canonical_url %>" />
