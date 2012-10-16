@@ -1,3 +1,34 @@
+kc:
+  number: "Episode 12"
+  title: "Kansas City"
+  date: "October 7th, 2012"
+  video_id: "AVDyzABtU"
+  description: |
+    John and Mike roll into Kansas City with the crew and have to immediately deal with 
+    their first winter weather of the year.  But on game day the sun comes out as they 
+    boy walk the lots with Chiefs superfan X-Factor and catch up with Kansas City Chiefs 
+    owner Clark Hunt to learn about the origins of tailgating in this proud football city.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - 
+      name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    - 
+      name: Tree City
+      link: http://treecityhiphop.com/
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, Hot Spot Pools & Spas, Tallgrass 
+    Brewing Company, Kansas City Chiefs, Majestic, Clark Hunt, Teri Supencheck, and Larry Jones
+
 stl:
   number: "Episode 11"
   title: "St. Louis"
