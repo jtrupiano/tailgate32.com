@@ -14,7 +14,7 @@ class Episode < OpenStruct
   end
 
   def thumbnail_url
-    "http://img.youtube.com/vi/#{self.video_id}/maxresdefault.jpg"
+    "http://tailgate32.footballnation.com/images/episodes/#{abbr}.png"
   end
 
   def relative_url
