@@ -248,6 +248,24 @@ sf:
   city: "San Francisco"
   date: "October 18th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/wTqJd">
+        <img src="/images/maps/sf.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 2:30pm PT, kickoff at 5:30pm.
+      Look for the <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a>
+      in the RV lot at the corner of Gilman Ave and Bill Walsh Way at Candlestick Park.
+    </p>
+    <p>
+      We'll have plenty of <a target="_blank" href="http://tailgatebeer.com/">Tailgate brand beer</a> 
+      and fish tacos coming off our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+      This is a public tailgate, free to all!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you have trouble finding us on Monday.
+    </p>
 
 oak:
   title: "GAME 17: Jacksonville @ Oakland"
