@@ -22,9 +22,9 @@ mia:
   prize: "A Tailgate32 Supply Drop"
   prize_image: "crate.jpg"
 
-car:
-  episode: "car"
-  rafflecopter_id: "b70c402"
+mia2:
+  episode: "mia"
+  rafflecopter_id: "b70c404"
   ends_at: "on Thursday, October 25, at 12:01AM"
   active: true
   prize: "A Tailgate32 T-Shirt"
