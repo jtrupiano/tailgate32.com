@@ -4,7 +4,7 @@
 
   <meta name="twitter:card"          content="summary" />
 
-  <meta property="og:title"       content="Tailgate32 Man Crates Giveaway" />
+  <meta property="og:title"       content="<%= @contest.title %>" />
   <meta property="og:type"        content="article" />
   <meta property="og:description" content="<%= @contest.description %>" />
   <meta property="og:image"       content="<%= @contest.thumbnail_url %>" />
@@ -74,7 +74,7 @@
         <h1>All Contests</h1>
         <ul>
         <% active_contests.each do |contest| %>
-          <li><%= link_to "Win #{contest.prize}", "/contests/#{contest.episode.abbr}" %></li>
+          <li><%= link_to contest.title_for_contest_list, contest.relative_url %></li>
         <% end %>
       </div>
     </div>
