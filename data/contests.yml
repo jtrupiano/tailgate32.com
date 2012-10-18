@@ -2,14 +2,14 @@ stl:
   episode: "stl"
   rafflecopter_id: "b70c401"
   ends_at: "on Thursday, October 18 at 12:01AM"
-  active: true
+  active: false
   prize: "A Tailgate32 Supply Drop"
   prize_image: "crate.jpg"
 
 dal:
   episode: "dal"
   rafflecopter_id: "b70c402"
-  ends_at: "on Thursday, October 18 at 12:01AM"
+  ends_at: "on Thursday, October 25 at 12:01AM"
   active: true
   prize: "A Tailgate32 T-Shirt"
   prize_image: "shirt.png"
@@ -25,7 +25,7 @@ mia:
 car:
   episode: "car"
   rafflecopter_id: "b70c402"
-  ends_at: "on Thursday, October 18, at 12:01AM"
+  ends_at: "on Thursday, October 25, at 12:01AM"
   active: true
   prize: "A Tailgate32 T-Shirt"
   prize_image: "shirt.png"
