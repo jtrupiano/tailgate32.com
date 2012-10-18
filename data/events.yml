@@ -264,7 +264,7 @@ sf:
     </p>
     <p>
       Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
-      with questions or if you have trouble finding us on Monday.
+      with questions or if you have trouble finding us on Thursday.
     </p>
 
 oak:
@@ -272,6 +272,25 @@ oak:
   city: "Oakland"
   date: "October 21st, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/LrN3m">
+        <img src="/images/maps/oak.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      The tailgate starts at 10am PT, kickoff at 1:15pm.
+      The enormous <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a>
+      will be in the RV lot, which is just northeast of lot B.  look for us near the <a target="_blank" href="http://badboyzofbbq.com/">Bad Boyz of BBQ</a>.
+    </p>
+    <p>
+      We'll be featuring Tailgate brand beer and BBQ coming off our Big Green Eggs. This is a public tailgate, free to all!
+      We'll be featuring <a target="_blank" href="http://tailgatebeer.com/">Tailgate brand beer</a> 
+      and BBQ will be flying off of our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+      This is a public tailgate, free to all!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you have trouble finding us on Sunday.
+    </p>
 
 minn:
   title: "GAME 18: Tampa Bay @ Minnesota"
