@@ -95,7 +95,7 @@ page "/contests.html" do
 end
 
 contests.each do |contest|
-  page "/contests/#{contest.episode.abbr}.html", :proxy => "/contests.html" do
+  page "/contests/#{contest.key}.html", :proxy => "/contests.html" do
     @contest = contest
     @episode = @contest.episode
   end
