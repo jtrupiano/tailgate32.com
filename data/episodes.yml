@@ -1,3 +1,32 @@
+tn:
+  number: "Episode 13"
+  title: "Tennessee"
+  date: "October 11th, 2012"
+  video_id: "iTlmAHAgjpU"
+  description: |
+    It's back east for one more stop for the boys before crossing the Rockies for a couple 
+    of weeks.  The live music capital of the world awaits and the team wastes no time 
+    taking in the tunes. Titan superfan brothers Blaze and Inferno step up and introduce 
+    Mike and John to a tailgating scene that features gas powered blenders, bluegrass 
+    bands, and a cafeteria-sized rig.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+    -
+      name: Wink Burcham
+      link: http://www.winkburcham.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Choppin' Block, EF Buddy & Slacks, 
+    Blaze & Inferno, Chloe Howeroft, Portland Brew, and American Cornhole Association.
+
 kc:
   number: "Episode 12"
   title: "Kansas City"
@@ -25,7 +54,7 @@ kc:
     -
       name: Secret Colours
       link: http://www.secretcolours.com/
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, Hot Spot Pools & Spas, Firebug BBQ,
     Tallgrass Brewing Company, Kansas City Chiefs, Majestic, Clark Hunt, Teri Supencheck, 
     Larry Jones and Shannon Kimball.
@@ -57,7 +86,7 @@ stl:
     -
       name: Wink Burcham
       link: http://www.winkburcham.com/
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, The St. Louis Rams, Marjorie Sackman, 
     Karl "Ram Man" Sides, Dave "King Ram," Brian Killingsworth, Maria Mannino, Vince Vitale,
     Crown Candy Kitchen, and SubZero
@@ -89,7 +118,7 @@ dal:
     -
       name: Secret Colours
       link: http://www.secretcolours.com/
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, The Dallas Cowboys, Sam Adams, 
     Paragon Distributing, MARL's Bar, Meagen Anderson, Robb Liekis, Joe Trahan, Shelby 
     Kelly, Mom and Dad
