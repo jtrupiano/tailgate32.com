@@ -1,3 +1,32 @@
+az:
+  number: "Episode 14"
+  title: "Arizona"
+  date: "October 14th, 2012"
+  video_id: "WE5EneySmyU"
+  description: |
+    With only 2 days to drive 1,700 miles, the already arduous trip to Phoenix is
+    complicated by a massive thunderstorm that finds its way into the RV.  But the crew
+    forges ahead, and a gorgeously sunny tailgate revives the crew.  Mike and John cook
+    up breakfast with Poonster, tour the Great Lawn, and meet a Cardinals fan with a
+    special privilege.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - 
+      name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+    -
+      name: Secret Colours
+      link: http://www.secretcolours.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, The Arizona Cardinals, Orlando Avila, 
+    Thomas Aragona, Peter & Barb Betts, Hot Spot Pools & Spas, Best Barbeques & Islands
+    
 tn:
   number: "Episode 13"
   title: "Tennessee"
