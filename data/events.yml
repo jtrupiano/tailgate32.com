@@ -282,7 +282,6 @@ oak:
       will be in the RV lot, which is just northeast of lot B.  look for us near the <a target="_blank" href="http://badboyzofbbq.com/">Bad Boyz of BBQ</a>.
     </p>
     <p>
-      We'll be featuring Tailgate brand beer and BBQ coming off our Big Green Eggs. This is a public tailgate, free to all!
       We'll be featuring <a target="_blank" href="http://tailgatebeer.com/">Tailgate brand beer</a> 
       and BBQ will be flying off of our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
       This is a public tailgate, free to all!
@@ -297,12 +296,47 @@ minn:
   city: "Minnesota"
   date: "October 25th, 2012"
   leadin: "Coming to..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/mvA0i">
+        <img src="/images/maps/minn.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      The tailgate starts at 4pm CT, kickoff at 7:20pm.
+      Our <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">giant RV</a>
+      will be parked in the Purple Tailgate 3 Lot (at the corner of Portland Ave and 3rd St.) near Mall of America Stadium.
+    </p>
+    <p>
+      We'll be featuring beer from <a target="_blank" href="http://www.summitbrewing.com/">Summit Brewing</a> 
+      and grilling up BBQ on our <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+      This is a public tailgate, free to all!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you have trouble finding us on Thursday.
+    </p>
 
 den:
   title: "GAME 19: New Orleans @ Denver"
   city: "Denver"
   date: "October 28th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/KhDoP">
+        <img src="/images/maps/den.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      The tailgate starts at 4pm CT, kickoff at 7:20pm.
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a>
+      will be in the C-RV lot at Mile High Stadium, just outside of Sports Authority Field.
+    </p>
+    <p>
+      BYOB to the lot or purchase it from the vendors there.  We'll be handing out free BBQ chicken coming off of our
+      <a target="_blank" href="http://biggreenegg.com">Big Green Eggs</a>.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you have trouble finding us on Sunday.
+    </p>
 
 sea:
   title: "GAME 20: Minnesota @ Seattle"
