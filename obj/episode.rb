@@ -47,7 +47,7 @@ class Episode < OpenStruct
 
   def itunes_url
     # default to show's home page
-    self.itunes || "http://itunes.apple.com/us/podcast/tailgate32-ultimate-football/id566340798"
+    self.itunes || "http://itunes.com/tailgate32"
   end
 
   def has_contest?
