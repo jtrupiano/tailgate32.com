@@ -92,7 +92,7 @@ events.each do |event|
 end
 
 page "/contests.html" do
-  @contest = contests.first
+  @contest = active_contests.first
   @episode = @contest.episode
 end
 
