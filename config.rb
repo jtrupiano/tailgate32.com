@@ -41,7 +41,9 @@ helpers do
   def contests
     data.contests.keys.map {|contest_key|
       abbr = data.contests[contest_key].episode
-      episode = Episode.new(data.episodes[abbr].merge({abbr: abbr}))
+      episode = data.episodes.has_key?(abbr) ?
+        Episode.new(data.episodes[abbr].merge({abbr: abbr})) :
+        nil
       Contest.new(data.contests[contest_key].merge({key: contest_key, episode: episode}))
     }
   end
@@ -101,9 +103,7 @@ contests.each do |contest|
   end
 end
 
-page "/schedule.html" do
-
-end
+page "/schedule.html"
 
 # Per-page layout changes:
 # 

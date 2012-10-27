@@ -1,4 +1,5 @@
 stl:
+  contest_type: "rafflecopter"
   episode: "stl"
   rafflecopter_id: "b70c401"
   ends_at: "on Thursday, October 18 at 12:01AM"
@@ -7,14 +8,16 @@ stl:
   prize_image: "crate.jpg"
 
 dal:
+  contest_type: "rafflecopter"
   episode: "dal"
   rafflecopter_id: "b70c402"
   ends_at: "on Thursday, October 25 at 12:01AM"
-  active: true
+  active: false
   prize: "A Tailgate32 T-Shirt"
   prize_image: "shirt.png"
   
 mia:
+  contest_type: "rafflecopter"
   episode: "mia"
   rafflecopter_id: "b70c400"
   ends_at: "on Wednesday, October 10 at 12:01AM"
@@ -23,9 +26,17 @@ mia:
   prize_image: "crate.jpg"
 
 mia2:
+  contest_type: "rafflecopter"
   episode: "mia"
   rafflecopter_id: "b70c404"
-  ends_at: "on Thursday, October 25, at 12:01AM"
+  ends_at: "on Wednesday, October 31, at 12:01AM"
   active: true
   prize: "A Tailgate32 T-Shirt"
   prize_image: "shirt.png"
+
+haiku:
+  contest_type: "haiku"
+  ends_at: "on Friday, November 2, at 8:00PM ET"
+  active: false
+  prize: "A Tailgate32 Supply Drop"
+  prize_image: "crate.jpg"

@@ -14,7 +14,9 @@ class Contest < OpenStruct
   end
 
   def title
-    if prize_is_crate?
+    if haiku?
+      "Tailgate32 Haiku Contest"
+    elsif prize_is_crate?
       "Tailgate32 Man Crates Supply Drop Giveaway"
     else
       "Tailgate32 T-Shirt Giveaway"
@@ -22,7 +24,9 @@ class Contest < OpenStruct
   end
 
   def description
-    if prize_is_crate?
+    if haiku?
+      "Tailgate32 is running a haiku contest!  Use 17 syllables to tell us why you love to tailgate and you could win a Tailgate32 Man Crate."
+    elsif prize_is_crate?
       "Tailgate32 and Man Crates have teamed up to run several contests over the next few weeks where you can win a Tailgate32 Man Crate."
     else
       "Want one of those cool Tailgate32 t-shirts you see us rocking in all of the episodes?  Well we're giving a bunch of them away now.  Follow this link to enter!"
@@ -30,11 +34,23 @@ class Contest < OpenStruct
   end
 
   def title_for_contest_list
-    "Win #{prize} (#{episode.title})"
+    if haiku?
+      "Haiku Contest"
+    else
+      "Win #{prize} (#{episode.title})"
+    end
   end
 
   def active?
     self.active
+  end
+
+  def rafflecopter?
+    self.contest_type == "rafflecopter"
+  end
+
+  def haiku?
+    self.contest_type == "haiku"
   end
 
   def prize_is_crate?

@@ -13,71 +13,69 @@
 <% content_for(:stylesheets) { stylesheet_link_tag :contests } %>
 
 <div class="row" id="contest">
-  <div class="left">
-    <div class="headline">
-      <%= image_tag 'arrow-left.png' %>
-      <h1>Win <%= @contest.prize %></h1>
-    </div>
-    <% if @contest.prize_is_crate? %>
-      <p>
-        <%= image_tag(@contest.thumbnail_url, :class => 'contest') %>
-        We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
-        -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
-        for all sorts of people, from the outdoorsman to the insomniac to, yup,
-        you guessed it, the traveling tailgater.
-      </p>
-      <p>
-        Answer a question about something in this episode and you can win a prize.
-        Use the form on the right to enter the contest.
-      </p>
-    <% else %>
-      <p>
-        <%= image_tag(@contest.thumbnail_url, :class => 'contest shirt') %>
-        You've seen Mike and John wearing them in the episodes, and you've seen dozens
-        of others posting photos to Facebook.  Now is your chance to get one of your
-        own.
-      </p>
-      <p>
-        That's right, we're giving away official Tailgate32 T-Shirts!  Just use the contest form
-        to the right to enter for your chance to win.
-      </p>
-    <% end %>
-    <p>
-      This contest ends <%= @contest.ends_at %>
-    </p>
-    <br class="clear" />
-    <div id="featured-video">
+  <% if @contest.haiku? %>
+    <%= partial :haiku %>
+  <% else %>
+    <div class="left">
       <div class="headline">
         <%= image_tag 'arrow-left.png' %>
-        <h1><%= @episode.full_title %></h1>
+        <h1>Win <%= @contest.prize %></h1>
       </div>
-      <br />
-      <div id="video-container">
-        <iframe id="ytplayer" width="538" height="303" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
-      </div>
-      <div id="social-media">
-        <div class="fb-like" data-href="<%= @episode.canonical_url %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
-      </div>
-    </div>
-  </div>
-  <div class="right">
-    <div id="widgets">
-      <div id="contest-entry">
+      <% if @contest.prize_is_crate? %>
+        <p>
+          <%= image_tag(@contest.thumbnail_url, :class => 'contest') %>
+          We've teamed up with the dudes over at <a target="_blank" href="http://www.mancrates.com/">Man Crates</a> 
+          -- they make these pretty cool <a target="_blank" href="http://www.mancrates.com/categories/choose-the-perfect-crate.html">supply packages</a> 
+          for all sorts of people, from the outdoorsman to the insomniac to, yup,
+          you guessed it, the traveling tailgater.
+        </p>
+        <p>
+          Answer a question about something in this episode and you can win a prize.
+          Use the form on the right to enter the contest.
+        </p>
+      <% else %>
+        <p>
+          <%= image_tag(@contest.thumbnail_url, :class => 'contest shirt') %>
+          You've seen Mike and John wearing them in the episodes, and you've seen dozens
+          of others posting photos to Facebook.  Now is your chance to get one of your
+          own.
+        </p>
+        <p>
+          That's right, we're giving away official Tailgate32 T-Shirts!  Just use the contest form
+          to the right to enter for your chance to win.
+        </p>
+      <% end %>
+      <p>
+        This contest ends <%= @contest.ends_at %>
+      </p>
+      <br class="clear" />
+      <div id="featured-video">
         <div class="headline">
           <%= image_tag 'arrow-left.png' %>
-          <h1>Contest Entry</h1>
+          <h1><%= @episode.full_title %></h1>
         </div>
-        <a id="rc-<%= @contest.rafflecopter_id %>" class="rafl" href="http://www.rafflecopter.com/rafl/display/<%= @contest.rafflecopter_id %>/" rel="nofollow">a Rafflecopter giveaway</a>
-        <script src="//d12vno17mo87cx.cloudfront.net/embed/rafl/cptr.js"></script>
-      </div>
-      <div id="other-contests">
-        <h1>All Contests</h1>
-        <ul>
-        <% active_contests.each do |contest| %>
-          <li><%= link_to contest.title_for_contest_list, contest.relative_url %></li>
-        <% end %>
+        <br />
+        <div id="video-container">
+          <iframe id="ytplayer" width="538" height="303" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
+        </div>
+        <div id="social-media">
+          <div class="fb-like" data-href="<%= @episode.canonical_url %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <br class="clear" />
+    <div class="right">
+      <div id="widgets">
+        <div id="contest-entry">
+          <div class="headline">
+            <%= image_tag 'arrow-left.png' %>
+            <h1>Contest Entry</h1>
+          </div>
+          <a id="rc-<%= @contest.rafflecopter_id %>" class="rafl" href="http://www.rafflecopter.com/rafl/display/<%= @contest.rafflecopter_id %>/" rel="nofollow">a Rafflecopter giveaway</a>
+          <script src="//d12vno17mo87cx.cloudfront.net/embed/rafl/cptr.js"></script>
+        </div>
+        <%= partial :"promos/contests" %>
+      </div>
+    </div>
+    <br class="clear" />
+  <% end %>
 </div>
