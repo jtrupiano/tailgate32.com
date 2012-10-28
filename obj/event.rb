@@ -34,11 +34,11 @@ class Event < OpenStruct
   end
 
   def canonical_url
-    "http://tailgate32.footballnation.com#{relative_url}"
+    "http://tailgate32.com#{relative_url}"
   end
 
   def thumbnail_url
-    "http://tailgate32.footballnation.com/images/heads.jpg"
+    "http://tailgate32.com/images/heads.jpg"
   end
 
   def has_episode?

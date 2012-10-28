@@ -6,11 +6,11 @@ class Contest < OpenStruct
   end
 
   def thumbnail_url
-    "http://tailgate32.footballnation.com/images/prizes/#{self.prize_image}"
+    "http://tailgate32.com/images/prizes/#{self.prize_image}"
   end
 
   def canonical_url
-    "http://tailgate32.footballnation.com/contests/#{self.key}"
+    "http://tailgate32.com/contests/#{self.key}"
   end
 
   def title

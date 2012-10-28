@@ -14,7 +14,7 @@ class Episode < OpenStruct
   end
 
   def image_url
-    "http://tailgate32.footballnation.com/images/episodes/#{abbr}.png"
+    "http://tailgate32.com/images/episodes/#{abbr}.png"
   end
 
   def thumbnail_url
@@ -26,7 +26,7 @@ class Episode < OpenStruct
   end
 
   def canonical_url
-    "http://tailgate32.footballnation.com#{relative_url}"
+    "http://tailgate32.com#{relative_url}"
   end
 
   def youtube_embed_url
