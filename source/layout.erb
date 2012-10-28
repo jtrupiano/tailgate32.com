@@ -18,6 +18,21 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/tailgate32" />
 </head>
 <body>
+  <div id="fbNationBarLoader" style="margin:0;padding:0;height:28px;width:100%;"></div><script src="http://www.footballnation.com/jsapi/load.js?service=tailgate32&js=false&bg=true" type="text/javascript"></script>
+  <style type="text/css">
+    /** Override FB Nation Bar **/
+    #fbNationBar {
+      margin-top: 0px !important;
+    }
+
+    #fbNationBarWrap {
+      background: url("../images/tg32-bar.png") repeat-x top left !important;
+    }
+
+    td.fbNationLoginButtons a strong {
+      color: #f5fffa !important;
+    }
+  </style>
   <!-- Facebook SDK -->
     <div id="fb-root"></div>
     <script type="text/javascript">(function(d, s, id) {
