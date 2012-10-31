@@ -27,3 +27,8 @@ img.shirt {
   margin-top: 5px;
   margin-left: 15px;
 }
+
+#contest-entry iframe {
+  position: relative;
+  left: -12px;
+}
