@@ -344,6 +344,23 @@ sea:
   city: "Seattle"
   date: "November 4th, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/obkOo">
+        <img src="/images/maps/sea.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Instead of the usual parking lot, the Tailgate32 RV will be set up at the 
+      <a target="_blank" href="http://www.kingstreetbar.com/">King St Bar and Oven</a>. 
+      starting at 8am PT.  Though we won't have our traditional tailgate set up, we will
+      be roaming the area, looking for fans. In addition to the King St Bar and Oven, 
+      we'll hit the <a target="_blank" href="http://www.hawksnestbar.com/">Hawk's Nest</a> 
+      and the North Parking Lot throughout the morning. Check back here for our game day 
+      schedule!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you have trouble finding us on game day.
+    </p>
 
 pitt:
   title: "GAME 21: Kansas City @ Pittsburgh"
