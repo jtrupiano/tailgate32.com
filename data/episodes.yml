@@ -3,6 +3,7 @@ sf:
   title: "San Francisco"
   date: "October 18, 2012"
   video_id: "87-FESWgK3o"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep16-san-francisco/id566340798?i=123668566"
   description: |
     Mike and John shoot up the coast for the first of two stops in the Bay Area.  But 
     the possessed RV strikes again.  They struggle to maintain speeds greater than 25mph 
@@ -23,13 +24,14 @@ sf:
       link: http://www.secretcolours.com/
   thanks:
     Special thanks to Football Nation, Big Green Egg, Sierra Select Distributors, 
-    TailGate Beer, Dawn & Brian Tourville, and Mike Sando
+    TailGate Beer, Dawn & Brian Tourville, and Mike Sando.
 
 sd:
   number: "Episode 15"
   title: "San Diego"
   date: "October 15, 2012"
   video_id: "4v2g1TIoSug"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep15-san-diego/id566340798?i=123421964"
   description: |
     Mike and John escape the desert for the beautiful Southern California coast.  They 
     take a dip in the ocean and chow on some local cuisine before heading over to the 
