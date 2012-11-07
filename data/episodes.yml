@@ -1,3 +1,33 @@
+oak:
+  number: "Episode 17"
+  title: "Oakland"
+  date: "October 21, 2012"
+  video_id: "Zk21c8Kt9a8"
+  description: |
+    The team rolls across the Bay Bridge to check out Raider Nation.  The already weary 
+    boys don't catch any breaks though—they've got a 4am wake-up call to pick up fresh 
+    oysters and salmon for the tailgate with Kingsford Kirk.  Follow them to Ricky's, 
+    the place for Raiders fans to meet up the night before the game, and then into the 
+    lots as they seek out some of the most notorious fans in the league.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Kids These Days
+      link: http://kidsthesedaysband.com/
+    - name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+    - name: Tree City
+      link: http://treecityhiphop.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Sierra Select Distributors, 
+    TailGate Beer, The Oakland Raiders, Chris Sotiropulos, Kingsford Kirk & The Bad Boyz 
+    of BBQ, Ricky's Sports Theatre, and S&M Shellfish.
+
 sf:
   number: "Episode 16"
   title: "San Francisco"
