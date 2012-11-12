@@ -1,3 +1,30 @@
+minn:
+  number: "Episode 18"
+  title: "Minnesota"
+  date: "October 25, 2012"
+  video_id: "S9KFgajP084"
+  description: |
+    A brutal but stunningly beautiful 2000-mile trek is up next for the boys.  Ms. Ed 
+    hosts the Tailgate32 team for some Halloween goofiness before Mike and John take to 
+    the lots to tailgate in Minnesota.  They learn about the outrageous customs of the 
+    Viking World Order and meet some of the most intense fans along the way.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Secret Colours
+      link: http://www.secretcolours.com/
+    - name: Future Monarchs
+      link: http://futuremonarchsband.com/
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, All Poolside, Northern Plains 
+    Distributing, Summit Brewing, The Minnesota Vikings, Bryan Harper, Mr. and Ms. Ed, 
+    Ellie Hagopian, and Keith Davidson.
+
 oak:
   number: "Episode 17"
   title: "Oakland"
@@ -53,7 +80,7 @@ sf:
       link: http://futuremonarchsband.com/
     - name: Secret Colours
       link: http://www.secretcolours.com/
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, Sierra Select Distributors, 
     TailGate Beer, Dawn & Brian Tourville, and Mike Sando.
 
@@ -79,7 +106,7 @@ sd:
       link: http://futuremonarchsband.com/
     - name: Secret Colours
       link: http://www.secretcolours.com/
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, Appliance Alley, Sierra Select 
     Distributors, TailGate Beer, The San Diego Chargers, and the Charger Girls.
 
