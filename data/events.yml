@@ -387,11 +387,29 @@ pitt:
       with questions or if you're having trouble finding us on game day.
     </p>
 
-buff:
+buf:
   title: "GAME 22: Miami @ Buffalo"
   city: "Buffalo"
   date: "November 15th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/vJjs9">
+        <img src="/images/maps/buf.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 5pm EST, kickoff is at 8:30pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be parked in <a target="_blank" href="http://goo.gl/maps/vJjs9">Hammers Lot</a> on the west side of Abbot road south of the stadium.
+    </p>
+    <p>
+      We'll have plenty of free beer for all of our guests--everyone is welcome.  
+      Stick around and you may even see Mike get K&M'd with Pinto Ron 
+      (seriously, <a target="_blank" href="http://www.youtube.com/watch?v=y5lxHLe_2-Q">watch the video</a>).
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 ne:
   title: "GAME 23: Indianapolis @ New England"
