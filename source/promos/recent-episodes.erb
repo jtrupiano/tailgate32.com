@@ -1,11 +1,14 @@
 <div id="recent-episodes" class="widget">
   <h1>Recent Episodes</h1>
-  <% episodes[0..1].each do |episode| %>
-    <div class="episode">
-      <a href="/play/<%= episode.abbr %>">
-        <%= image_tag episode.thumbnail_url, :alt => episode.title %>
-        <p><%= episode.title %></p>
-      </a>
-    </div>
-  <% end %>
+  <div class="three-column">
+    <% episodes[0..3].each do |episode| %>
+      <div class="item episode">
+        <%= link_to image_tag(episode.thumbnail_url, :alt => episode.title), episode.relative_url %>
+        <h3>EP<%= episode.number %>: <%= episode.title %></h3>
+        <p class="description"><%= episode.date %></p>
+      </div>
+    <% end %>
+    <br class="clear" />
+  </div>
+  <p><%= link_to '> See all episodes', '/play' %></p>
 </div>

@@ -6,7 +6,7 @@
 <% episodes[1..4].each do |episode| %>
   <div class="recent-episode">
     <a href="/play/<%= episode.abbr %>">
-      <div class="episode-number"><%= episode.number %></div>
+      <div class="episode-number">Episode <%= episode.number %></div>
       <div class="episode-title"><%= episode.title %></div>
       <div class="episode-date"><%= episode.date %></div>
     </a>

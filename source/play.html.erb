@@ -25,7 +25,7 @@
     <div id="featured-video">
       <div class="headline">
         <%= image_tag 'arrow-left.png' %>
-        <h1><%= @episode.number %>: <%= @episode.title %></h1>
+        <h1>Episode <%= @episode.number %>: <%= @episode.title %></h1>
         <p><%= @episode.date %></p>
       </div>
       <div id="video-container">
@@ -51,7 +51,7 @@
       <% episodes.each do |episode| %>
         <div class="item">
           <a href="/play/<%= episode.abbr %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" /></a>
-          <h3><%= episode.number %>: <%= episode.title %></h3>
+          <h3>Episode <%= episode.number %>: <%= episode.title %></h3>
           <span class="description"><%= episode.date %></span>
         </div>
       <% end %>

@@ -6,7 +6,7 @@ class Episode < OpenStruct
   end
 
   def full_title
-    "Tailgate32 #{self.number}: #{self.title}"
+    "Tailgate32 Episode #{self.number}: #{self.title}"
   end
 
   def description_for_meta_tags
