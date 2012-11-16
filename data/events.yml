@@ -450,41 +450,40 @@ phi:
   title: "GAME 26: Carolina @ Philadelphia"
   city: "Philadelphia"
   date: "November 26th, 2012"
-  leadin: "Join us in..."
+  leadin: "See you soon..."
 
 nyj:
   title: "GAME 27: Arizona @ New York"
   city: "New York"
   date: "December 2nd, 2012"
-  leadin: "Coming to..."
+  leadin: "Join us in..."
 
 wash:
   title: "GAME 28: New York @ Washington"
   city: "Washington"
   date: "December 3rd, 2012"
-  leadin: "Rolling into..."
+  leadin: "Coming to..."
 
 indy:
   title: "GAME 29: Tennessee @ Indianapolis"
   city: "Indianapolis"
   date: "December 9th, 2012"
-  leadin: "Join us in..."
+  leadin: "Rolling into..."
 
 chi:
   title: "GAME 30: Green Bay @ Chicago"
   city: "Chicago"
   date: "December 16th, 2012"
-  leadin: "Coming to..."
+  leadin: "See you soon..."
 
 tb:
   title: "GAME 31: St. Louis @ Tampa Bay"
   city: "Tampa Bay"
   date: "December 23rd, 2012"
-  leadin: "Rolling into..."
+  leadin: "Join us in..."
 
 "no":
   title: "GAME 32: Carolina @ New Orleans"
   city: "New Orleans"
   date: "December 30th, 2012"
-  leadin: "Join us in..."
-
+  leadin: "Coming to..."
