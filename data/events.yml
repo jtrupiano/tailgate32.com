@@ -417,6 +417,22 @@ ne:
   city: "New England"
   date: "November 18th, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/5IG9i">
+        <img src="/images/maps/ne.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 1pm EST, kickoff is at 4:25pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be parked in the RV/bus section of the <a target="_blank" href="http://goo.gl/maps/5IG9i">P10 lot</a>, across Route 1 from the stadium.
+    </p>
+    <p>
+      We'll have plenty of <a target="_blank" href="http://www.newportstorm.com/">Newport Storm</a> for all of our guests--everyone is welcome.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 det:
   title: "GAME 24: Houston @ Detroit"
