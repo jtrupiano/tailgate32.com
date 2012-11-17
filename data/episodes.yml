@@ -1,3 +1,33 @@
+den:
+  number: "19"
+  title: "Denver"
+  date: "October 28, 2012"
+  video_id: "7OmFu-Px7V4"
+  description: |
+    Up the mountains they go--the RV barrels into scenic and snowy Denver.  John and Mike go 
+    head to head in a traditional brewmaster's game during a private after-hours tour of the 
+    New Belgium Brewery.  They hit the lots early to find out why fans show up 24 hours before 
+    kickoff to get that perfect spot.  And then they get a once in a lifetime pre-game 
+    opportunity to salute America with Broncos fans.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Secret Colours
+      link: http://www.secretcolours.com/
+      songs:
+        - Carry My Soul
+        - My Home Is in Your Soul
+        - Love Like a Fool
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Outdoor Kitchen Distributors, Red Bird 
+    Chicken, New Belgium Brewing, The Denver Broncos, Jon Applegate, Rebecca Villanueva, Hat 
+    Man Jay, Broncnator, Joe and Sonny, Liz Carroll, and Vinnie Agnello.
+    
 minn:
   number: "18"
   title: "Minnesota"
