@@ -465,6 +465,24 @@ cin:
   city: "Cincinnati"
   date: "November 25th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/y7DA8">
+        <img src="/images/maps/cin.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 10am EST, kickoff is at 1pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      is setting up in <a target="_blank" href="http://goo.gl/maps/y7DA8">Longworth Hall</a>.
+    </p>
+    <p>
+      We'll be cooking up BBQ and featuring an assortment of beer from
+      <a target="_blank" href="http://www.christianmoerlein.com/">Christian Moerlein</a>.
+      As always, our tailgate is free and open to the public.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 phi:
   title: "GAME 26: Carolina @ Philadelphia"
