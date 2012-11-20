@@ -439,6 +439,26 @@ det:
   city: "Detroit"
   date: "November 22nd, 2012"
   leadin: "Coming to..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/1FJeE">
+        <img src="/images/maps/det.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      It's Thanksgiving!  Tailgate starts at 8am EST, kickoff is at 12:00pm. 
+      Our <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">massive RV</a> 
+      will be parked at <a target="_blank" href="http://goo.gl/maps/1FJeE">Eastern Market</a>
+      near <a target="_blank" href="http://www.detroittailgate.com/">Detroit Tailgate</a> and the 
+      <a target="_blank" href="http://tubgaters.com/">Tubgaters</a> (look for us to sneak into the hot tub!).
+    </p>
+    <p>
+      The tailgate is free and open to the public.  Mike and John are preparing a Thanksgiving dinner 
+      (don't worry, Mom is helping them), and they'll be featuring beer from
+      <a target="_blank" href="http://www.detroitbeerco.com/">Detroit Beer Company</a>.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 cin:
   title: "GAME 25: Oakland @ Cincinnati"
