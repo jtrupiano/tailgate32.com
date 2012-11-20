@@ -192,12 +192,20 @@ tn:
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
   bands:
-    -
-      name: Secret Colours
+    - name: Secret Colours
       link: http://www.secretcolours.com/
-    -
-      name: Wink Burcham
+      songs:
+        - Lust
+        - Love
+    - name: Wink Burcham
       link: http://www.winkburcham.com/
+      songs:
+        - Town in Oaklahoma
+        - How It Really Went Down
+    - name: Sarah Gayle Meech
+      link: http://www.sarahgaylemeech.com/
+      songs:
+        - No Angel
   thanks: |
     Special thanks to Football Nation, Big Green Egg, Choppin' Block, EF Buddy & Slacks, 
     Blaze & Inferno, Chloe Howcroft, Portland Brew, and American Cornhole Association.
