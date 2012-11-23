@@ -323,6 +323,16 @@ form label {
       border-radius: 6px;
     }
 
+#where-to-watch div {
+  margin-bottom: 25px;
+}
+
+  #where-to-watch img {
+    max-height: 70px;
+    max-width: 150px;
+    margin-right: 25px;
+  }
+
 /** Popups **/
 #hidden-content {
   display: none;

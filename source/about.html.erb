@@ -14,10 +14,10 @@
       Led by thrill-seeking brothers John and Mike Trupiano,
       Tailgate32 will visit all 32 NFL arenas in just 17 weeks this season, before
       powering on to the playoffs and Super Bowl XLVII in New Orleans.
-      The entire trip will be documented by our film crew.  We will release a 
-      fast-paced 5-6 minute digital episode following each game that will capture 
-      the essence of American tailgating, the nation's passion for football, and 
-      life on the road.
+      The entire trip will be documented by our film crew.  We release 
+      <%= link_to 'fast-paced 5-6 minute digital episodes', '/episodes' %>
+      following each game that capture the essence of American tailgating, the nation's 
+      passion for football, and life on the road.
     </p>
     <div class="headline">
       <%= image_tag 'arrow-left.png' %>
@@ -80,6 +80,16 @@
   </div>
   <div class="right">
     <div id="widgets">
+      <div id="where-to-watch" class="widget">
+        <h1>Where To Watch</h1>
+        <div>
+          <%= link_to image_tag('syndicates/blip.png'), 'http://blip.tv/tailgate32', :target => '_blank' %>
+          <%= link_to image_tag('syndicates/youtube.png'), 'http://youtube.com/tailgate32', :target => '_blank' %>
+        </div>
+        <div>
+          <%= link_to image_tag('syndicates/itunes.jpg'), 'http://itunes.com/tailgate32', :target => '_blank' %>
+        </div>
+      </div>
       <%= partial "promos/press" %>
       <%= partial "promos/upcoming" %>
       <%= partial "promos/recent-episodes" %>
