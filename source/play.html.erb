@@ -42,21 +42,7 @@
         <p id="win" class="fb-text"><%= link_to 'Win a tailgate prize', "/contests/#{@episode.abbr}" %> for watching this episode.</p>
       <% end %>
     </div>
-    <div id="all-videos" class="three-column">
-      <div class="headline">
-        <%= image_tag 'arrow-left.png' %>
-        <h1>Episode Archive</h1>
-      </div>
-      <br />
-      <% episodes.each do |episode| %>
-        <div class="item">
-          <a href="/play/<%= episode.abbr %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" /></a>
-          <h3>Episode <%= episode.number %>: <%= episode.title %></h3>
-          <span class="description"><%= episode.date %></span>
-        </div>
-      <% end %>
-      <br class="clear" />
-    </div>
+    <%= partial :episode_archive %>
   </div>
   <div class="right">
     <div id="widgets">

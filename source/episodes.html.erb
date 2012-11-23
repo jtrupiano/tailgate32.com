@@ -1,0 +1,29 @@
+<% content_for(:title) { "Episode Archive for Tailgate32: The Ultimate Football Fan Roadtrip" } %>
+<% content_for(:description) { "Watch all web episodes of the series Tailgate32: The Ultimate Football Fan Roadtrip" } %>
+<% content_for(:og_meta) do %>
+
+  <meta name="twitter:card"          content="summary" />
+
+  <meta property="og:title"         content="Tailgate32: The Ultimate Football Fan Roadtrip" />
+  <meta property="og:type"          content="video.tv_show" />
+  <meta property="og:image"         content="http://tailgate32.com/images/itunes-series-graphic.jpg" />
+  <meta property="og:description"   content="Watch all web episodes of the series Tailgate32: The Ultimate Football Fan Roadtrip" />
+  <meta property="video:tag"        content="web series" />
+  <meta property="video:tag"        content="sports" />
+  <meta property="video:tag"        content="documentary" />
+  <meta property="og:url"           content="http://tailgate32.com/episodes" />
+<% end %>
+<% content_for(:stylesheets) { stylesheet_link_tag :episodes } %>
+
+<div id="episodes" class="row">
+  <div class="left">
+    <%= partial :episode_archive %>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <%= partial 'promos/press' %>
+      <%= partial 'promos/upcoming' %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>

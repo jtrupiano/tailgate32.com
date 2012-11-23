@@ -14,6 +14,15 @@ use Rack::Rewrite do
     production_host?(rack_env)
   }
 
+
+  ###########################################
+  ############## Legacy Routes ##############
+  ###########################################
+
+  # Use /episodes for the episode archive
+  r301 "/play", "/episodes"
+  r301 "/play.html", "/episodes"
+
   # fix the querystring URL's for preloading an episode
   # e.g. /play?episode=bal --> /play/bal
   r301 %r{/play[^?]*\?episode=(\w+)}, "/play/$1"

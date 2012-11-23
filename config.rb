@@ -61,12 +61,9 @@ page "/index.html" do
   @episode = episodes.first
 end
 
-page "/play.html" do
-  @episode = episodes.first
-end
-
+page "/episodes.html"
 episodes.each do |episode|
-  page "/play/#{episode.abbr}.html", :proxy => "/play.html" do
+  page "/play/#{episode.abbr}.html", :proxy => "/play.html", :ignore => true do
     @episode = episode
   end
 end
