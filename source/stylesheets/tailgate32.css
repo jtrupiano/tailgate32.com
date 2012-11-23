@@ -178,14 +178,13 @@ form label {
 /** Header Styles **/
 #navigation {
   width: 1000px;
-  margin: 8px auto 0px auto;
+  margin: 18px auto 0px auto;
   height: 35px;
 }
 
   #social-media-header {
     width: 160px;
     float: left;
-    margin-top: 3px;
   }
 
     #social-media-header a {
