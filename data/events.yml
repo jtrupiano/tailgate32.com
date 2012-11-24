@@ -492,6 +492,25 @@ phi:
   city: "Philadelphia"
   date: "November 26th, 2012"
   leadin: "See you soon..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/cWolC">
+        <img src="/images/maps/phi.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 5pm EST, kickoff is at 8:30pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be parked in <a target="_blank" href="http://goo.gl/maps/cWolC">Lot K</a>, in between Lincoln Financial Field and Citizens Bank Park.
+    </p>
+    <p>
+      Stop by our public tailgate, free to all, for high fives!  We'll be featuring beer from
+      <a target="_blank" href="http://www.dockstreetbeer.com/">Dock Street Brewing Co</a>
+      and Fred from <a target="_blank" href="http://www.tastylicksbbq.com/">Tasty Licks BBQ</a>
+      will be grilling up some delicious BBQ on our <a target="_blank" href="http://biggreenegg.com">Big Green Egg</a>!
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 nyj:
   title: "GAME 27: Arizona @ New York"
