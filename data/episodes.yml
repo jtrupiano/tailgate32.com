@@ -1,3 +1,33 @@
+sea:
+  number: "20"
+  title: "Seattle"
+  date: "November 4, 2012"
+  video_id: "W4vAXTODZJg"
+  description: |
+    The boys are trading in snow for rain as they make their way to the Pacific Northwest.  
+    Mike and John test out their sea legs on a sailing excursion on Puget Sound before 
+    discovering a very different style of tailgating.   The guys break into the bar 
+    before 7am, chant along with the drum line, and then John takes a nap while Mike 
+    tours the lots.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+    Additional music provided by White Mystery
+  bands:
+    - name: White Mystery
+      link: http://whitemystery.com/
+      songs:
+        - Birthday
+        - Powerglove
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, King Street Bar and Oven, Troy 
+    Anderson, Mark Meenan, Craig Nisgor, Kenny Burns, Aidan’s Family, The Seattle 
+    Seahawks
+    
 den:
   number: "19"
   title: "Denver"
