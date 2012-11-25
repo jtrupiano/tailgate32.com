@@ -2,6 +2,7 @@ sea:
   number: "20"
   title: "Seattle"
   date: "November 4, 2012"
+  release_date: "November 24, 2012"
   video_id: "W4vAXTODZJg"
   description: |
     The boys are trading in snow for rain as they make their way to the Pacific Northwest.  
@@ -32,6 +33,7 @@ den:
   number: "19"
   title: "Denver"
   date: "October 28, 2012"
+  release_date: "November 17, 2012"
   video_id: "7OmFu-Px7V4"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep19-denver/id566340798?i=124807467"
   description: |
@@ -63,6 +65,7 @@ minn:
   number: "18"
   title: "Minnesota"
   date: "October 25, 2012"
+  release_date: "November 12, 2012"
   video_id: "S9KFgajP084"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep18-minnesota/id566340798?i=123815669"
   description: |
@@ -95,6 +98,7 @@ oak:
   number: "17"
   title: "Oakland"
   date: "October 21, 2012"
+  release_date: "November 7, 2012"
   video_id: "Zk21c8Kt9a8"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep17-oakland/id566340798?i=123715116"
   description: |
@@ -133,6 +137,7 @@ sf:
   number: "16"
   title: "San Francisco"
   date: "October 18, 2012"
+  release_date: "October 31, 2012"
   video_id: "87-FESWgK3o"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep16-san-francisco/id566340798?i=123668566"
   description: |
@@ -165,6 +170,7 @@ sd:
   number: "15"
   title: "San Diego"
   date: "October 15, 2012"
+  release_date: "October 28, 2012"
   video_id: "4v2g1TIoSug"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep15-san-diego/id566340798?i=123421964"
   description: |
@@ -197,6 +203,7 @@ az:
   number: "14"
   title: "Arizona"
   date: "October 14th, 2012"
+  release_date: "October 23, 2012"
   video_id: "WE5EneySmyU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep14-arizona/id566340798?i=123183331"
   description: |
@@ -227,6 +234,7 @@ tn:
   number: "13"
   title: "Tennessee"
   date: "October 11th, 2012"
+  release_date: "October 19th, 2012"
   video_id: "iTlmAHAgjpU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep13-tennessee/id566340798?i=122951357"
   description: |
@@ -265,6 +273,7 @@ kc:
   number: "12"
   title: "Kansas City"
   date: "October 7th, 2012"
+  release_date: "October 16th, 2012"
   video_id: "7-AVDyzABtU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep12-kansas-city/id566340798?i=122753226"
   description: |
@@ -301,6 +310,7 @@ stl:
   number: "11"
   title: "St. Louis"
   date: "October 4th, 2012"
+  release_date: "October 10th, 2012"
   video_id: "Gs7CTeZOaiQ"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep11-st.-louis/id566340798?i=122751494"
   description: |
@@ -339,6 +349,7 @@ dal:
   number: "10"
   title: "Dallas"
   date: "October 1st, 2012"
+  release_date: "October 8th, 2012"
   video_id: "uzCqEcywQJA"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep10-dallas/id566340798?i=122638283"
   description: |
@@ -375,6 +386,7 @@ hou:
   number: "09"
   title: "Houston"
   date: "September 30th, 2012"
+  release_date: "October 5th, 2012"
   video_id: "CJXvGu9x9NQ"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep09-houston/id566340798?i=122448107"
   description: |
@@ -407,6 +419,7 @@ mia:
   number: "08"
   title: "Miami"
   date: "September 23rd, 2012"
+  release_date: "October 1st, 2012"
   video_id: "B4JowroGIA4"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep08-miami/id566340798?i=122323545"
   description: |
@@ -436,6 +449,7 @@ car:
   number: "07"
   title: "Carolina"
   date: "September 20th, 2012"
+  release_date: "September 26th, 2012"
   video_id: "Y0kuL8OqkGs"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep07-carolina/id566340798?i=122279200"
   description: |
@@ -465,6 +479,7 @@ atl:
   number: "06"
   title: "Atlanta"
   date: "September 17th, 2012"
+  release_date: "September 23rd, 2012"
   video_id: "zzxFVqwepDs"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep06-atlanta/id566340798?i=122230991"
   description: |
@@ -502,6 +517,7 @@ jax:
   number: "05"
   title: "Jacksonville"
   date: "September 16th, 2012"
+  release_date: "September 19th, 2012"
   video_id: "sfQieLGsu5w"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep05-jacksonville/id566340798?i=122060948"
   description: |
@@ -534,6 +550,7 @@ gb:
   number: "04"
   title: "Green Bay"
   date: "September 13th, 2012"
+  release_date: "September 17th, 2012"
   video_id: "Z8lGIDE2S4E"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep04-green-bay/id566340798?i=121745622"
   description: |
@@ -576,6 +593,7 @@ bal:
   number: "03"
   title: "Baltimore"
   date: "September 10th, 2012"
+  release_date: "September 13th, 2012"
   video_id: "zzcWQDvqgo8"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep03-baltimore/id566340798?i=121637404"
   description: |
@@ -612,6 +630,7 @@ cle:
   number: "02"
   title: "Cleveland"
   date: "September 9th, 2012"
+  release_date: "September 11th, 2012"
   video_id: "3ALUVA6zAkA"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep02-cleveland/id566340798?i=121637402"
   description: |
@@ -648,6 +667,7 @@ nyg:
   number: "01"
   title: "New York"
   date: "September 5th, 2012"
+  release_date: "September 7th, 2012"
   video_id: "ctxN8gKQ_L8"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep01-new-york/id566340798?i=121637403"
   description: |
@@ -685,6 +705,7 @@ trailer:
   number: "Tailgate32"
   title: "The Trailer"
   date: "August 15, 2012"
+  release_date: "August 15th, 2012"
   video_id: "q3eWWvPwXEA"
   description: |
     Brothers John and Mike Trupiano are set to embark on a cross country journey that is 
