@@ -49,6 +49,7 @@
       <div id="episode-details" class="widget">
         <h1>Episode Details</h1>
         <p><%= @episode.description %></p>
+        <p>Released on <%= @episode.release_date %>.</p>
         <% if @episode.bands %>
           <h1>Featured Artists</h1>
           <p class="bands">
