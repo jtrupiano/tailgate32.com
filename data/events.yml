@@ -516,6 +516,24 @@ nyj:
   city: "New York"
   date: "December 2nd, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/P3bbO">
+        <img src="/images/maps/nyj.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 9am EST, kickoff is at 1:00pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be set up in <a target="_blank" href="http://goo.gl/maps/P3bbO">Lot L</a> 
+      alongside Reverend Bill and the <a target="_blank" href="https://www.facebook.com/tailgate.tabernaclechurch">Tailgate Tabernacle Church</a>!
+    </p>
+    <p>
+      Stop by our public tailgate, free to all, for a good time, some food and plenty of
+      <a target="_blank" href="http://brooklynbrewery.com/">Brooklyn Beer</a> to go around.  
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 wash:
   title: "GAME 28: New York @ Washington"
