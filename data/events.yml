@@ -564,6 +564,26 @@ indy:
   city: "Indianapolis"
   date: "December 9th, 2012"
   leadin: "Rolling into..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/CQZDK">
+        <img src="/images/maps/indy.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 9am EST and kickoff is at 1pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be set up in the <a target="_blank" href="http://www.indybluecrew.com/">Indy Blue Crew</a> Lot at the 
+      <a target="_blank" href="http://goo.gl/maps/CQZDK">intersection of South St and Pennsylvania</a>.
+    </p>
+    <p>
+      Stop by our public tailgate, free to all, for a good time.  We'll have plenty of beer from local favorite
+      of <a target="_blank" href="http://sunkingbrewing.com/">Sun King Brewing</a> 
+      and BBQ coming off our <a target="_blank" href="http://biggreenegg.com">Big Green Egg</a>
+      courtesy of <a target="_blank" href="http://www.chefjjs.com/">Chef JJ Boston</a>.
+    </p>
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 chi:
   title: "GAME 30: Green Bay @ Chicago"
