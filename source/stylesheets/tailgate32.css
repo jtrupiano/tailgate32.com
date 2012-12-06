@@ -220,6 +220,20 @@ form label {
       height: 142px;
     }
 
+/** Video Player **/
+#video-container {
+  border: solid 6px #f5fffa;
+  border-radius: 6px;
+  width: 600px;
+  height: 338px;
+}
+
+#social-media {
+  margin: 5px auto 0;
+  padding: 5px;
+  width: 600px;
+}
+
 /** Body Styles **/
 .row {
   margin: 20px auto;
