@@ -1,3 +1,36 @@
+pitt:
+  number: "21"
+  title: "Pittsburgh"
+  date: "November 12, 2012"
+  release_date: "December 10, 2012"
+  video_id: "SCfevONS4M0"
+  description: |
+    After a 2500 mile journey from Seattle to Pittsburgh, the boys are back at it again 
+    in the Steel City.  Before hitting the lots they try out some rattlesnake pirogis, 
+    drink beer at a church, and take in a history lesson at the Heinz History Center.  Then, 
+    as they make their way to the lots, they get hit with the worst storm of the season. 
+    Watch them battle the elements and find the true diehards that make up the Steelers 
+    fan base.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+    Additional music provided by White Mystery
+  bands:
+    - name: Secret Colours
+      link: http://www.secretcolours.com/
+      songs:
+        - Black Hole
+        - Lust
+        - Me
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, BAC Sales, Hearth and Home 
+    Furnishings, Iron City Beer, Church Brew Works, Sean Casey, Heinz History Center, 
+    Steeler Van Dan, The Houser Family and Dave Carter.
+  
 sea:
   number: "20"
   title: "Seattle"
@@ -25,7 +58,7 @@ sea:
       songs:
         - Birthday
         - Powerglove
-  thanks:
+  thanks: |
     Special thanks to Football Nation, Big Green Egg, King Street Bar and Oven, Troy 
     Anderson, Mark Meenan, Craig Nisgor, Kenny Burns, Aidan's Family, The Seattle 
     Seahawks
