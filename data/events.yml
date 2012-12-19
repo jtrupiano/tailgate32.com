@@ -615,9 +615,43 @@ tb:
   city: "Tampa Bay"
   date: "December 23rd, 2012"
   leadin: "Join us in..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/W40hI">
+        <img src="/images/maps/tb.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 9am CST and kickoff is at 1pm. 
+    </p>
+    <p>
+      We've hooked up with Roman and the <a target="_blank" href="http://whatthebuc.net/">What The Buc?</a> tailgating crew and the
+      <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be set up in the <a target="_blank" href="http://goo.gl/maps/W40hI">private lot on the north side of W Ohio Ave</a>.
+      We'll have plenty of food and beer for everyone.
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
 
 "no":
   title: "GAME 32: Carolina @ New Orleans"
   city: "New Orleans"
   date: "December 30th, 2012"
   leadin: "Coming to..."
+  description: |
+    <p>
+      <a target="_blank" href="http://goo.gl/maps/kLmTj">
+        <img src="/images/maps/no.png" class="map" alt="Map of Parking Lot" />
+      </a>
+      Tailgate starts at 8am CST and kickoff is at 12pm. 
+      The <a target="_blank" href="https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3">Tailgate32 RV</a> 
+      will be set up in the private lot at the <a target="_blank" href="http://goo.gl/maps/kLmTj">southeast corner of Girod and S Rampart</a>.
+    </p>
+    <p>
+      This is the final tailgate of our season and we expect a tremendous turnout.  Come
+      out and celebrate the end of our journey at our public tailgate, free to all.
+      We're teaming up with local tailgating legend Sparky and his crew.  We'll have 
+      plenty of food and beer for everyone.
+    <p>
+      Tweet us at <a target="_blank" href="http://twitter.com/tailgate_32">@tailgate_32</a>
+      with questions or if you're having trouble finding us on game day.
+    </p>
