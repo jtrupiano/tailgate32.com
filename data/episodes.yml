@@ -1,3 +1,40 @@
+buf:
+  number: "22"
+  title: "Buffalo"
+  date: "November 15, 2012"
+  release_date: "December 19, 2012"
+  video_id: "LfsETxEaVKE"
+  description: |
+    The crew shoots over to Buffalo for a divisional showdown against the Dolphins.  First 
+    things first, it's time to figure out whose wings will make John cry harder, Anchor 
+    Bar or Duffs?  Then it's off to the tailgate where they carouse with legendary 
+    characters Hammer, Pinto Ron, and Captain Buffalo.  And to finish things off Mike 
+    partakes in a bizarre tradition where he gets covered in ketchup and mustard by some 
+    of the most colorful Bills fans.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Secret Colours
+      link: http://www.secretcolours.com/
+      songs:
+        - Faust
+    - name: PlainFire
+      link: http://plainfire.bandcamp.com/
+      songs:
+        - Sunrise
+    - name: Dead Sheriff
+      link: https://www.facebook.com/DeadSheriff
+      songs:
+        - New Plan
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, The Buffalo Bills, Hammer, Ken 
+    Johnson, and Anchor Bar.
+    
 pitt:
   number: "21"
   title: "Pittsburgh"
@@ -18,7 +55,6 @@ pitt:
     Production Manager: Matt Clement
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by White Mystery
   bands:
     - name: Secret Colours
       link: http://www.secretcolours.com/
@@ -51,7 +87,6 @@ sea:
     Production Manager: Matt Clement
     Motion graphics by Simian Design Group
     Tailgate32 theme: "Faust" by Secret Colours
-    Additional music provided by White Mystery
   bands:
     - name: White Mystery
       link: http://whitemystery.com/
