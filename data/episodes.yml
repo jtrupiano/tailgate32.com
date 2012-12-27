@@ -1,3 +1,35 @@
+ne:
+  number: "23"
+  title: "New England"
+  date: "November 18, 2012"
+  release_date: "December 27, 2012"
+  video_id: "qKjBKvksdzg"
+  description: |
+    The bus barrels into Boston to celebrate Mike's homecoming.  Before the Pats game 
+    they squeeze in a bonus tailgate at the historic Harvard/Yale game, and Mike and 
+    John square off in a chowder cook-off judged by their friends.  Then they hit the 
+    lots to meet the Lobstermen and watch the Reverend bring the house down with his 
+    pre-game sermon.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: The New Electric Sound
+      link: http://thenewelectricsound.com/
+      songs:
+        - Boston Shuffle
+        - Suitcase
+        - Before I Fall Apart
+        - What If I Disappear
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Newport Storm, The New England 
+    Patriots, Union Oyster House, Kerry Byrne, Sean Regan, J Grignon, Kate Peterson, 
+    Amanda Mereau, Alicia Olson, Justin Ducote.
+
 buf:
   number: "22"
   title: "Buffalo"
