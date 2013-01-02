@@ -35,7 +35,8 @@ helpers do
   end
   
   def upcoming_events
-    events.reject {|event| Date.today > Date.parse(event.date)}
+    [events.last]
+    # events.reject {|event| Date.today > Date.parse(event.date)}
   end
 
   def contests
