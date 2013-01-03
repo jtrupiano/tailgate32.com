@@ -1,3 +1,27 @@
+det:
+  number: "24"
+  title: "Detroit"
+  date: "November 22, 2012"
+  release_date: "January 3, 2013"
+  video_id: "K3BvhSiF4OM"
+  description: |
+    A Thanksgiving Day celebration awaits the boys in their childhood home in Detroit.  
+    Mike and John help Mom and Dad prepare a Thanksgiving meal, complete with long-time 
+    favorites White Castle stuffing and spinach balls.  Prior to the tailgate, they help 
+    Denny and the Tubgaters prepare for a special Detroit tailgating tradition before 
+    hitting the lots to hang with local favorites Crackman and Yooperman.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Detroit Beer Company, The Detroit 
+    Lions, Denny Arnie, John and Pat Trupiano.
+
 ne:
   number: "23"
   title: "New England"
