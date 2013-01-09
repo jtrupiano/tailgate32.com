@@ -1,3 +1,35 @@
+cin:
+  number: "25"
+  date: "November 25, 2012"
+  release_date: "January 9, 2013"
+  video_id: "umBHYlqnleg"
+  description: |
+    The Nati is up next for the crew, and things get started with a tailgate miracle 
+    courtesy of the Bengal Bomb Squad.  Game day brings another round of surprises, from 
+    5AM MC Hammer wakeup calls to goetta to the ceremonial burning of Carson Palmer 
+    jerseys, Mike and John get a real taste of the lives of the Bengals faithful.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+      songs:
+        - Science of Flight
+    - name: Dead Sheriff
+      link: https://www.facebook.com/DeadSheriff
+      songs:
+        - Beefheart
+        - Sign to End
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Christian Moerlein, Derrick Dixon, 
+    Kevin Hitchcock and Emily White, Aceraison, Big John, WhoDeyBaby, Bengal Bomb Squad, 
+    and Lisa and Greg Houser.
+  
 det:
   number: "24"
   title: "Detroit"
