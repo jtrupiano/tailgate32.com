@@ -1,3 +1,30 @@
+phi:
+  number: "26"
+  title: "Philadelphia"
+  date: "November 26, 2012"
+  release_date: "January 16, 2013"
+  video_id: "Vn0CxW3YqoI"
+  description: |
+    It's a beer-loving, craft sandwich making paradise of a city.  The boys stuff 
+    themselves silly gorging across Philly before heading out to the lots for an Eagles 
+    MNF game.  The tailgate continues to impress as they find, among other things, 
+    cheesesteak soup and a new generation of spirited Eagles fans.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Dead Sheriff
+      link: https://www.facebook.com/DeadSheriff
+      songs:
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Dock Street Brewing Co, 
+    Tasty Licks BBQ, The Philadelphia Eagles, Shaun Young, John's Roast Pork, QT, 
+    Bitar's, Sarcone's, Jim's Steaks, and Tony Luke's.
+
 cin:
   number: "25"
   title: "Cincinnati"
