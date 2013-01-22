@@ -1,3 +1,33 @@
+nyj:
+  number: "27"
+  title: "New York"
+  date: "December 2, 2013"
+  release_date: "January 22, 2013"
+  video_id: "IEkD25L5Hzc"
+  description: |
+    John and Mike race back up the east coast for a second round with the fans of New York.  
+    This time, it's the Jets' turn.  Despite the rough season it's still a great turnout 
+    at the tailgate--they check in with Mohawk Mitch, an aspiring new superfan, the Jets 
+    Bus, and Flag Man, all the while slurping down green shot after green shot.  They 
+    finish up the day with one of Reverend Bill's famous ceremonies at the Tailgate 
+    Tabernacle Church.  Learn to live it, learn to love it!
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+      songs:
+        - Heart Like That
+        - She
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, New York Jets, Brooklyn Brewery, 
+    and Reverend Bill.
+    
 phi:
   number: "26"
   title: "Philadelphia"
