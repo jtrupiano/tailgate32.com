@@ -1,7 +1,36 @@
+wash:
+  number: "28"
+  title: "Washington"
+  date: "December 3, 2012"
+  release_date: "January 29, 2013"
+  video_id: "4RaLQNpGy0A"
+  description: |
+    Mike and John stroll into Washington for stop #28 on their marathon journey.  Before 
+    they hit the lots though, the brothers notice they're starting to get a little pudgy, 
+    so they enlist the help of Pro Bowler Lorenzo Alexander.  After shedding a few pounds 
+    at the gym they're back tailgating again.  They get a surprise visit from Washington 
+    Redskins' GM Bruce Allen and spend some quality time with the Hogettes and the 
+    ExtremeSkins tailgaters.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Secret Colours
+      link: http://www.secretcolours.com/
+      songs: 
+        - Redemption
+  thanks:
+    Special thanks to Football Nation, Big Green Egg, Washington Redskins, Bruce Allen, 
+    Lorenzo Alexander, ExtremeSkins, Huli and Pez, and Chocolate City Beer.
+
 nyj:
   number: "27"
   title: "New York"
-  date: "December 2, 2013"
+  date: "December 2, 2012"
   release_date: "January 22, 2013"
   video_id: "IEkD25L5Hzc"
   description: |
