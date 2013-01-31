@@ -138,8 +138,11 @@
         display: block;
       }
 
-      .upcoming-game-data {
-        display: none;
+      .episode-date {
+        width: 150px;
       }
 
-
+      .upcoming-date {
+        padding-left: 10px;
+        width: 153px;
+      }

@@ -1,19 +1,8 @@
-<% 
-  _events = upcoming_events.dup
-  while (_events.size < 4) do
-    _events << OpenStruct.new
-  end
-%>
-<% _events[0..3].each do |event| %>
+<% @nfc_episodes.each do |episode| %>
   <div class="upcoming-episode">
-    <% if event.description %>
-      <a href="/events/<%= event.abbr %>">
-    <% end %>
-      <div class="upcoming-welcome"><%= event.leadin %></div>
-      <div class="upcoming-city"><%= event.city %></div>
-      <div class="upcoming-date"><%= event.date %></div>
-    <% if event.description %>
-      </a>
-    <% end %>
+    <a href="/play/<%= episode.abbr %>">
+      <div class="upcoming-city"><%= episode.title %></div>
+      <div class="upcoming-date"><%= episode.teaser %></div>
+    </a>
   </div>
 <% end %>
