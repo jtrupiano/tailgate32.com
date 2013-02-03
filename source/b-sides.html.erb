@@ -36,7 +36,7 @@
       <% bsides.each do |bside| %>
         <div class="item">
           <a href="/b-sides/<%= bside.abbr %>"><img src="http://img.youtube.com/vi/<%= bside.video_id %>/maxresdefault.jpg" alt="<%= bside.title %>" /></a>
-          <h3>B-Side #<%= bside.number %>: <%= bside.title %></h3>
+          <h3><%= bside.title %></h3>
           <span class="description"><%= bside.date %></span>
         </div>
       <% end %>

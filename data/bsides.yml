@@ -1,3 +1,30 @@
+superbowl:
+  number: "06"
+  title: "Tailgate the Super Bowl"
+  date: "February 3, 2013"
+  video_id: "DpjpSHx-qr0"
+  description: |
+    Mike and John take to the streets of New Orleans with a grill on wheels to tailgate
+    Super Bowl weekend.
+
+kissme:
+  number: "05"
+  title: "Kiss Me, I'm Shitfaced"
+  date: "January 18, 2013"
+  video_id: "Q1DYdb7L0uo"
+  description: |
+    The Bengal Bomb Squad demonstrates one of the funnier (and more crass!) tailgate 
+    traditions we've seen all year.
+
+holidays:
+  number: "04"
+  title: "Happy Holidays 2012"
+  date: "December 24, 2012"
+  video_id: "CYFD7ZINxvA"
+  description: |
+    As the holidays approach the crew's weariness is evident and they get a little wonky 
+    wishing everyone a Merry Christmas.
+
 declined:
   number: "03"
   title: "Declined"
