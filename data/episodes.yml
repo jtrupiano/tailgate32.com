@@ -1,3 +1,37 @@
+indy:
+  number: "29"
+  title: "Indianapolis"
+  date: "December 9, 2012"
+  release_date: "February 8, 2013"
+  video_id: "-wGea2TyNoc"
+  description: |
+    Back to the heart of the midwest they go.  First up is a pilgrimage to the RV Hall of 
+    Fame in Elkhart, Indiana where Mike and John get to sit in and admire the original 
+    model of the Holiday Rambler they drive today.  After another RV mishap, they make it 
+    to the lots and are greeted by rainy and cold weather.  But spirits remained high as 
+    the legendary Pipers, the Indy Blue Crew and the Colts Disciples and welcomed Mike 
+    and John with some of that famous Hoosier Hospitality.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Raffi Joe
+      link: http://raffijoemusic.com/
+      song:
+        - Stumped
+    - name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+      songs:
+        - Raise Some Hell
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Chef JJ Boston, Sun King Brewing, 
+    The Blue Crew, Randy and Lynne.
+
+  
 wash:
   number: "28"
   title: "Washington"
