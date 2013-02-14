@@ -4,6 +4,7 @@ indy:
   date: "December 9, 2012"
   release_date: "February 8, 2013"
   video_id: "-wGea2TyNoc"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep29-indianapolis/id566340798?i=132202051"
   description: |
     Back to the heart of the midwest they go.  First up is a pilgrimage to the RV Hall of 
     Fame in Elkhart, Indiana where Mike and John get to sit in and admire the original 
@@ -30,7 +31,6 @@ indy:
   thanks: |
     Special thanks to Football Nation, Big Green Egg, Chef JJ Boston, Sun King Brewing, 
     The Blue Crew, Randy and Lynne.
-
   
 wash:
   number: "28"
@@ -38,6 +38,7 @@ wash:
   date: "December 3, 2012"
   release_date: "January 29, 2013"
   video_id: "4RaLQNpGy0A"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep28-washington/id566340798?i=131293413"
   description: |
     Mike and John stroll into Washington for stop #28 on their marathon journey.  Before 
     they hit the lots though, the brothers notice they're starting to get a little pudgy, 
@@ -67,6 +68,7 @@ nyj:
   date: "December 2, 2012"
   release_date: "January 22, 2013"
   video_id: "IEkD25L5Hzc"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep27-new-york/id566340798?i=130370817"
   description: |
     John and Mike race back up the east coast for a second round with the fans of New York.  
     This time, it's the Jets' turn.  Despite the rough season it's still a great turnout 
