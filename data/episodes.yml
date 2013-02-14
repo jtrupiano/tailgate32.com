@@ -1,3 +1,32 @@
+chi:
+  number: "30"
+  title: "Chicago"
+  date: "December 16, 2013"
+  release_date: "February 14, 2013"
+  video_id: "xo6f2QBTZdk"
+  description: |
+    The boys cruise into Chicago for a rematch of the Packers/Bears game they saw back 
+    in Week 2 up in Green Bay.  Before the game they check in with a father/son duo that 
+    has been on a similar football odyssey this season.  They hit the lots before the 
+    sun rises and find Da Bus, one of the most famous fan vehicles in the league, in 
+    need of a jump.  They cruise around with Honey Bear, help an ordinary man transform 
+    into Bear Man, and hold down the puke when trying the famous "Whatever" shot.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: White Mystery
+      link: http://whitemystery.com/
+      songs:
+        - Switch It Off
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Metropolitan Brewing, Virtue 
+    Cider, Armitage Hardware, Timmy and Da Bus, Honey Bear and Game Bibs.
+    
 indy:
   number: "29"
   title: "Indianapolis"
