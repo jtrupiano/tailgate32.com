@@ -1,7 +1,36 @@
+tb:
+  number: "31"
+  title: "Tampa Bay"
+  date: "December 23, 2012"
+  release_date: "February 21, 2013"
+  video_id: "JCcRMrFWemQ"
+  description: |
+    Mike and John bolt from the Windy City down to sunny Tampa and find a party culture 
+    as lively as any they've seen.  They stop in Ybor City first for a lesson in cigar 
+    rolling (not to mention mojito drinking).  Then it's off to the tailgate where 
+    they've teamed up with What The Buc? and the Krewe of Blackbeard's Revenge.  From 
+    pirate ships and swords to massive smokers to drinking beads, the boys find Tampa 
+    boasts one of the more colorful tailgating scenes in the league.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: The New Electric Sound
+      link: http://thenewelectricsound.com/
+      songs:
+        - Crimson Sky
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Cigar City Brewing, What The Buc?, 
+    Ybor Cigar Plus, Buccaneer Beads, Joe and Debbie Davenport, Brian Menendez.
+
 chi:
   number: "30"
   title: "Chicago"
-  date: "December 16, 2013"
+  date: "December 16, 2012"
   release_date: "February 14, 2013"
   video_id: "xo6f2QBTZdk"
   description: |
