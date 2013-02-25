@@ -17,7 +17,7 @@
     <div id="featured-video">
       <div class="headline">
         <%= image_tag 'arrow-left.png' %>
-        <h1>B-Side #<%= @bside.number %>: <%= @bside.title %></h1>
+        <h1><%= @bside.title %></h1>
       </div>
       <br />
       <div id="video-container">
@@ -36,7 +36,7 @@
       <% bsides.each do |bside| %>
         <div class="item">
           <a href="/b-sides/<%= bside.abbr %>"><img src="http://img.youtube.com/vi/<%= bside.video_id %>/maxresdefault.jpg" alt="<%= bside.title %>" /></a>
-          <h3><%= bside.title %></h3>
+          <h3><%= bside.short_title || bside.title %></h3>
           <span class="description"><%= bside.date %></span>
         </div>
       <% end %>
@@ -45,7 +45,11 @@
   </div>
   <div class="right">
     <div id="widgets">
-      <%= partial "promos/upcoming" %>
+      <div id="episode-details" class="widget">
+        <h1>B-Side Details</h1>
+        <p><%= @bside.description %></p>
+        <p>Released on <%= @bside.date %>.</p>
+      </div>
       <%= partial "promos/recent-episodes" %>
     </div>
   </div>
