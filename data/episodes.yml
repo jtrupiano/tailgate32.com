@@ -1,3 +1,36 @@
+"no":
+  number: "32"
+  title: "New Orleans"
+  date: "December 30, 2012"
+  release_date: "March 5, 2013"
+  video_id: "NyFS258Jgpk"
+  description: |
+    It's the end of the line for the boys as they roll into the Big Easy for the last 
+    stop of their whirlwind tour.  After 27,000 miles on the road, Mike and John 
+    figured it might be about time to actually learn how to cook, so they enlist the 
+    help of the fine folks from the New Orleans School of Cooking to learn how to 
+    prepare some of the local cuisine.  Then it's off to the tailgate to wrap up their 
+    season of parking lot partying.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and Edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Production Manager: Matt Clement
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+  bands:
+    - name: Dirty River Boys
+      link: http://www.dirtyriverboys.com/
+      songs:
+        - Dried Up
+        - Medicine Show
+    - name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+      songs:
+  thanks: |
+    Special thanks to Football Nation, Big Green Egg, Gordon Biersch, Scott "Sparky"
+    Sparks, The New Orleans School of Cooking, and Joe Cahn.
+
 tb:
   number: "31"
   title: "Tampa Bay"
