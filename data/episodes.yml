@@ -4,6 +4,8 @@
   date: "December 30, 2012"
   release_date: "March 5, 2013"
   video_id: "NyFS258Jgpk"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep32-new-orleans/id566340798?i=135225259&mt=2"
+  blip_id: "6546107"
   description: |
     It's the end of the line for the boys as they roll into the Big Easy for the last 
     stop of their whirlwind tour.  After 27,000 miles on the road, Mike and John 
@@ -37,6 +39,8 @@ tb:
   date: "December 23, 2012"
   release_date: "February 21, 2013"
   video_id: "JCcRMrFWemQ"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep31-tampa-bay/id566340798?i=134342595&mt=2"
+  blip_id: "6541235"
   description: |
     Mike and John bolt from the Windy City down to sunny Tampa and find a party culture 
     as lively as any they've seen.  They stop in Ybor City first for a lesson in cigar 
@@ -66,6 +70,8 @@ chi:
   date: "December 16, 2012"
   release_date: "February 14, 2013"
   video_id: "xo6f2QBTZdk"
+  itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep30-chicago/id566340798?i=133503204&mt=2"
+  blip_id: "6536007"
   description: |
     The boys cruise into Chicago for a rematch of the Packers/Bears game they saw back 
     in Week 2 up in Green Bay.  Before the game they check in with a father/son duo that 
@@ -96,6 +102,7 @@ indy:
   release_date: "February 8, 2013"
   video_id: "-wGea2TyNoc"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep29-indianapolis/id566340798?i=132202051"
+  blip_id: "6526485"
   description: |
     Back to the heart of the midwest they go.  First up is a pilgrimage to the RV Hall of 
     Fame in Elkhart, Indiana where Mike and John get to sit in and admire the original 
@@ -130,6 +137,7 @@ wash:
   release_date: "January 29, 2013"
   video_id: "4RaLQNpGy0A"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep28-washington/id566340798?i=131293413"
+  blip_id: "6518005"
   description: |
     Mike and John stroll into Washington for stop #28 on their marathon journey.  Before 
     they hit the lots though, the brothers notice they're starting to get a little pudgy, 
@@ -160,6 +168,7 @@ nyj:
   release_date: "January 22, 2013"
   video_id: "IEkD25L5Hzc"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep27-new-york/id566340798?i=130370817"
+  blip_id: "6511501"
   description: |
     John and Mike race back up the east coast for a second round with the fans of New York.  
     This time, it's the Jets' turn.  Despite the rough season it's still a great turnout 
@@ -191,6 +200,7 @@ phi:
   release_date: "January 16, 2013"
   video_id: "Vn0CxW3YqoI"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep26-philadelphia/id566340798?i=129405361"
+  blip_id: "6505633"
   description: |
     It's a beer-loving, craft sandwich making paradise of a city.  The boys stuff 
     themselves silly gorging across Philly before heading out to the lots for an Eagles 
@@ -221,6 +231,7 @@ cin:
   release_date: "January 9, 2013"
   video_id: "umBHYlqnleg"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep25-cincinnati/id566340798?i=127995654"
+  blip_id: "6497679"
   description: |
     The Nati is up next for the crew, and things get started with a tailgate miracle 
     courtesy of the Bengal Bomb Squad.  Game day brings another round of surprises, from 
@@ -255,6 +266,7 @@ det:
   release_date: "January 3, 2013"
   video_id: "K3BvhSiF4OM"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep24-detroit/id566340798?i=127642696"
+  blip_id: "6492511"
   description: |
     A Thanksgiving Day celebration awaits the boys in their childhood home in Detroit.  
     Mike and John help Mom and Dad prepare a Thanksgiving meal, complete with long-time 
@@ -280,6 +292,7 @@ ne:
   release_date: "December 27, 2012"
   video_id: "qKjBKvksdzg"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep23-new-england/id566340798?i=127314489"
+  blip_id: "6487787"
   description: |
     The bus barrels into Boston to celebrate Mike's homecoming.  Before the Pats game 
     they squeeze in a bonus tailgate at the historic Harvard/Yale game, and Mike and 
@@ -314,6 +327,7 @@ buf:
   release_date: "December 19, 2012"
   video_id: "LfsETxEaVKE"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep22-buffalo/id566340798?i=127020727"
+  blip_id: "6481486"
   description: |
     The crew shoots over to Buffalo for a divisional showdown against the Dolphins.  First 
     things first, it's time to figure out whose wings will make John cry harder, Anchor 
@@ -352,6 +366,7 @@ pitt:
   release_date: "December 10, 2012"
   video_id: "SCfevONS4M0"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep21-pittsburgh/id566340798?i=126283883"
+  blip_id: "6472036"
   description: |
     After a 2500 mile journey from Seattle to Pittsburgh, the boys are back at it again 
     in the Steel City.  Before hitting the lots they try out some rattlesnake pirogis, 
@@ -385,6 +400,7 @@ sea:
   release_date: "November 24, 2012"
   video_id: "W4vAXTODZJg"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep20-seattle/id566340798?i=125181853"
+  blip_id: "6453200"
   description: |
     The boys are trading in snow for rain as they make their way to the Pacific Northwest.  
     Mike and John test out their sea legs on a sailing excursion on Puget Sound before 
@@ -417,6 +433,7 @@ den:
   release_date: "November 17, 2012"
   video_id: "2K7BDKdqIgw"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep19-denver/id566340798?i=124807467"
+  blip_id: "6442174"
   description: |
     Up the mountains they go--the RV barrels into scenic and snowy Denver.  John and Mike go 
     head to head in a traditional brewmaster's game during a private after-hours tour of the 
@@ -450,6 +467,7 @@ minn:
   release_date: "November 12, 2012"
   video_id: "S9KFgajP084"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep18-minnesota/id566340798?i=123815669"
+  blip_id: "6434467"
   description: |
     A brutal but stunningly beautiful 2000-mile trek is up next for the boys.  Ms. Ed 
     hosts the Tailgate32 team for some Halloween goofiness before Mike and John take to 
@@ -483,6 +501,7 @@ oak:
   release_date: "November 7, 2012"
   video_id: "Zk21c8Kt9a8"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep17-oakland/id566340798?i=123715116"
+  blip_id: "6429765"
   description: |
     The team rolls across the Bay Bridge to check out Raider Nation.  The already weary 
     boys don't catch any breaks though-they've got a 4am wake-up call to pick up fresh 
@@ -522,6 +541,7 @@ sf:
   release_date: "October 31, 2012"
   video_id: "87-FESWgK3o"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep16-san-francisco/id566340798?i=123668566"
+  blip_id: "6428341"
   description: |
     Mike and John shoot up the coast for the first of two stops in the Bay Area.  But 
     the possessed RV strikes again.  They struggle to maintain speeds greater than 25mph 
@@ -556,6 +576,7 @@ sd:
   release_date: "October 28, 2012"
   video_id: "4v2g1TIoSug"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep15-san-diego/id566340798?i=123421964"
+  blip_id: "6422794"
   description: |
     Mike and John escape the desert for the beautiful Southern California coast.  They 
     take a dip in the ocean and chow on some local cuisine before heading over to the 
@@ -589,6 +610,7 @@ az:
   release_date: "October 23, 2012"
   video_id: "WE5EneySmyU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep14-arizona/id566340798?i=123183331"
+  blip_id: "6416864"
   description: |
     With only 2 days to drive 1,700 miles, the already arduous trip to Phoenix is
     complicated by a massive thunderstorm that finds its way into the RV.  But the crew
@@ -620,6 +642,7 @@ tn:
   release_date: "October 19th, 2012"
   video_id: "iTlmAHAgjpU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep13-tennessee/id566340798?i=122951357"
+  blip_id: "6411991"
   description: |
     Back east go the boys for one more stop before crossing the Rockies for a couple 
     of weeks.  The live music capital of the world awaits and the team wastes no time 
@@ -659,6 +682,7 @@ kc:
   release_date: "October 16th, 2012"
   video_id: "7-AVDyzABtU"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep12-kansas-city/id566340798?i=122753226"
+  blip_id: "6406568"
   description: |
     John and Mike roll into Kansas City with the crew and have to immediately deal with 
     their first winter weather of the year.  But on game day the sun comes out as they 
@@ -696,6 +720,7 @@ stl:
   release_date: "October 10th, 2012"
   video_id: "Gs7CTeZOaiQ"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep11-st.-louis/id566340798?i=122751494"
+  blip_id: "6406511"
   description: |
     The Gateway to the West awaits the brothers, but not before getting tripped up in 
     Tulsa at the infamous Mercury Lounge.  The boys spend a day in the Lou with Ram Man, 
@@ -735,6 +760,7 @@ dal:
   release_date: "October 8th, 2012"
   video_id: "uzCqEcywQJA"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep10-dallas/id566340798?i=122638283"
+  blip_id: "6402939"
   description: |
     The boys sprint up I-45 to Big D for the back half of another back to back.  Take a 
     peak behind the scenes at Cowboys Stadium where John and Mike don pads for a couple 
@@ -772,6 +798,7 @@ hou:
   release_date: "October 5th, 2012"
   video_id: "CJXvGu9x9NQ"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep09-houston/id566340798?i=122448107"
+  blip_id: "6398133"
   description: |
     The crew makes the trek around the Gulf of Mexico for their first of two stops in 
     the great state of Texas.  After a brief detour to the music mecca Luckenbach, Mike 
@@ -792,8 +819,7 @@ hou:
         - Redemption
         - Blackbird Only One
         - My Home Is In Your Soul
-        - Chemical Swirl
-        
+        - Chemical Swirl  
   thanks: |
     Special thanks to Football Nation, Big Green Egg, Sam Adams, Jamey Rootes, 
     Stephanie Stradley, Stephanie Miranda, Derek Johnson, Joe Texan, Sweet, 
@@ -806,6 +832,7 @@ mia:
   release_date: "October 1st, 2012"
   video_id: "B4JowroGIA4"
   itunes: "https://itunes.apple.com/us/podcast/tailgate32-ep08-miami/id566340798?i=122323545"
+  blip_id: "6395017"
   description: |
     Miami sunshine awaits the Tailgate32 team, but not before a torrential downpour.  
     Join Mike and John as they seek out gators in the Everglades, get a taste of a 
@@ -836,6 +863,7 @@ car:
   release_date: "September 26th, 2012"
   video_id: "Y0kuL8OqkGs"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep07-carolina/id566340798?i=122279200"
+  blip_id: "6393596"
   description: |
     Mike and John head north to the land of Carolina and immediately find they
     haven't quite left the south.  On the search for Panthers fans among a sea of
@@ -866,6 +894,7 @@ atl:
   release_date: "September 23rd, 2012"
   video_id: "zzxFVqwepDs"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep06-atlanta/id566340798?i=122230991"
+  blip_id: "6391965"
   description: |
     The TG32 crew hightails it out of Jacksonville up to Atlanta for their second back 
     to back of the season.  The A-Town tailgaters come through in a big way as they 
@@ -905,6 +934,7 @@ jax:
   release_date: "September 19th, 2012"
   video_id: "sfQieLGsu5w"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep05-jacksonville/id566340798?i=122060948"
+  blip_id: "6387764"
   description: |
     Tailgate32 races down to Jacksonville for one of their tightest turnarounds of the 
     season.  Mike and John catch up with Jaxson Deville, the most daring mascot in 
@@ -938,6 +968,7 @@ gb:
   release_date: "September 17th, 2012"
   video_id: "Z8lGIDE2S4E"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep04-green-bay/id566340798?i=121745622"
+  blip_id: "6377143"
   description: |
     The boys head north to Green Bay, home of the Cheese Head, for their 4th stop on the 
     tour.  Follow them as they get a tour of the city from the mayor, visit a true Packer 
@@ -968,7 +999,6 @@ gb:
       link: http://www.dirtyriverboys.com/
       songs:
         - She
-
   thanks: |
     Special thanks to Football Nation, Big Green Egg, Northern Plains Distributing, 
     Furniture and Appliance Mart, Titletown Brewing Co., City of Green Bay, PMI 
@@ -982,6 +1012,7 @@ bal:
   release_date: "September 13th, 2012"
   video_id: "zzcWQDvqgo8"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep03-baltimore/id566340798?i=121637404"
+  blip_id: "6372238"
   description: |
     Mike and John encounter their first back to back as they have only 20 hours to get 
     from Cleveland and set up their Baltimore tailgate.  They meet the "Commissioner of 
@@ -1020,6 +1051,7 @@ cle:
   release_date: "September 11th, 2012"
   video_id: "3ALUVA6zAkA"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep02-cleveland/id566340798?i=121637402"
+  blip_id: "6365705"
   description: |
     Tailgate32 cruises into Cleveland for the second stop on their tour. Follow Mike and 
     John as they get help with their generator from folks at the KOA, check out the 
@@ -1057,6 +1089,7 @@ nyg:
   release_date: "September 7th, 2012"
   video_id: "ctxN8gKQ_L8"
   itunes: "http://itunes.apple.com/us/podcast/tailgate32-ep01-new-york/id566340798?i=121637403"
+  blip_id: "6365506"
   description: |
     Tailgate32 makes its first stop of the tour in America's biggest market: New York.  
     Follow Mike and John as they travel to the Big Apple to find out what makes Giants 
