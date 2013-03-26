@@ -30,7 +30,7 @@ class Episode < OpenStruct
   end
 
   def youtube_embed_url
-    "https://www.youtube.com/embed/#{self.video_id}?vq=hd720&showinfo=0"
+    "https://www.youtube.com/embed/#{self.video_id}?vq=hd720&showinfo=0&rel=0"
   end
   
   def youtube_og_url
