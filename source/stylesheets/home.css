@@ -1,9 +1,5 @@
 
 /** Styles specific to the home page of tailgate32.com **/
-  #home-chrome {
-    margin-top: -8px;
-  }
-
   #home h1 {
     font-size: 36px;
   }
@@ -31,36 +27,16 @@
   }
 
   #home .left {
-    width: 180px;
+    width: 600px;
     margin-right: 20px;
     float: left;
   }
 
-  #home .center {
-    width: 600px;
-    float: left;
-  }
-
-    #home .center h1 {
-      text-align: center;
-    }
-
-    #home .center h2 {
-      text-align: center;
-      color: #c1c1c1;
-      line-height: 28px;
-    }
-
   #home .right {
-    width: 180px;
-    margin-left: 20px;
+    width: 360px;
     float: left;
-    text-align: right;
   }
 
-
-  #home .left  h3 { padding-left:  10px; }
-  #home .right h3 { padding-right: 10px; }
 
   #home p {
     line-height: 1.3;
@@ -96,53 +72,43 @@
         margin-top: 8px;
       }
 
-    .recent-episode a, .upcoming-episode a, 
-        .recent-episode a:visited, .upcoming-episode a:visited {
-      color: inherit;
+  #calls-to-action a {
+    display: block;
+    width: 360px;
+    text-decoration: none;
+  }
+
+    #watch {
+      height: 209px;
+      background: url("../images/watch.png");
     }
 
-    #recent-episodes .recent-episode {
-      width: 176px;
+    #watch:hover {
+      background-position: 0px -209px;
+    }
+
+    #behind-the-scenes {
+      margin-top: 20px;
       height: 76px;
-      background: url("../images/recent-arrow.png") no-repeat;
-      padding: 13px 0px 0px 13px;
-      line-height: 1.3;
+      background: url("../images/behind-the-scenes.png");
+      background-position: 0px -76px;
     }
 
-    #upcoming-episodes .upcoming-episode {
-      width: 163px;
-      height: 76px;
-      text-align: right;
-      background: url("../images/upcoming-arrow.png") no-repeat;
-      padding: 13px 13px 0px 0px;
-      line-height: 1.3;
+    #behind-the-scenes:hover {
+      background-position: 0px 0px;
     }
 
-      .episode-number, .upcoming-welcome {
-        font-size: 16px;
-        font-weight: bold;
-        display: block;
-      }
+    #tell-us {
+      margin-top: 20px;
+      height: 60px;
+      background: url("../images/tell-us.png");
+    }
 
-      .episode-title, .upcoming-city {
-        font-size: 16px;
-        font-family: "Alfa Slab One", serif;
-        color: #fff100;
-        display: block;
-      }
+    #tell-us:hover {
+      background-position: 0px -60px;
+    }
 
-      .episode-date, .upcoming-date {
-        font-size: 14px;
-        font-style: italic;
-        color: #c1c1c1;
-        display: block;
-      }
-
-      .episode-date {
-        width: 150px;
-      }
-
-      .upcoming-date {
-        padding-left: 10px;
-        width: 153px;
-      }
+    #calls-to-action a .displace {
+      position: absolute;
+      left: -5000px;
+    }

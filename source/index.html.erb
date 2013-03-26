@@ -17,38 +17,18 @@
 <% end %>
 
 <div id="home" class="row">
-  <div id="home-chrome">
-    <div class="left">
-      <h3>The AFC</h3>
-      <p>Check out the tailgates for the AFC's final four.</p>
-    </div>
-    <div class="center">
-      <h1>The Latest</h1>
-      <h2>Episode <%= @episode.number %>: <%= @episode.title %></h2>
-    </div>
-    <div class="right">
-      <h3>The NFC</h3>
-      <p>How do they compare to the NFC's tailgates?</p>
-    </div>
-    <br class="clear" />
-  </div>
   <div id="home-video">
-    <div id="recent-episodes" class="left">
-      <%= partial :recent_episodes %>
-      <p>
-        Missed an episode?<br />
-        <a href="/play">VIEW THE ARCHIVES</a>
-      </p>
-    </div>
-    <div class="center">
+    <div class="left">
       <div id="episode-highlight">
         <div id="video-container">
-          <iframe id="ytplayer" width="600" height="338" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
+          <!-- <iframe src="http://blip.tv/play/AYOK410A.x?p=1" width="600" height="366" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#AYOK410A" style="display:none"></embed> -->
+          <iframe src="http://player.vimeo.com/video/55050711?title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <!-- <iframe id="ytplayer" width="600" height="338" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe> -->
         </div>
         <div id="social-media">
           <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
           <div id="subscribe">
-            Subscribe <a target="_blank" href="<%= @episode.itunes_url %>">iTunes</a> | <a target="_blank" href="<%= @episode.youtube_watch_url %>">YouTube</a> | <a target="_blank" href="http://feeds.feedburner.com/tailgate32">RSS</a>
+            Subscribe <a target="_blank" href="<%= @episode.itunes_url %>">iTunes</a> | <a target="_blank" href="<%= @episode.youtube_watch_url %>">YouTube</a> | <a target="_blank" href="http://blip.tv/tailgate32">Blip</a>
           </div>
           <br class="clear" />
           <div id="twitter">
@@ -58,12 +38,10 @@
         </div>
       </div>
     </div>
-    <div id="upcoming-episodes" class="right">
-      <%= partial :upcoming_episodes %>
-      <p>
-        Want the full scoop?<br />
-        <%= link_to 'VIEW THE SCHEDULE', "/schedule" %>
-      </p>
+    <div id="calls-to-action" class="right">
+      <a href="/episodes" id="watch" title="Watch all 32 episodes right now"><span class="displace">Watch all 32 episodes right now</span></a>
+      <a href="/b-sides" id="behind-the-scenes" title="Go behind the scenes with Mike and John"><span class="displace">Go behind the scenes with Mike and John</span></a>
+      <a href="#" id="tell-us" class="contact-us-link" title="Tell us what you think"><span class="displace">Tell us what you think</span></a>
     </div>
     <br class="clear" />
   </div>
