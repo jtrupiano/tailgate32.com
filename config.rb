@@ -59,9 +59,7 @@ end
 ###
 
 page "/index.html" do 
-  @episode = episodes.first
-  @afc_episodes = [3,23,19,9].map {|i| episodes.reverse[i]}
-  @nfc_episodes = [16,6,4,20].map {|i| episodes.reverse[i]}
+  @featured_episodes = [22,20,19,31].map {|i| episodes.reverse[i]}
 end
 
 page "/episodes.html"

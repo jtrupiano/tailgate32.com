@@ -9,6 +9,14 @@
     padding: 6px;
   }
 
+    .featured-episode a:hover img {
+      border: solid 2px #ccc;
+    }
+
+    .featured-episode a, .featured-episode a:visited {
+      text-decoration: none;
+    }
+
     .row .featured-episode.first { padding-left: 0px; }
     .row .featured-episode.last { padding-right: 0px; }
 

@@ -27,26 +27,15 @@
 <div id="secondary" class="row">
   <h2>Tailgate32: The Ultimate Football Fan Roadtrip</h2>
   <p>Before checking out the speedway, Mike and John took an epic roadtrip to tailgate all 32 NFL stadiums in one 17-week regular season.  Here are a couple of our favorite episodes.  Or you can <a href="/episodes">watch all 32 of them</a>!</p>
-  <div class="featured-episode first">
-    <img src="/images/episodes/mids/buf.png" />
-    <h4>Episode 22</h4>
-    <h3>Buffalo</h3>
-  </div>
-  <div class="featured-episode">
-    <img src="/images/episodes/mids/sea.png" />
-    <h4>Episode 20</h4>
-    <h3>Seattle</h3>
-  </div>
-  <div class="featured-episode">
-    <img src="/images/episodes/mids/den.png" />
-    <h4>Episode 19</h4>
-    <h3>Denver</h3>
-  </div>
-  <div class="featured-episode last">
-    <img src="/images/episodes/mids/tb.png" />
-    <h4>Episode 31</h4>
-    <h3>Tampa Bay</h3>
-  </div>
+  <% @featured_episodes.each_with_index do |episode, i| %>
+    <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
+      <a href="/play/<%= episode.abbr %>">
+        <img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" />
+        <h4>Episode <%= episode.number %></h4>
+        <h3><%= episode.title %></h3>
+      </a>
+    </div>
+  <% end %>
   <br class="clear" />
 </div>
 <div class="divider"></div>
