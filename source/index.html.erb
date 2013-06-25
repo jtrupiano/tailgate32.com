@@ -1,48 +1,73 @@
-<% content_for(:title) { "Tailgate32: The Ultimate Football Fan Roadtrip" } %>
-<% content_for(:description) { "Two guys in an RV documenting the American traditions of roadtrips, tailgating, and pro football. 17 weeks. 32 games. 25,000 miles." } %>
+<% content_for(:title) { "Tailgate32: An Epic Web Series" } %>
+<% content_for(:description) { "A web series that follows brothers Mike & John as they explore the greatest sports fan traditions in America." } %>
 <% content_for(:og_meta) do %>
 
   <meta property="og:type"        content="video.tv_show" />
   <meta property="og:url"         content="http://tailgate32.com" />
   <meta property="og:image"       content="http://tailgate32.com/images/32logo-320px.png" />
-  <meta property="og:title"       content="Tailgate32: The Ultimate Football Fan Roadtrip" />
-  <meta property="og:description" content="Tailgate32 is a digital adventure series that follows the journey of adventure-loving brothers Mike and John Trupiano as they tour the country in a 42' RV to throw a tailgate party at a home game for every NFL team during the 2012 regular season." />
+  <meta property="og:title"       content="Tailgate32: An Epic Web Series" />
+  <meta property="og:description" content="A web series that follows brothers Mike & John as they explore the greatest sports fan traditions in America." />
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag(:home) } %>
 
-<% content_for :javascripts do %>
-  <%= javascript_include_tag 'episodes' %>
-  <%= javascript_include_tag 'upcoming' %>
-  <%= javascript_include_tag 'home' %>
-<% end %>
-
-<div id="home" class="row">
-  <div id="home-video">
-    <div class="left">
-      <div id="episode-highlight">
-        <div id="video-container">
-          <!-- <iframe src="http://blip.tv/play/AYOK410A.x?p=1" width="600" height="366" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#AYOK410A" style="display:none"></embed> -->
-          <iframe src="http://player.vimeo.com/video/55050711?title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-          <!-- <iframe id="ytplayer" width="600" height="338" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe> -->
-        </div>
-        <div id="social-media">
-          <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
-          <div id="subscribe">
-            Subscribe <a target="_blank" href="<%= @episode.itunes_url %>">iTunes</a> | <a target="_blank" href="<%= @episode.youtube_watch_url %>">YouTube</a> | <a target="_blank" href="http://blip.tv/tailgate32">Blip</a>
-          </div>
-          <br class="clear" />
-          <div id="twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="none" data-text="Check out the @tailgate32 guys. They're tailgating a home game for every NFL team this year. Next stop: <%= upcoming_events.first.city %> http://tailgate32.com/">Tweet</a>
-            <a href="https://twitter.com/tailgate32" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @tailgate32</a>
-          </div>
-        </div>
-      </div>
+<div id="main">
+  <div class="left">
+    <div id="video-container">
+      <iframe src="http://blip.tv/play/AYOTjnwC.x?p=1" width="720" height="433" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#AYOTjnwC" style="display:none"></embed>
     </div>
-    <div id="calls-to-action" class="right">
-      <a href="/episodes" id="watch" title="Watch all 32 episodes right now"><span class="displace">Watch all 32 episodes right now</span></a>
-      <a href="/b-sides" id="behind-the-scenes" title="Go behind the scenes with Mike and John"><span class="displace">Go behind the scenes with Mike and John</span></a>
-      <a href="#" id="tell-us" class="contact-us-link" title="Tell us what you think"><span class="displace">Tell us what you think</span></a>
-    </div>
-    <br class="clear" />
+    <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
   </div>
+  <div class="right">
+    <h1>We're hitting the racetrack!</h1>
+    <p>Mike and John are back at it again! This summer the guys dive into the entire racing experience, including a behind-the-scenes look at how a racing team prepares for each week's race. With appearances from NASCAR drivers, track presidents, town mayors, team owners, and very colorful fans, the brothers showcase racing culture at its finest.</p>
+  </div>
+  <br class="clear" />
+</div>
+<div class="divider"></div>
+<div id="secondary" class="row">
+  <h2>Tailgate32: The Ultimate Football Fan Roadtrip</h2>
+  <p>Before checking out the speedway, Mike and John took an epic roadtrip to tailgate all 32 NFL stadiums in one 17-week regular season.  Here are a couple of our favorite episodes.  Or you can <a href="/episodes">watch all 32 of them</a>!</p>
+  <div class="featured-episode first">
+    <img src="/images/episodes/mids/buf.png" />
+    <h4>Episode 22</h4>
+    <h3>Buffalo</h3>
+  </div>
+  <div class="featured-episode">
+    <img src="/images/episodes/mids/sea.png" />
+    <h4>Episode 20</h4>
+    <h3>Seattle</h3>
+  </div>
+  <div class="featured-episode">
+    <img src="/images/episodes/mids/den.png" />
+    <h4>Episode 19</h4>
+    <h3>Denver</h3>
+  </div>
+  <div class="featured-episode last">
+    <img src="/images/episodes/mids/tb.png" />
+    <h4>Episode 31</h4>
+    <h3>Tampa Bay</h3>
+  </div>
+  <br class="clear" />
+</div>
+<div class="divider"></div>
+<div id="tertiary" class="row">
+  <h2>How about some goofing around?</h2>
+  <p>Here's an assortment of behind the scenes footage and other silly things that Mike and John have been up to.</p>
+  <div class="featured-episode first">
+    <img src="/images/episodes/mids/no.png" />
+    <h3>Mike and John<br />Tailgate the Super Bowl</h3>
+  </div>
+  <div class="featured-episode">
+    <img src="/images/episodes/mids/tb.png" />
+    <h3>DIVES</h3>
+  </div>
+  <div class="featured-episode">
+    <img src="/images/episodes/mids/chi.png" />
+    <h3>Shots, Shots, Shots</h3>
+  </div>
+  <div class="featured-episode last">
+    <img src="/images/episodes/mids/no.png" />
+    <h3>Happy Holidays aboard the Tailgate32 RV</h3>
+  </div>
+  <br class="clear" />
 </div>

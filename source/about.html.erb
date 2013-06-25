@@ -1,14 +1,12 @@
 <% content_for(:title) { "Tailgate32: About the Project" } %>
 <% content_for(:description) { "Tailgate32 is a digital adventure series that follows the journey of adventure-loving brothers Mike and John Trupiano as they tour the country in a 42' RV to throw a tailgate party at a home game for every NFL team during the 2012 regular season." } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :about } %>
 
 <div id="main" class="row">
   <div class="left">
-    <div class="headline">
-      <%= image_tag 'arrow-left.png' %>
-      <h1>About Tailgate32</h1>
-    </div>
+    <h1>About Tailgate32</h1>
     <p>
-      Tailgate32 is a <%= link_to 'web show and future cable TV show', '/episodes' %> that 
+      Tailgate32 is an independently produced web series that 
       follows the journey of adventure-loving brothers Mike and John Trupiano as they 
       tour the country in a <%= link_to '42-foot RV', "https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3" %> 
       to explore the American traditions of road tripping, tailgating, and professional 
@@ -16,10 +14,21 @@
       struggle with an RV that seems to have a mind of its own, and discover what drives 
       the world's most passionate and colorful fans.
     </p>
-    <div class="headline">
-      <%= image_tag 'arrow-left.png' %>
-      <h1>About John and Mike</h1>
-    </div>
+    <h1>About REVVED UP</h1>
+    <p>
+      On the heels of the highly successful Tailgate32, Mike and John teamed up with
+      <a target="_blank" href="http://studios.blip.com/">Blip Studios</a> and 
+      <a target="_blank" href="http://grilling.com">Kingsford Charcoal</a> to jointly 
+      produce a followup mini-series. Having conquered football and an insane life on 
+      the road, Mike and John take to the speedway to discover what makes auto racing 
+      America's favorite sport. The 6-episode miniseries highlights the most interesting 
+      aspects of the race fan world... including, of course, the tailgating! The guys 
+      dive into the entire racing experience, including a behind-the-scenes look at how 
+      a racing team prepares for each week's race. With appearances from NASCAR drivers, 
+      track presidents, town mayors, team owners, and very, very colorful fans, the 
+      brothers showcase racing culture at it's finest.
+    </p>
+    <h1>About John and Mike</h1>
     <p>
       John, 29, is a lifelong football fan, an entrepreneur and a graduate of Johns 
       Hopkins University with a passion for adventure and feats of football derring-do. 
@@ -43,18 +52,7 @@
   </div>
   <div class="right">
     <div id="widgets">
-      <div id="where-to-watch" class="widget">
-        <h1>Where To Watch</h1>
-        <div>
-          <%= link_to image_tag('syndicates/blip.png'), 'http://blip.tv/tailgate32', :target => '_blank' %>
-          <%= link_to image_tag('syndicates/youtube.png'), 'http://youtube.com/tailgate32', :target => '_blank' %>
-        </div>
-        <div>
-          <%= link_to image_tag('syndicates/itunes.jpg'), 'http://itunes.com/tailgate32', :target => '_blank' %>
-          <%= link_to image_tag('syndicates/dailymotion.png'), 'http://dailymotion.com/tailgate32', :target => '_blank' %>
-        </div>
-      </div>
-      <%= partial "promos/press" %>
+      <%= partial "promos/where-to-watch" %>
     </div>
   </div>
   <br class="clear" />

@@ -1,28 +1,12 @@
+#episode-details p {
+  margin-bottom: 12px;
+}
+
 #episode-details .bands a {
   display: block;
 }
 
-#all-videos .item img {
-  max-height: 96px;
-  max-width: 170px;
-}
-
 .fb-like {
-  float: left;
-  width: 420px;
   height: 26px;
-}
-
-#subscribe {
-  float: right;
-  width: 180px;
-  margin-top: 4px;
-  margin-top: 5px;
-  text-align: right;
-}
-
-p#win {
-  margin-left: 142px;
-  position: relative;
-  top: -10px;
+  margin-bottom: 12px;
 }

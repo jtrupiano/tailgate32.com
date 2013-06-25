@@ -1,114 +1,23 @@
+#main {
+  width: 1000px;
+  margin: 10px auto;
+}
 
-/** Styles specific to the home page of tailgate32.com **/
-  #home h1 {
-    font-size: 36px;
-  }
-
-  #home h2 {
-    text-transform: none;
-    color: #f5fffa;
-    margin-bottom: 10px;
-    font-size: 28px;
-  }
-
-  #home h3 {
-    font-family: "Alfa Slab One", serif;
-    text-transform: uppercase;
-    color: #f5fffa;
-    margin-top: 15px;
-    line-height: 1;
-    margin-bottom: 0px;
-  }
-
-  #home h4 {
-    font-family: "Alfa Slab One", serif;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  #home .left {
-    width: 600px;
-    margin-right: 20px;
+  .row .featured-episode {
     float: left;
+    width: 234px;
+    padding: 6px;
   }
 
-  #home .right {
-    width: 360px;
-    float: left;
-  }
+    .row .featured-episode.first { padding-left: 0px; }
+    .row .featured-episode.last { padding-right: 0px; }
 
-
-  #home p {
-    line-height: 1.3;
-    font-size: 13px;
-    color: #c1c1c1;
-    padding-left: 10px;
-  }
-    #home .left  p { padding-left:  10px; }
-    #home .right p { padding-right: 10px; }
-
-      .fb-like {
-        float: left;
-        width: 420px;
-        height: 26px;
-      }
-
-      #subscribe {
-        float: right;
-        width: 180px;
-        text-align: right;
-        font-size: 11px;
-        font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
-        line-height: 1.28;
-        margin-top: 5px;
-        color: gray;
-      }
-
-        #subscribe a { 
-          color: #fff;
-        }
-
-      #twitter {
-        margin-top: 8px;
-      }
-
-  #calls-to-action a {
-    display: block;
-    width: 360px;
-    text-decoration: none;
-  }
-
-    #watch {
-      height: 209px;
-      background: url("../images/watch.png");
+    .row .featured-episode img {
+      width: 230px;
+      border: solid 2px #222;
     }
 
-    #watch:hover {
-      background-position: 0px -209px;
+    .row .featured-episode h3, .row .featured-episode h4 {
+      text-align: center;
     }
 
-    #behind-the-scenes {
-      margin-top: 20px;
-      height: 76px;
-      background: url("../images/behind-the-scenes.png");
-      background-position: 0px -76px;
-    }
-
-    #behind-the-scenes:hover {
-      background-position: 0px 0px;
-    }
-
-    #tell-us {
-      margin-top: 20px;
-      height: 60px;
-      background: url("../images/tell-us.png");
-    }
-
-    #tell-us:hover {
-      background-position: 0px -60px;
-    }
-
-    #calls-to-action a .displace {
-      position: absolute;
-      left: -5000px;
-    }

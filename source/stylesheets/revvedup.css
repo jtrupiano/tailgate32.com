@@ -1,0 +1,246 @@
+body {
+  background-color: #000;
+  margin: 0;
+  color: #ccc;
+}
+
+body, p {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+p { margin: 5px 0; }
+
+img { border: 0; }
+
+a, a:visited { color: inherit; }
+
+h1 {
+  font-family: "Graduate", serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #eee;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Graduate", serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #eee;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+h4 {
+  margin: 0;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+input {
+  margin: 0;
+  background-color: white;
+  border: 2px inset;
+  color: #444;
+  font-weight: normal;
+  padding: 5px;
+  width: 375px;
+  height: 24px;
+  font-size: 16px;
+  box-shadow: 0 0 0 #000, inset 0 3px 3px #eee;
+  border-radius: 3px;
+  border: 1px solid #A0A0A0;
+}
+
+input.submit {
+  background-color: inherit;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+  box-shadow: none;
+  background: url("../images/submit-icon-40.png") no-repeat;
+  width: auto;
+  padding-left: 45px;
+  height: 40px;
+  text-align: right;
+  cursor: pointer;
+  display: inline-block;
+}
+
+textarea {
+  margin: 0;
+  background-color: white;
+  border: 2px inset;
+  color: #444;
+  font-weight: normal;
+  padding: 5px;
+  width: 375px;
+  height: 125px;
+  font-size: 16px;
+  box-shadow: 0 0 0 #000, inset 0 3px 3px #eee;
+  border-radius: 3px;
+  border: 1px solid #A0A0A0;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 130px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 36px;
+}
+
+  form label.for-textarea {
+    position: relative;
+    top: -65px;
+  }
+
+.divider {
+  height: 3px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #da0000;
+}
+
+.divider.top {
+  margin-top: 6px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+#masthead {
+  background: url("../images/banner-heads.jpg") no-repeat;
+  background-position: left 6px top;
+  height: 200px;
+  width: 988px;
+  padding: 0 6px;
+  margin: 8px auto;
+}
+
+#menu {
+  width: 988px;
+  margin: 0 auto;
+  padding: 12px 6px;
+  border-top: solid 3px #da0000;
+  border-bottom: solid 3px #da0000;
+}
+
+#menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: "Graduate", serif;
+}
+
+  #menu a:hover { text-decoration: underline; }
+
+  #menu a.last { margin-right: 0; }
+
+  #menu #social-media {
+    float: right;
+  }
+
+  #menu #social-media a { margin-right: 12px; }
+
+  #menu #social-media img {
+    height: 24px;
+    width: 24px;
+  }
+
+.row {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 0 6px;
+}
+
+  .left {
+    margin-left: 6px;
+    padding-right: 12px;
+    width: 724px;
+    float: left;
+  }
+
+  .right {
+    width: 246px;
+    padding-left: 6px;
+    padding-right: 6px;
+    float: left;
+  }
+
+#footer {
+  width: 976px;
+  margin: 0 auto 6px auto;
+  padding: 12px 6px;
+  text-align: center;
+  font-size: 12px;
+  border-top: solid 3px #da0000;
+  border-bottom: solid 3px #da0000;
+}
+
+#video-container iframe { border: solid 2px #222; }
+
+
+.three-column .item h3, .three-column .item h4 { text-align: center; }
+
+.three-column .item {
+  width: 225px;
+  margin: 6px 6px 6px 0;
+  float: left;
+}
+    
+  .three-column .item img {
+    width: 217px;
+    height: 122px;
+    border: solid 2px #ccc;
+  }
+
+/** Widgets **/
+.widget {
+  margin-bottom: 25px;
+}
+
+  .widget h2 {
+    line-height: 33px;
+  }
+
+
+#where-to-watch div {
+  margin-bottom: 25px;
+}
+
+  #where-to-watch img {
+    max-height: 50px;
+    max-width: 110px;
+    margin-right: 25px;
+  }
+
+    #recent-episodes img {
+      width: 230px;
+      height: 130px;
+    }
+
+/** Popups **/
+#hidden-content {
+  display: none;
+}
+
+  #contact-us {
+    width: 600px;
+  }
+
+    #contact-us h2 { color: #222; }

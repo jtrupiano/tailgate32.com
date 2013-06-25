@@ -1,11 +1,11 @@
 <div id="recent-episodes" class="widget">
-  <h1>Recent Episodes</h1>
+  <h2>Recent Episodes</h2>
   <div class="three-column">
     <% episodes[0..3].each do |episode| %>
       <div class="item episode">
         <%= link_to image_tag(episode.thumbnail_url, :alt => episode.title), episode.relative_url %>
         <h3>EP<%= episode.number %>: <%= episode.title %></h3>
-        <p class="description"><%= episode.date %></p>
+        <h4><%= episode.date %></h4>
       </div>
     <% end %>
     <br class="clear" />

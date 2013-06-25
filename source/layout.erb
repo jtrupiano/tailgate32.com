@@ -3,17 +3,18 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">
   <title><%= yield_content(:title) %></title>
   <meta name="description" content="<%= yield_content(:description) %> " />
-  <meta name="keywords"    content="Tailgate32, Tailgate, 32, tailgating, Tailgate 32, roadtrips, road trips, pro football, 17 weeks, 32 gmaes, 25000 miles, documentary, experience, journey, RV, cross country" />
+  <meta name="keywords"    content="Tailgate32, Tailgate, 32, tailgating, Tailgate 32, roadtrips, road trips, pro football, 17 weeks, 32 games, 25000 miles, documentary, web series, experience, journey, RV, cross country, racing, NASCAR, NFL" />
   <meta property="fb:admins"    content="jtrupiano" />
-  <meta property="og:site_name" content="Tailgate32: The Ultimate Football Fan Roadtrip" />
+  <meta property="og:site_name" content="Tailgate32: An Epic Web Series" />
   <meta name="twitter:site" content="@tailgate32" />
   <meta name="twitter:creator" content="@tailgate32" />
   <%= yield_content(:og_meta) %>
-  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
-  <%= stylesheet_link_tag 'tailgate32' %>
+  <link href='http://fonts.googleapis.com/css?family=Graduate|PT+Sans|PT+Serif' rel='stylesheet' type='text/css' />
+  <%= stylesheet_link_tag 'revvedup' %>
   <%= yield_content(:stylesheets) %>
   <%= stylesheet_link_tag '/javascripts/fancybox/source/jquery.fancybox.css?v=2.0.6' %>
   <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <!-- TODO: RSS Feeds -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/tailgate32" />
 </head>
 <body>
@@ -28,46 +29,34 @@
     }(document, 'script', 'facebook-jssdk'));</script>
   <!-- End Facebook SDK -->  
   <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-  <div id="navigation">
-    <div id="social-media-header">
+  <div class="divider top"></div>
+  <div id="masthead">
+    <a href="/"><%= image_tag "banner-revved-up.png", :title => "Watch Revved Up", :alt => "Watch Revved Up", :height => 200, :width => 268, :style => "float: right;" %></a>
+    <a href="/episodes"><%= image_tag "banner-tailgate32.png", :title => "Watch Tailgate32", :alt => "Watch Tailgate32", :height => 200, :width => 326, :style => "float: right;" %></a>
+    <br class="clear" />
+  </div>
+  <div id="menu">
+    <a href="/about">About</a>
+    <a id="contact-us-nav" class="contact-us-link" href="javascript:void(0)">Contact</a>
+    <a href="/press">Press</a>
+    <a href="/watch">Watch</a>
+    <div id="social-media">
       <a href="https://twitter.com/#!/tailgate32" target="_blank" title="Follow @tailgate32 on Twitter"><%= image_tag 'icon_twitter.png', :alt => "See @tailgate32 on Twitter" %></a>
       <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><%= image_tag 'icon_facebook.png', :alt => "Find Tailgate32 on Facebook" %></a>
       <a href="http://blip.tv/tailgate32" target="_blank" title=" Watch Tailgate32 on Blip"><%= image_tag 'icon_blip.png', :alt => 'Watch Tailgate32 on Blip' %></a>
-      <a href="http://itunes.com/tailgate32" target="_blank" title="Tailgate32 on iTunes"><%= image_tag 'icon_itunes.png', :alt => 'Subscribe to Tailgate32 on iTunes' %></a>
-      <a href="http://www.youtube.com/user/tailgate32" target="_blank" title="The Official Tailgate32 YouTube Channel"><%= image_tag 'icon_youtube.png', :alt => "Subscribe to the Tailgate32 YouTube channel" %></a>
-      <a href="http://feeds.feedburner.com/tailgate32" target="_blank" title="Tailgate32 RSS Feed"><%= image_tag 'icon_rss.png', :alt => 'Tailgate32 RSS Feed' %></a>
+      <a href="http://www.youtube.com/user/tailgate32" class="last" target="_blank" title="The Official Tailgate32 YouTube Channel"><%= image_tag 'icon_youtube.png', :alt => "Subscribe to the Tailgate32 YouTube channel" %></a>
     </div>
-    <div id="menu">
-      <a href="/about"><%= image_tag 'nav-about.png', :width => "102", :height => "35" %></a>
-      <a href="/schedule"><%= image_tag 'nav-schedule.png', :alt => "Tailgate32 Schedule", :width => "102", :height => "35" %></a>
-      <a href="/episodes"><%= image_tag 'nav-episodes.png', :alt => "Tailgate32 Episodes", :width => "102", :height => "35" %></a>
-      <a href="/b-sides"><%= image_tag 'nav-b-sides.png', :alt => "B-Sides", :width => "102", :height => "35" %></a>
-      <a href="/press"><%= image_tag 'nav-press.png', :alt => "Press", :width => "102", :height => "35" %></a>
-      <a id="contact-us-nav" class="contact-us-link" href="#"><%= image_tag 'nav-contact-us.png', :alt => "Contact Tailgate32", :width => "102", :height => "35" %></a>
-    </div>
-    <br class="break" />
-  </div>
-  <div id="masthead">
-    <div class="divider"></div>
-    <div id="logo_container">
-      <a href="/" title="Tailgate32 Home"><%= image_tag "T32Header.png", :alt => "Tailgate32: The Ultimate Football Fan Roadtrip" %></a>
-    </div>
-    <div class="divider"></div>
   </div>
 
   <%= yield %>
-  
-  <div class="divider"></div>
-  <div id="footer">&nbsp;</div>
+
+  <div id="footer">
+    <p>&copy; Tailgate32, LLC</p>
+  </div>
   <div id="hidden-content">
     <div id="contact-us">
       <iframe style="display: none;" name="contact.us.iframe" src="https://docs.google.com/spreadsheet/viewform?formkey=dEY2MXNvVDRBWlN1SEE0RHRyQU42d3c6MQ"></iframe>
-      <div class="headline">
-        <%= image_tag 'arrow-left.png' %>
-        <h2>Contact Tailgate32</h2>
-        <br class="clear" />
-      </div>
+      <h2>Contact Tailgate32</h2>
       <form id="contact-us-form" target="contact.us.iframe" method="POST" action="">
         <p>
           Want to know more about the trip?  Got a suggestion for us?  Want to sponsor us?  
