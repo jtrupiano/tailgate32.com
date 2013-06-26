@@ -2,61 +2,77 @@
 <% content_for(:description) { "Tailgate32 is a digital adventure series that follows the journey of adventure-loving brothers Mike and John Trupiano as they tour the country in a 42' RV to throw a tailgate party at a home game for every NFL team during the 2012 regular season." } %>
 <% content_for(:stylesheets) { stylesheet_link_tag :about } %>
 
-<div id="main" class="row">
-  <div class="left">
-    <h1>About Tailgate32</h1>
-    <p>
-      Tailgate32 is an independently produced web series that 
-      follows the journey of adventure-loving brothers Mike and John Trupiano as they 
-      tour the country in a <%= link_to '42-foot RV', "https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3" %> 
-      to explore the American traditions of road tripping, tailgating, and professional 
-      football.  They push themselves to the extremes on this 25000-mile nonstop trek, 
-      struggle with an RV that seems to have a mind of its own, and discover what drives 
-      the world's most passionate and colorful fans.
-    </p>
-    <p>
-      Curious how we did it all in one season?  Check out the <a href="/schedule">schedule</a>.
-    </p>
-    <h1>About REVVED UP</h1>
-    <p>
-      On the heels of the highly successful Tailgate32, Mike and John teamed up with
-      <a target="_blank" href="http://studios.blip.com/">Blip Studios</a> and 
-      <a target="_blank" href="http://grilling.com">Kingsford Charcoal</a> to jointly 
-      produce a followup mini-series. Having conquered football and an insane life on 
-      the road, Mike and John take to the speedway to discover what makes auto racing 
-      America's favorite sport. The 6-episode miniseries highlights the most interesting 
-      aspects of the race fan world... including, of course, the tailgating! The guys 
-      dive into the entire racing experience, including a behind-the-scenes look at how 
-      a racing team prepares for each week's race. With appearances from NASCAR drivers, 
-      track presidents, town mayors, team owners, and very, very colorful fans, the 
-      brothers showcase racing culture at it's finest.
-    </p>
-    <h1>About John and Mike</h1>
-    <p>
-      John, 29, is a lifelong football fan, an entrepreneur and a graduate of Johns 
-      Hopkins University with a passion for adventure and feats of football derring-do. 
-      He once attended two NFL games on the same day (Bears-Redskins and Colts-Ravens in 
-      Week 1 2005) and, channeling his inner Jack Kerouac, once drove 2,700 miles from 
-      Baltimore to Los Angeles in 2.5 days - only to find that L.A. no longer had an NFL 
-      team. John is also a culinary athlete and has completed the McDonald's Triple Crown 
-      - consuming Mickey D's for breakfast, lunch and dinner. John's magnificent plumage 
-      should be declared a national treasure.  The Detroit Lions and Baltimore Ravens are 
-      his favorite NFL teams.
-    </p>
-    <p>
-      Mike, 35, is a graduate of MIT, a hardcore football fan, an avid road tripper and 
-      a thrill seeker. His motorcycle trips include the Florida Keys and the various
-      parts of the great Midwest, he and logged 200,000 miles on his old 1994 Ford 
-      Explorer, much of it on annual sports-stadium road trips.  Mike and his Explorer 
-      once spent four hours stuck in a ditch off an Ontario highway and he knew it was
-      time to dump the trusty old steed when it began to consume more steering fluid than
-      gas. The Detroit Lions and New England Patriots are his favorite NFL teams.
-    </p>
-  </div>
-  <div class="right">
-    <div id="widgets">
-      <%= partial "promos/where-to-watch" %>
+<div id="about">
+  <div class="row">
+    <div class="left">
+      <%= image_tag "about-tailgate32.png", :alt => "Tailgate32 Logo" %>
     </div>
+    <div class="right">
+      <h1>About Tailgate32</h1>
+      <p>
+        Tailgate32 is an independently produced web series that 
+        follows the journey of adventure-loving brothers Mike and John Trupiano as they 
+        tour the country in a <%= link_to '42-foot RV', "https://www.facebook.com/media/set/?set=a.213977748731296.46561.156860177776387&type=3" %> 
+        to explore the American traditions of road tripping, tailgating, and professional 
+        football.  They push themselves to the extremes on this 25000-mile nonstop trek, 
+        struggle with an RV that seems to have a mind of its own, and discover what drives 
+        the world's most passionate and colorful fans.
+      </p>
+      <p>
+        Curious how we did it all in one season?  Check out the <a href="/schedule">schedule</a>.
+      </p>
+    </div>
+    <br class="clear" />
   </div>
-  <br class="clear" />
+  <div class="row">
+    <div class="left">
+      <%= image_tag "about-revved-up.png", :alt => "REVVED UP Logo" %>
+    </div>
+    <div class="right">
+      <h1>About REVVED UP</h1>
+      <p>
+        On the heels of the highly successful Tailgate32, Mike and John teamed up with
+        <a target="_blank" href="http://studios.blip.com/">Blip Studios</a> and 
+        <a target="_blank" href="http://grilling.com">Kingsford Charcoal</a> to jointly 
+        produce a followup mini-series. Having conquered football and an insane life on 
+        the road, Mike and John take to the speedway to discover what makes auto racing 
+        America's favorite sport. The 6-episode miniseries highlights the most interesting 
+        aspects of the race fan world... including, of course, the tailgating! The guys 
+        dive into the entire racing experience, including a behind-the-scenes look at how 
+        a racing team prepares for each week's race. With appearances from NASCAR drivers, 
+        track presidents, town mayors, team owners, and very, very colorful fans, the 
+        brothers showcase racing culture at it's finest.
+      </p>
+    </div>
+    <br class="clear" />
+  </div>
+  <div class="row">
+    <div class="left">
+      <%= image_tag "about-heads.png", :alt => "Photo of John and Mike" %>
+    </div>
+    <div class="right">
+      <h1>About John and Mike</h1>
+      <p>
+        John, 29, is a lifelong football fan, an entrepreneur and a graduate of Johns 
+        Hopkins University with a passion for adventure and feats of football derring-do. 
+        He once attended two NFL games on the same day (Bears-Redskins and Colts-Ravens in 
+        Week 1 2005) and, channeling his inner Jack Kerouac, once drove 2,700 miles from 
+        Baltimore to Los Angeles in 2.5 days - only to find that L.A. no longer had an NFL 
+        team. John is also a culinary athlete and has completed the McDonald's Triple Crown 
+        - consuming Mickey D's for breakfast, lunch and dinner. John's magnificent plumage 
+        should be declared a national treasure.  The Detroit Lions and Baltimore Ravens are 
+        his favorite NFL teams.
+      </p>
+      <p>
+        Mike, 35, is a graduate of MIT, a hardcore football fan, an avid road tripper and 
+        a thrill seeker. His motorcycle trips include the Florida Keys and the various
+        parts of the great Midwest, he and logged 200,000 miles on his old 1994 Ford 
+        Explorer, much of it on annual sports-stadium road trips.  Mike and his Explorer 
+        once spent four hours stuck in a ditch off an Ontario highway and he knew it was
+        time to dump the trusty old steed when it began to consume more steering fluid than
+        gas. The Detroit Lions and New England Patriots are his favorite NFL teams.
+      </p>
+    </div>
+    <br class="clear" />
+  </div>
 </div>

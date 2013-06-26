@@ -1,3 +1,16 @@
 #main p {
   margin-bottom: 12px;
 }
+
+.left {
+  width: 276px;
+  padding-right: 6px;
+}
+
+.right {
+  width: 700px;
+}
+
+#about .left img {
+  width: 270px;
+}
