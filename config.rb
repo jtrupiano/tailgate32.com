@@ -1,17 +1,12 @@
 require './obj/contest'
 require './obj/episode'
+require './obj/bside'
 require './obj/event'
 
 ##
 # Helpers
 ###
 helpers do
-  def _as_ostructs(hsh)
-    hsh.keys.map {|key|
-      OpenStruct.new(hsh[key].merge({abbr: key}))
-    }
-  end
-
   def episodes
     @episodes ||= 
       data.episodes.keys.reject {|key| 
@@ -23,7 +18,7 @@ helpers do
   end
 
   def bsides
-    _as_ostructs(data.bsides).reject {|bside| !bside.video_id }
+    @bsides ||= data.bsides.keys.map {|abbr| Bside.new(data.bsides[abbr].merge({abbr: abbr}))}
   end
 
   def events
@@ -69,12 +64,9 @@ episodes.each do |episode|
   end
 end
 
-page "/b-sides.html" do
-  @bside = bsides.first
-end
-
+page "/b-sides.html"
 bsides.each do |bside|
-  page "/b-sides/#{bside.abbr}.html", :proxy => "/b-sides.html" do
+  page "/b-sides/#{bside.abbr}.html", :proxy => "/b-side.html", :ignore => true do
     @bside = bside
   end
 end

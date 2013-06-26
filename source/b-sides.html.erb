@@ -1,56 +1,33 @@
-<% content_for(:title) { "Tailgate32 B-Side \##{@bside.number}: #{@bside.title}" } %>
-<% content_for(:description) { @bside.description.gsub("\n", " ").gsub("\"", "") } %>
+<% content_for(:title) { "Tailgate32 Behind the Scenes Archive" } %>
+<% content_for(:description) { "Watch all behind the scenes content of the web series Tailgate32 and Revved Up." } %>
 <% content_for(:og_meta) do %>
 
-  <meta property="og:title"       content="Tailgate32 B-Side <%= @bside.number %>: <%= @bside.title %>" />
-  <meta property="og:type"        content="video.episode" />
-  <meta property="og:image"       content="http://img.youtube.com/vi/<%= @bside.video_id %>/maxresdefault.jpg" />
-  <meta property="og:url"         content="http://tailgate32.com/bsides/<%= @bside.abbr %>" />
-  
-  <meta property="og:video"       content="http://tailgate32.com/bsides/<%= @bside.abbr %>" />
-  <meta property="og:video:type"  content="text/html" />
-  <meta property="video:series"   content="http://tailgate32.com/bsides" />
+  <meta name="twitter:card"       content="summary"
+
+  <meta property="og:title"       content="Tailgate32 Behind the Scenes Archive" />
+  <meta property="og:type"        content="video.tv_show" />
+  <meta property="og:image"         content="http://tailgate32.com/images/itunes-series-graphic.jpg" />
+  <meta property="og:description"   content="Watch all behind the scenes footage of the web series Tailgate32: The Ultimate Football Fan Roadtrip" />
+  <meta property="video:tag"        content="web series" />
+  <meta property="video:tag"        content="sports" />
+  <meta property="video:tag"        content="documentary" />
+  <meta property="og:url"           content="http://tailgate32.com/bsides" />
 <% end %>
 
 <div id="play" class="row">
   <div class="left">
-    <div id="featured-video">
-      <div class="headline">
-        <%= image_tag 'arrow-left.png' %>
-        <h1><%= @bside.title %></h1>
-      </div>
-      <br />
-      <div id="video-container">
-        <iframe id="ytplayer" width="600" height="338" src="http://www.youtube.com/embed/<%= @bside.video_id %>?vq=hd720&showinfo=0" frameborder="0" allowFullScreen></iframe>
-      </div>
-      <div id="social-media">
-        <div class="fb-like" data-href="http://tailgate32.com/b-sides/<%= @bside.abbr %>" data-send="true" data-width="550" data-show-faces="false" data-color-scheme="dark"></div>
-      </div>
-    </div>
-    <div id="all-videos" class="three-column">
-      <div class="headline">
-        <%= image_tag 'arrow-left.png' %>
-        <h1>B-Side Archive</h1>
-      </div>
-      <br />
-      <% bsides.each do |bside| %>
-        <div class="item">
-          <a href="/b-sides/<%= bside.abbr %>"><img src="http://img.youtube.com/vi/<%= bside.video_id %>/maxresdefault.jpg" alt="<%= bside.title %>" /></a>
-          <h3><%= bside.short_title || bside.title %></h3>
-          <span class="description"><%= bside.date %></span>
-        </div>
-      <% end %>
-      <br class="clear" />
-    </div>
+    <%= partial :bside_archive
   </div>
   <div class="right">
     <div id="widgets">
-      <div id="episode-details" class="widget">
-        <h1>B-Side Details</h1>
-        <p><%= @bside.description %></p>
-        <p>Released on <%= @bside.date %>.</p>
-      </div>
-      <%= partial "promos/recent-episodes" %>
+      <h2>B-Sides</h2>
+      <p>
+        B-Sides are a combination of behind the scenes material from Tailgate32 and Revved
+        Up and a little bit of just Mike and John goofing around.  From scoping out
+        the dive bar scene in Austin to an ode to shots, shots and more shots, to a
+        weary and delirious Christmas celebration on the RV, you'll get a glimpse
+        of a silly side of the guys.
+      </p>
     </div>
   </div>
   <br class="clear" />

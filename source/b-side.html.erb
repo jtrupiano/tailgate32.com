@@ -1,0 +1,45 @@
+<% content_for(:title) { @bside.full_title } %>
+<% content_for(:description) { @bside.description_for_meta_tags } %>
+<% content_for(:og_meta) do %>
+
+  <meta property="og:title"         content="<%= @bside.full_title %>" />
+  <meta property="og:description"   content="<%= @bside.description_for_meta_tags %>" />
+  <meta property="og:type"          content="video.episode" />
+  <meta property="og:image"         content="<%= @bside.image_url %>" />
+  <meta property="og:url"           content="<%= @bside.canonical_url %>" />
+  <meta property="og:video"         content="<%= @bside.youtube_og_url %>" />
+  <meta property="og:video:type"    content="application/x-shockwave-flash" />
+  <meta property="og:video:width"   content="1920" />
+  <meta property="og:video:height"  content="1080" />
+  <meta property="video:series"     content="http://tailgate32.com" />
+
+  <meta name="twitter:card"          content="player" />
+  <meta name="twitter:player"        content="<%= @bside.youtube_embed_url %>" />
+  <meta name="twitter:player:width"  content="435" />
+  <meta name="twitter:player:height" content="245" />
+<% end %>
+<% content_for(:stylesheets) { stylesheet_link_tag :bside } %>
+
+<div id="bside" class="row">
+  <div class="left">
+    <div id="featured-video">
+      <h1><%= @bside.title %></h1>
+      <p><%= @bside.date %></p>
+      <div id="video-container">
+        <iframe id="ytplayer" width="720" height="405" src="<%= @bside.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
+      </div>
+      <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
+    </div>
+    <%= partial :bside_archive %>
+  </div>
+  <div class="right">
+    <div id="widgets">
+      <div id="bside-details" class="widget">
+        <h2>Description</h2>
+        <p><%= @bside.description %></p>
+        <p>Released on <%= @bside.release_date %>.</p>
+      </div>
+    </div>
+  </div>
+  <br class="clear" />
+</div>
