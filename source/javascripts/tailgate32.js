@@ -16,4 +16,13 @@ $().ready(function() {
     $('#contact-us-form').fadeOut('slow');
     $('#contact-us-thanks').fadeIn('slow');
   });
+
+  // Set up Watch menu hover
+  $('#watch').hover(
+    function() {
+      $('#watch-menu').slideDown('fast');
+    }, function() {
+      $('#watch-menu').slideUp('fast');
+    }
+  );
 });

@@ -164,6 +164,35 @@ form label {
     width: 24px;
   }
 
+  /** Hover Menu **/
+  #watch {
+    display: inline-block;
+  }
+
+    #watch ul, #watch li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #watch-menu {
+      display: none;
+      width: 130px;
+      border: 1px solid #000;
+      position: absolute;
+      z-index: 10;
+    }
+
+      #watch-menu li {
+        background-color: #333;
+        border: solid 1px #000;
+      }
+
+        #watch-menu li a {
+          display: block;
+          padding: 4px 0px 4px 8px;
+        }
+
 .row {
   width: 1000px;
   margin: 10px auto;

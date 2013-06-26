@@ -35,10 +35,17 @@
     <a href="/"><%= image_tag "banner-revved-up.jpg", :title => "Watch Revved Up", :alt => "Watch Revved Up" %></a>
   </div>
   <div id="menu">
-    <a href="/">Home</a>
     <a href="/about">About</a>
     <a id="contact-us-nav" class="contact-us-link" href="javascript:void(0)">Contact</a>
     <a href="/press">Press</a>
+    <div id="watch">
+      <a href="javascript:void(0)">Watch</a>
+      <ul id="watch-menu">
+        <li><a href="/episodes">Tailgate32</a></li>
+        <li><a href="/">Revved Up</a></li>
+        <li><a href="/b-sides">B-Sides</a></li>
+      </ul>
+    </div>
     <div id="social-media">
       <a href="https://twitter.com/#!/tailgate32" target="_blank" title="Follow @tailgate32 on Twitter"><%= image_tag 'icon_twitter.png', :alt => "See @tailgate32 on Twitter" %></a>
       <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><%= image_tag 'icon_facebook.png', :alt => "Find Tailgate32 on Facebook" %></a>
