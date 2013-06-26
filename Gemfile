@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby '1.9.2'
+
 gem 'thin'
 gem 'rack-rewrite'
 gem "middleman", "~>3.0.0"
