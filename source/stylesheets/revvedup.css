@@ -202,13 +202,12 @@ form label {
   .left {
     margin-left: 6px;
     padding-right: 12px;
-    width: 724px;
+    width: 700px;
     float: left;
   }
 
   .right {
-    width: 246px;
-    padding-left: 6px;
+    width: 276px;
     padding-right: 6px;
     float: left;
   }

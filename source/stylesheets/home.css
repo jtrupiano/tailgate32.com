@@ -3,6 +3,15 @@
   margin: 10px auto;
 }
 
+  .left {
+    width: 724px;
+  }
+
+  .right {
+    width: 246px;
+    padding-left: 6px;
+  }
+
   .row .featured-episode {
     float: left;
     width: 234px;
