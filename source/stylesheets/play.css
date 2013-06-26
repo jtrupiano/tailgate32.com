@@ -1,3 +1,12 @@
+.left {
+  width: 724px;
+}
+
+.right {
+  width: 246px;
+  padding-left: 6px;
+}
+
 #episode-details p {
   margin-bottom: 12px;
 }
