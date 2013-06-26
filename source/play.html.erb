@@ -35,11 +35,11 @@
   <div class="right">
     <div id="widgets">
       <div id="episode-details" class="widget">
-        <h1>Episode Details</h1>
+        <h2>Episode Details</h2>
         <p><%= @episode.description %></p>
         <p>Released on <%= @episode.release_date %>.</p>
         <% if @episode.bands %>
-          <h1>Featured Artists</h1>
+          <h2>Featured Artists</h2>
           <p class="bands">
           <% @episode.bands.each do |band| %>
             <%= link_to band.name, band.link, :target => '_blank' %>
@@ -47,7 +47,7 @@
           </p>
         <% end %>
         <% if @episode.thanks %>
-          <h1>Special Thanks</h1>
+          <h2>Special Thanks</h2>
           <p><%= @episode.thanks %></p>
         <% end %>
       </div>
