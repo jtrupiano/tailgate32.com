@@ -24,7 +24,6 @@
   <div class="left">
     <div id="featured-video">
       <h1><%= @bside.title %></h1>
-      <p><%= @bside.date %></p>
       <div id="video-container">
         <iframe id="ytplayer" width="720" height="405" src="<%= @bside.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
       </div>
@@ -37,7 +36,7 @@
       <div id="bside-details" class="widget">
         <h2>Description</h2>
         <p><%= @bside.description %></p>
-        <p>Released on <%= @bside.release_date %>.</p>
+        <p>Released on <%= @bside.date %>.</p>
       </div>
     </div>
   </div>

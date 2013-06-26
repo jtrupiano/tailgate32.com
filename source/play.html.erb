@@ -23,8 +23,7 @@
 <div id="play" class="row">
   <div class="left">
     <div id="featured-video">
-      <h1>Episode <%= @episode.number %>: <%= @episode.title %></h1>
-      <p><%= @episode.date %></p>
+      <h1>Tailgate32 Episode <%= @episode.number %>: <%= @episode.title %></h1>
       <div id="video-container">
         <iframe id="ytplayer" width="720" height="405" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
       </div>
@@ -36,6 +35,7 @@
     <div id="widgets">
       <div id="episode-details" class="widget">
         <h2>Episode Details</h2>
+        <p>Filmed <%= @episode.date %></p>
         <p><%= @episode.description %></p>
         <p>Released on <%= @episode.release_date %>.</p>
         <% if @episode.bands %>
