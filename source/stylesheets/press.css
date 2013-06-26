@@ -3,11 +3,18 @@
     margin-bottom: 25px;
   }
 
-  #press .left .three-column {
+  .four-column {
     text-align: center;
   }
 
-  #press .left .three-column .item img {
-    width: 209px;
-    height: 209px;
+  .four-column .item {
+    width: 235px;
+    margin: 6px;
+    float: left;
+  }
+
+  .four-column .item img {
+    width: 219px;
+    height: 219px;
+    border: solid 2px #ccc;
   }
