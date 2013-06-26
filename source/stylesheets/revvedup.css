@@ -125,13 +125,15 @@ form label {
 
 
 #masthead {
-  background: url("../images/banner-heads.jpg") no-repeat;
-  background-position: left 6px top;
-  height: 200px;
-  width: 988px;
-  padding: 0 6px;
+  height: 182px;
+  width: 994px;
+  padding: 0px 3px;
   margin: 8px auto;
 }
+
+  #masthead img {
+    margin: 0px 2px;
+  }
 
 #menu {
   width: 988px;
