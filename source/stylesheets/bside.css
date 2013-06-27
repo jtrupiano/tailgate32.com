@@ -11,3 +11,7 @@
   height: 26px;
   margin-bottom: 12px;
 }
+
+#bside-details p.date {
+  font-style: italic;
+}

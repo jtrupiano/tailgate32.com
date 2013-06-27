@@ -34,9 +34,8 @@
   <div class="right">
     <div id="episode-details">
       <h2>Episode Details</h2>
-      <p>Filmed <%= @episode.date %></p>
       <p><%= @episode.description %></p>
-      <p>Released on <%= @episode.release_date %>.</p>
+      <p class="date">Tailgated on <%= @episode.date %>.</p>
       <% if @episode.bands %>
         <h2>Featured Artists</h2>
         <p class="bands">

@@ -11,6 +11,10 @@
   margin-bottom: 12px;
 }
 
+  #episode-details p.date {
+    font-style: italic;
+  }
+
 #episode-details .bands a {
   display: block;
 }
