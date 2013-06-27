@@ -3,6 +3,10 @@
   margin: 10px auto;
 }
 
+  .row {
+    width: 988px;
+  }
+
   .left {
     width: 724px;
   }
