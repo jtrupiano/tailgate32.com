@@ -33,6 +33,15 @@ use Rack::Rewrite do
 
   # for a short while we used /upcoming/hou instead of /events/hou
   r301 %r{/upcoming/(\w+)}, "/events/$1"
+
+  # we no longer have event pages, redirect to the episode itself
+  r301 %r{/events/(\w+)}, "/play/$1"
+
+  # we don't have contests any longer
+  r301 %r{/contests/*}, "/"
+
+  # redirect links to the schedule to the schedule B-Side
+  r301 %r{/schedule*}, "/b-sides/schedule"
 end
 
 use ::Rack::TryStatic,

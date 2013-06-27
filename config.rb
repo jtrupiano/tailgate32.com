@@ -20,33 +20,6 @@ helpers do
   def bsides
     @bsides ||= data.bsides.keys.map {|abbr| Bside.new(data.bsides[abbr].merge({abbr: abbr}))}
   end
-
-  def events
-    @events ||= 
-      data.events.keys.map {|key| 
-        episode = episodes.detect {|ep| ep.abbr == key }
-        Event.new(data.events[key].merge({abbr: key, episode: episode}))
-      }
-  end
-  
-  def upcoming_events
-    [events.last]
-    # events.reject {|event| Date.today > Date.parse(event.date)}
-  end
-
-  def contests
-    data.contests.keys.map {|contest_key|
-      abbr = data.contests[contest_key].episode
-      episode = data.episodes.has_key?(abbr) ?
-        Episode.new(data.episodes[abbr].merge({abbr: abbr})) :
-        nil
-      Contest.new(data.contests[contest_key].merge({key: contest_key, episode: episode}))
-    }
-  end
-
-  def active_contests
-    contests.select {|c| c.active? }
-  end
 end
 
 ###
@@ -70,30 +43,6 @@ bsides.each do |bside|
     @bside = bside
   end
 end
-
-page "/events.html" do
-  @event   = upcoming_events.first
-end
-
-events.each do |event|
-  page "/events/#{event.abbr}.html", :proxy => "/events.html" do
-    @event  = event
-  end
-end
-
-page "/contests.html" do
-  @contest = active_contests.first
-  @episode = @contest.episode
-end
-
-contests.each do |contest|
-  page "/contests/#{contest.key}.html", :proxy => "/contests.html" do
-    @contest = contest
-    @episode = @contest.episode
-  end
-end
-
-page "/schedule.html"
 
 # Per-page layout changes:
 # 
