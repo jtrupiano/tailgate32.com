@@ -32,25 +32,23 @@
     <%= partial :episode_archive %>
   </div>
   <div class="right">
-    <div id="widgets">
-      <div id="episode-details" class="widget">
-        <h2>Episode Details</h2>
-        <p>Filmed <%= @episode.date %></p>
-        <p><%= @episode.description %></p>
-        <p>Released on <%= @episode.release_date %>.</p>
-        <% if @episode.bands %>
-          <h2>Featured Artists</h2>
-          <p class="bands">
-          <% @episode.bands.each do |band| %>
-            <%= link_to band.name, band.link, :target => '_blank' %>
-          <% end %>
-          </p>
+    <div id="episode-details">
+      <h2>Episode Details</h2>
+      <p>Filmed <%= @episode.date %></p>
+      <p><%= @episode.description %></p>
+      <p>Released on <%= @episode.release_date %>.</p>
+      <% if @episode.bands %>
+        <h2>Featured Artists</h2>
+        <p class="bands">
+        <% @episode.bands.each do |band| %>
+          <%= link_to band.name, band.link, :target => '_blank' %>
         <% end %>
-        <% if @episode.thanks %>
-          <h2>Special Thanks</h2>
-          <p><%= @episode.thanks %></p>
-        <% end %>
-      </div>
+        </p>
+      <% end %>
+      <% if @episode.thanks %>
+        <h2>Special Thanks</h2>
+        <p><%= @episode.thanks %></p>
+      <% end %>
     </div>
   </div>
   <br class="clear" />

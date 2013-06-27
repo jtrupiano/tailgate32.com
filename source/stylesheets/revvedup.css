@@ -154,6 +154,12 @@ h4 {
     float: left;
   }
 
+    .right h2 {
+      line-height: 34px;
+      position: relative;
+      top: 5px;
+    }
+
 #footer {
   font-size: 16px;
   width: 976px;
@@ -198,32 +204,6 @@ h4 {
     border: solid 2px #ccc;
   }
 
-/** Widgets **/
-.widget {
-  margin-bottom: 25px;
-}
-
-  .widget h2 {
-    line-height: 34px;
-    position: relative;
-    top: 5px;
-  }
-
-
-#where-to-watch div {
-  margin-bottom: 25px;
-}
-
-  #where-to-watch img {
-    max-height: 50px;
-    max-width: 110px;
-    margin-right: 25px;
-  }
-
-    #recent-episodes img {
-      width: 230px;
-      height: 130px;
-    }
 
 /** Popups **/
 #hidden-content {
