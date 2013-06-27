@@ -12,6 +12,10 @@
     padding-left: 6px;
   }
 
+    .right p {
+      margin-bottom: 9px;
+    }
+
   .row .featured-episode {
     float: left;
     width: 234px;
