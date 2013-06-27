@@ -3,3 +3,4 @@
 /build
 /source/images/episodes/mids
 /workspace
+*.DS_Store
