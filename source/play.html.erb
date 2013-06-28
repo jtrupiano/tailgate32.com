@@ -29,18 +29,17 @@
       </div>
       <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
     </div>
-    <div>
-      <div class="three-column">
-        <h2>Up Next on Tailgate32</h2>
-        <p>Watch another episode of Tailgate32 or head back to the <a href="/episodes">full episode archive</a></p>
-        <% episodes.reverse[(@episode.number.to_i + 1) % 33, 3].each do |episode| %>
-          <div class="item">
-            <a href="<%= episode.relative_url %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" /></a>
-            <h4>Episode <%= episode.number %></h4>
-            <h3><%= episode.title %></h3>
-          </div>
-        <% end %>
+    <div class="divider"></div>
+    <div id="next-episode">
+      <h2>Next Up &mdash; Episode <%= @next_episode.number %>: <%= @next_episode.title %></h2>
+      <div class="thumbnail">
+        <a href="<%= @next_episode.relative_url %>" title="Watch <%= @next_episode.title %>"><img src="<%= @next_episode.thumbnail_url %>" alt="<%= @next_episode.title %>" /></a>
       </div>
+      <div class="description">
+        <p><%= @next_episode.description %></p>
+        <p>Watch <a href="<%= @next_episode.relative_url %>" title="Watch <%= @next_episode.title %>"><%= @next_episode.title %></a> or return to the <a href="/episodes">episode archive</a>.</p>
+      </div>
+      <br class="clear" />
     </div>
   </div>
   <div class="right">

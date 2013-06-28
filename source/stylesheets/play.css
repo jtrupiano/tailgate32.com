@@ -23,3 +23,46 @@
   height: 26px;
   margin-bottom: 12px;
 }
+
+#play .divider {
+  width: 724px;
+  margin-bottom: 10px;
+}
+
+#next-episode {
+  width: 712px;
+  margin: 0px 6px;
+}
+
+  #next-episode h2 {
+    margin-bottom: 6px;
+  }
+
+  #next-episode h3 {
+    text-align: center;
+  }
+
+  #next-episode .thumbnail {
+    float: left;
+    width: 279px;
+  }
+
+    #next-episode .thumbnail img {
+      width: 275px;
+      height: 154px;
+      border: solid 2px #333;
+    }
+
+    #next-episode .thumbnail a:hover img {
+      border: solid 2px #ccc;
+    }
+
+  #next-episode .description {
+    float: left;
+    width: 417px;
+    padding-left: 16px;
+  }
+
+    #next-episode .description p {
+      margin: 0px 0px 10px 0px;
+    }

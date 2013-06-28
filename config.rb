@@ -31,9 +31,10 @@ page "/index.html" do
 end
 
 page "/episodes.html"
-episodes.each do |episode|
+episodes.each_with_index do |episode, i|
   page "/play/#{episode.abbr}.html", :proxy => "/play.html", :ignore => true do
     @episode = episode
+    @next_episode = episodes[i-1]
   end
 end
 
