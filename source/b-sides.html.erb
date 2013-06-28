@@ -16,14 +16,24 @@
 
 <div id="play" class="row">
   <div class="left">
-    <%= partial :bside_archive %>
+    <div id="all-videos" class="three-column">
+      <h1>The B-Sides &mdash; Episode Archive</h1>
+      <% bsides.each do |bside| %>
+        <div class="item">
+          <a href="<%= bside.relative_url %>"><img src="<%= bside.thumbnail_url %>" alt="<%= bside.title %>" /></a>
+          <h3><%= bside.short_title || bside.title %></h3>
+        </div>
+      <% end %>
+      <br class="clear" />
+    </div>
   </div>
   <div class="right">
     <div id="widgets">
-      <h2>About B-Sides</h2>
+      <h2>About The Series</h2>
       <p>
-        B-Sides are a combination of behind-the-scenes material from Tailgate32 and Revved
-        Up and a little bit of just Mike and John goofing around.  From scoping out
+        The B-Sides are a combination of behind-the-scenes material from 
+        <a href="/episodes">Tailgate32</a> and <a href="/revved-up">Revved Up</a>
+        and a little bit of Mike and John just plain goofing around.  From scoping out
         the dive bar scene in Austin to an ode to shots, shots and more shots, to a
         weary and delirious Christmas celebration on the RV, you'll get a glimpse
         of a silly side of the guys.
