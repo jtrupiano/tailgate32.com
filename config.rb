@@ -27,7 +27,7 @@ end
 ###
 
 page "/index.html" do 
-  @featured_episodes = [21,19,18,30].map {|i| episodes.reverse[i]}
+  @featured_episodes = [22,20,19,31].map {|i| episodes.reverse[i]}
 end
 
 page "/episodes.html"

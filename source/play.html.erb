@@ -33,7 +33,7 @@
       <div class="three-column">
         <h2>Up Next on Tailgate32</h2>
         <p>Watch another episode of Tailgate32 or head back to the <a href="/episodes">full episode archive</a></p>
-        <% episodes.reverse[(@episode.number.to_i) % 32, 3].each do |episode| %>
+        <% episodes.reverse[(@episode.number.to_i + 1) % 33, 3].each do |episode| %>
           <div class="item">
             <a href="<%= episode.relative_url %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" /></a>
             <h4>Episode <%= episode.number %></h4>
@@ -47,7 +47,9 @@
     <div id="episode-details">
       <h2>Episode Details</h2>
       <p><%= @episode.description %></p>
-      <p class="date">Tailgated on <%= @episode.date %>.</p>
+      <% if @episode.date %>
+        <p class="date">Tailgated on <%= @episode.date %>.</p>
+      <% end %>
       <% if @episode.bands %>
         <h2>Featured Artists</h2>
         <p class="bands">

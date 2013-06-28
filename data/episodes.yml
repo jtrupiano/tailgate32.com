@@ -1121,6 +1121,23 @@ nyg:
     Ottomanelli & Sons Meat Market, Mike Luca, Bill Enright, Glenn Gentzke, Adam Goldstein,
     Dave Rothenberg, and Adam Hagge.
 
+sizzle:
+  number: "00"
+  title: "The Trailer"
+  video_id: "OLO7gCpW5lQ"
+  description: |
+    Here's your video introduction to the epic 25,000 mile journey that was
+    Tailgate32.  From superfans to cheerleaders to NFL players, we saw it all.
+    Get a taste of the whole series with this quick hitting trailer.
+  credits: |
+    Produced by Mike and John Trupiano
+    Directed and edited by Aidan Brezonick
+    Cinematography by Dustin Supencheck
+    Tour Manager: Matt Clement
+    Production Coordinator: Amy Hall
+    Motion graphics by Simian Design Group
+    Tailgate32 theme: "Faust" by Secret Colours
+    
 # trailer:
 #   number: "Tailgate32"
 #   title: "The Trailer"
