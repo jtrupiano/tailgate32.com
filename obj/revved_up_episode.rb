@@ -17,6 +17,10 @@ class RevvedUpEpisode < OpenStruct
     self.description.to_s.gsub(/<\/?[^>]*>/, "").gsub(/\s+/, " ").gsub("\"", "")
   end
 
+  def image_url
+    "/images/revved-up/#{abbr}.png"
+  end
+
   def thumbnail_url
     "/images/revved-up/thumbs/#{abbr}.png"
   end
