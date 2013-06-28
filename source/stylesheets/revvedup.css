@@ -194,13 +194,17 @@ h4 {
 
 .three-column .item {
   width: 225px;
-  margin: 6px 6px 6px 0;
+  margin: 6px 6px 10px 0;
   float: left;
 }
     
   .three-column .item img {
     width: 217px;
     height: 122px;
+    border: solid 2px #333;
+  }
+
+  .three-column .item a:hover img {
     border: solid 2px #ccc;
   }
 

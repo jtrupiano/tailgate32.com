@@ -16,5 +16,9 @@
   .four-column .item img {
     width: 219px;
     height: 219px;
+    border: solid 2px #333;
+  }
+
+  .four-column .item a:hover img {
     border: solid 2px #ccc;
   }
