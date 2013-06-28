@@ -1,0 +1,50 @@
+<% content_for(:title) { @episode.full_title } %>
+<% content_for(:description) { @episode.description_for_meta_tags } %>
+<% content_for(:og_meta) do %>
+
+  <meta property="og:title"         content="<%= @episode.full_title %>" />
+  <meta property="og:description"   content="<%= @episode.description_for_meta_tags %>" />
+  <meta property="og:type"          content="video.episode" />
+  <meta property="og:image"         content="<%= @episode.image_url %>" />
+  <meta property="og:url"           content="<%= @episode.canonical_url %>" />
+  <meta property="og:video"         content="<%= @episode.og_url %>" />
+  <meta property="og:video:type"    content="application/x-shockwave-flash" />
+  <meta property="og:video:width"   content="1920" />
+  <meta property="og:video:height"  content="1080" />
+  <meta property="video:series"     content="http://tailgate32.com/revved-up" />
+
+  <meta name="twitter:card"          content="player" />
+  <meta name="twitter:player"        content="<%= @episode.embed_url %>" />
+  <meta name="twitter:player:width"  content="435" />
+  <meta name="twitter:player:height" content="273" />
+<% end %>
+<% content_for(:stylesheets) { stylesheet_link_tag :"revved-up-episode" } %>
+
+<div class="row">
+  <div class="left">
+    <div id="featured-video">
+      <h1>Revved Up Episode <%= @episode.number %>: <%= @episode.title %></h1>
+      <div id="video-container">
+        <%= @episode.embed_code %>
+      </div>
+      <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
+    </div>
+  </div>
+  <div class="right">
+    <div id="episode-details">
+      <h2>Episode Details</h2>
+      <p><%= @episode.description %></p>
+      <h2>Featured Artists</h2>
+      <p class="bands">
+      <% @episode.bands.each do |band| %>
+        <%= link_to band.name, band.link, :target => '_blank' %>
+      <% end %>
+      </p>
+      <% if @episode.thanks %>
+        <h2>Special Thanks</h2>
+        <p><%= @episode.thanks %></p>
+      <% end %>
+    </div>
+  </div>
+  <br class="clear" />
+</div>

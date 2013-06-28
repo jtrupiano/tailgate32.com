@@ -1,0 +1,50 @@
+<% content_for(:title) { "Tailgate32 Is Revved Up" } %>
+<% content_for(:description) { "Watch all episodes of the web series Revved Up." } %>
+<% content_for(:og_meta) do %>
+
+  <meta name="twitter:card"          content="summary" />
+
+  <meta property="og:title"         content="Revved Up, a web series about racing fan culture" />
+  <meta property="og:type"          content="video.tv_show" />
+  <meta property="og:image"         content="http://tailgate32.com/images/revved-up-800x800.jpg" />
+  <meta property="og:description"   content="Watch all episodes of the web series Revved Up." />
+  <meta property="video:tag"        content="web series" />
+  <meta property="video:tag"        content="sports" />
+  <meta property="video:tag"        content="documentary" />
+  <meta property="og:url"           content="http://tailgate32.com/revved-up" />
+<% end %>
+<% content_for(:stylesheets) { stylesheet_link_tag :revvedup } %>
+
+<div id="episodes" class="row">
+  <div class="left">
+    <div id="all-videos" class="three-column">
+    <h1>Revved Up Episode Archive</h1>
+    <% revvedup_episodes.each do |episode| %>
+      <div class="item">
+        <% if episode.released? %><a href="<%= episode.relative_url %>"><% end %>
+        <img src="<%= episode.thumbnail_url %>" alt="<%= episode.full_title %>" />
+        <% if episode.released? %></a><% end %>
+        <h4>Episode <%= episode.number %></h4>
+        <h3><%= episode.title %></h3>
+      </div>
+    <% end %>
+    </div>
+  </div>
+  <div class="right">
+    <h2>About The Series</h2>
+    <p>
+      Revved Up is a follow-up to the highly successful <a href="/episodes">Tailgate32</a>. 
+      Having conquered football and an insane life on the road, Mike and John take to 
+      the speedway to discover what makes auto racing America's favorite sport. 
+    </p>
+    <p>
+      The 6-episode miniseries highlights the most interesting aspects of the race fan 
+      world... including, of course, the tailgating! The guys dive into the entire racing 
+      experience, including a behind-the-scenes look at how a racing team prepares for 
+      each week's race. With appearances from NASCAR drivers, track presidents, town 
+      mayors, team owners, and very, very colorful fans, the brothers showcase racing 
+      culture at it's finest.
+    </p>
+  </div>
+  <br class="clear" />
+</div>

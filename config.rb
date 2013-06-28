@@ -1,5 +1,6 @@
 require './obj/contest'
 require './obj/episode'
+require './obj/revved_up_episode'
 require './obj/bside'
 require './obj/event'
 
@@ -19,6 +20,14 @@ helpers do
 
   def bsides
     @bsides ||= data.bsides.keys.map {|abbr| Bside.new(data.bsides[abbr].merge({abbr: abbr}))}
+  end
+
+  def revvedup_episodes
+    @revvedup_episodes ||= data.revvedup.keys.map {|abbr| RevvedUpEpisode.new(data.revvedup[abbr].merge({abbr: abbr}))}
+  end
+
+  def released_revvedup_episodes
+    @released_revvedup_episodes ||= revvedup_episodes.select {|ep| ep.released?}
   end
 end
 
@@ -43,6 +52,13 @@ page "/b-sides.html"
 bsides.each do |bside|
   page "/b-sides/#{bside.abbr}.html", :proxy => "/b-side.html", :ignore => true do
     @bside = bside
+  end
+end
+
+page "/revved-up.html"
+released_revvedup_episodes.each do |episode|
+  page "#{episode.relative_url}.html", :proxy => "/revved-up-episode.html", :ignore => true do
+    @episode = episode
   end
 end
 

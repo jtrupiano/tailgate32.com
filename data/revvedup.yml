@@ -1,0 +1,52 @@
+"the-trailer":
+  number: "0"
+  title: "The Trailer"
+  release_date: "June 15, 2013"
+  blip_embed_id: "AYOTjnwC.x"
+  blip_og_id: "revved-up-trailer-6604568"
+  description: |
+    Mike and John are at it again!  This summer the guys dive into the entire racing 
+    experience, including a behind-the-scenes look at how a racing team prepares for each 
+    week's race. With appearances from NASCAR drivers, track presidents, town mayors, team 
+    owners, and very colorful fans, the brothers showcase racing culture at its finest.
+  bands:
+    - name: Death on Two Wheels
+      link: http://deathontwowheels.com/
+      songs:
+        - Look at the Sound
+
+"this-is-revved-up":
+  number: "1"
+  title: "This Is Revved Up"
+  release_date: "July 10, 2013"
+  blip_id: ""
+
+"the-pit-crew":
+  number: "2"
+  title: "The Pit Crew"
+  release_date: "July 17, 2013"
+  blip_id: ""
+
+"small-town-big-race":
+  number: "3"
+  title: "Small Town, Big Race"
+  release_date: "July 24, 2013"
+  blip_id: ""
+
+"the-party":
+  number: "4"
+  title: "The Party"
+  release_date: "July 31, 2013"
+  blip_id: ""
+
+"bobby":
+  number: "5"
+  title: "Bobby!"
+  release_date: "August 7, 2013"
+  blip_id: ""
+
+"everyone-is-a-race-fan":
+  number: "6"
+  title: "Everyone Is a Race Fan"
+  release_date: "August 14, 2013"
+  blip_id: ""
