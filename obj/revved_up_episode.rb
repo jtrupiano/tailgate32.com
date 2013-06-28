@@ -18,7 +18,7 @@ class RevvedUpEpisode < OpenStruct
   end
 
   def image_url
-    "/images/revved-up/#{abbr}.png"
+    "http://tailgate32.com/images/revved-up/#{abbr}.png"
   end
 
   def thumbnail_url
