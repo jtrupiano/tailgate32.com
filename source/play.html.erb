@@ -29,7 +29,19 @@
       </div>
       <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="420" data-show-faces="false" data-color-scheme="dark"></div>
     </div>
-    <%= partial :episode_archive %>
+    <div>
+      <div class="three-column">
+        <h2>Up Next on Tailgate32</h2>
+        <p>Watch another episode of Tailgate32 or head back to the <a href="/episodes">full episode archive</a></p>
+        <% episodes.reverse[(@episode.number.to_i) % 32, 3].each do |episode| %>
+          <div class="item">
+            <a href="<%= episode.relative_url %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" /></a>
+            <h4>Episode <%= episode.number %></h4>
+            <h3><%= episode.title %></h3>
+          </div>
+        <% end %>
+      </div>
+    </div>
   </div>
   <div class="right">
     <div id="episode-details">

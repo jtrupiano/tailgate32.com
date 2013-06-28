@@ -1121,22 +1121,22 @@ nyg:
     Ottomanelli & Sons Meat Market, Mike Luca, Bill Enright, Glenn Gentzke, Adam Goldstein,
     Dave Rothenberg, and Adam Hagge.
 
-trailer:
-  number: "Tailgate32"
-  title: "The Trailer"
-  date: "August 15, 2012"
-  release_date: "August 15th, 2012"
-  video_id: "q3eWWvPwXEA"
-  description: |
-    Brothers John and Mike Trupiano are set to embark on a cross country journey that is 
-    sure to make any fan of the NFL and Tailgating a bit jealous. This fall, they are 
-    hopping in a RV and are attending one home game for all 32 NFL Teams. During their 
-    trip, they'll interview fans, participate in local traditions, host a large public 
-    tailgate at each stadium, and uncover what makes these experiences special to each 
-    fan base.
-  credits: |
-    Produced by Mike and John Trupiano
-    Directed and edited by Aidan Brezonick
-    Tailgate32 theme: "Faust" by Secret Colours
-  bands:
-  thanks:
+# trailer:
+#   number: "Tailgate32"
+#   title: "The Trailer"
+#   date: "August 15, 2012"
+#   release_date: "August 15th, 2012"
+#   video_id: "q3eWWvPwXEA"
+#   description: |
+#     Brothers John and Mike Trupiano are set to embark on a cross country journey that is 
+#     sure to make any fan of the NFL and Tailgating a bit jealous. This fall, they are 
+#     hopping in a RV and are attending one home game for all 32 NFL Teams. During their 
+#     trip, they'll interview fans, participate in local traditions, host a large public 
+#     tailgate at each stadium, and uncover what makes these experiences special to each 
+#     fan base.
+#   credits: |
+#     Produced by Mike and John Trupiano
+#     Directed and edited by Aidan Brezonick
+#     Tailgate32 theme: "Faust" by Secret Colours
+#   bands:
+#   thanks:
