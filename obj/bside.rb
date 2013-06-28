@@ -6,7 +6,11 @@ class Bside < OpenStruct
   end
 
   def full_title
-    "Tailgate32 B-Side #{self.number}: #{self.title}"
+    "The B-Sides &mdash; #{self.title}"
+  end
+
+  def title_for_meta_tags
+    "The B-Sides - #{self.title}"
   end
 
   def description_for_meta_tags

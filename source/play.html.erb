@@ -1,8 +1,8 @@
-<% content_for(:title) { @episode.full_title } %>
+<% content_for(:title) { @episode.title_for_meta_tags } %>
 <% content_for(:description) { @episode.description_for_meta_tags } %>
 <% content_for(:og_meta) do %>
 
-  <meta property="og:title"         content="<%= @episode.full_title %>" />
+  <meta property="og:title"         content="<%= @episode.title_for_meta_tags %>" />
   <meta property="og:description"   content="<%= @episode.description_for_meta_tags %>" />
   <meta property="og:type"          content="video.episode" />
   <meta property="og:image"         content="<%= @episode.image_url %>" />
@@ -23,7 +23,7 @@
 <div id="play" class="row">
   <div class="left">
     <div id="featured-video">
-      <h1>Tailgate32 Episode <%= @episode.number %>: <%= @episode.title %></h1>
+      <h1><%= @episode.full_title %></h1>
       <div id="video-container">
         <iframe id="ytplayer" width="720" height="405" src="<%= @episode.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
       </div>

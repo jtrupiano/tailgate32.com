@@ -10,7 +10,11 @@ class RevvedUpEpisode < OpenStruct
   end
 
   def full_title
-    "Revved Up Episode #{self.number}: #{self.title}"
+    "Revved Up &mdash; Episode #{self.number}: #{self.title}"
+  end
+
+  def title_for_meta_tags
+    "Revved Up - Episode #{self.number}: #{self.title}"
   end
 
   def description_for_meta_tags

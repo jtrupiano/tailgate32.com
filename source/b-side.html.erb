@@ -1,8 +1,8 @@
-<% content_for(:title) { @bside.full_title } %>
+<% content_for(:title) { @bside.title_for_meta_tags } %>
 <% content_for(:description) { @bside.description_for_meta_tags } %>
 <% content_for(:og_meta) do %>
 
-  <meta property="og:title"         content="<%= @bside.full_title %>" />
+  <meta property="og:title"         content="<%= @bside.title_for_meta_tags %>" />
   <meta property="og:description"   content="<%= @bside.description_for_meta_tags %>" />
   <meta property="og:type"          content="video.episode" />
   <meta property="og:image"         content="<%= @bside.image_url %>" />
@@ -23,7 +23,7 @@
 <div id="bside" class="row">
   <div class="left">
     <div id="featured-video">
-      <h1><%= @bside.title %></h1>
+      <h1><%= @bside.full_title %></h1>
       <div id="video-container">
         <iframe id="ytplayer" width="720" height="405" src="<%= @bside.youtube_embed_url %>" frameborder="0" allowFullScreen></iframe>
       </div>
