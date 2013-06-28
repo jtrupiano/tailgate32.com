@@ -13,8 +13,12 @@ class Bside < OpenStruct
     self.description.to_s.gsub(/<\/?[^>]*>/, "").gsub(/\s+/, " ").gsub("\"", "")
   end
 
+  def image_url
+    "http://tailgate32.com/images/b-sides/#{abbr}.png"
+  end
+
   def thumbnail_url
-    "http://img.youtube.com/vi/#{self.video_id}/maxresdefault.jpg"
+    "/images/b-sides/thumbs/#{abbr}.png"
   end
 
   def relative_url

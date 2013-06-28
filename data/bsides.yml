@@ -1,5 +1,14 @@
-superbowl:
+dives:
   number: "06"
+  title: "Dives w/ Mike and John"
+  date: "March 20, 2013"
+  video_id: ""
+  description: |
+    This time we're just goofing off in some fun dive bars in Austin.  Come have a drink 
+    with us!
+
+superbowl:
+  number: "05"
   title: "Mike and John Tailgate the Super Bowl"
   short_title: "Tailgate the Super Bowl"
   date: "February 3, 2013"
@@ -9,7 +18,7 @@ superbowl:
     Super Bowl weekend.
 
 kissme:
-  number: "05"
+  number: "04"
   title: "Kiss Me, I'm Shitfaced"
   date: "January 18, 2013"
   video_id: "Q1DYdb7L0uo"
@@ -18,7 +27,7 @@ kissme:
     traditions we've seen all year.
 
 holidays:
-  number: "04"
+  number: "03"
   title: "Happy Holidays 2012"
   date: "December 24, 2012"
   video_id: "CYFD7ZINxvA"
@@ -27,18 +36,11 @@ holidays:
     wishing everyone a Merry Christmas.
 
 declined:
-  number: "03"
+  number: "02"
   title: "Declined"
   date: "August 31, 2012"
   video_id: "GCZBl7JLc1Y"
   description: "John and Mike have a difficult time using their credit cards on the road"
-
-ontheroad:
-  number: "02"
-  title: "On The Road"
-  date: "August 30, 2012"
-  video_id: "vifrRRKP_xs"
-  description: "Tailgate32 finally hits the road."
 
 schedule:
   number: "01"

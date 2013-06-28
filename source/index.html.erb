@@ -48,21 +48,13 @@
     and John have been up to.  If you're looking for more, check out our 
     <a href="/b-sides">B-Sides Archive</a>.
   </p>
-  <div class="featured-episode first">
-    <img src="/images/episodes/thumbs/no.png" />
-    <h3>Mike and John<br />Tailgate the Super Bowl</h3>
-  </div>
-  <div class="featured-episode">
-    <img src="/images/episodes/thumbs/tb.png" />
-    <h3>DIVES</h3>
-  </div>
-  <div class="featured-episode">
-    <img src="/images/episodes/thumbs/chi.png" />
-    <h3>Shots, Shots, Shots</h3>
-  </div>
-  <div class="featured-episode last">
-    <img src="/images/episodes/thumbs/no.png" />
-    <h3>Happy Holidays aboard the Tailgate32 RV</h3>
-  </div>
+  <% @featured_bsides.each_with_index do |bside, i| %>
+    <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
+      <a href="/b-sides/<%= bside.abbr %>">
+        <img src="<%= bside.thumbnail_url %>" alt="<%= bside.title %>" />
+        <h3><%= bside.title %></h3>
+      </a>
+    </div>
+  <% end %>
   <br class="clear" />
 </div>
