@@ -1,0 +1,10 @@
+<div id="all-videos" class="three-column">
+  <h1>The B-Sides &mdash; Episode Archive</h1>
+  <% bsides.each do |bside| %>
+    <div class="item">
+      <a href="<%= bside.relative_url %>"><img src="<%= bside.thumbnail_url %>" alt="<%= bside.title %>" /></a>
+      <h3><%= bside.short_title || bside.title %></h3>
+    </div>
+  <% end %>
+  <br class="clear" />
+</div>
