@@ -2,6 +2,7 @@
   number: "0"
   title: "The Trailer"
   release_date: "June 15, 2013"
+  released: "yes"
   blip_embed_id: "AYOTjnwC"
   blip_og_id: "revved-up-trailer-6604568"
   description: |
@@ -19,13 +20,45 @@
   number: "1"
   title: "This Is Revved Up"
   release_date: "July 10, 2013"
-  blip_id: ""
+  released:
+  blip_embed_id: "AYOTuToA"
+  blip_og_id: "episode-1-this-is-revved-up-6610006"
+  description: |
+    It's Mike and John's first time at the track, and they're intent to find out what the
+    big deal is.  They enlist the help of Santa, a lifelong race fan from Charlotte, who
+    guides them through the RV lots and teaches them how the racing traditions differ
+    from their football equivalents.  They finish up by getting advice from race fans
+    about how to pick their favorite drivers.
+  bands:
+    - name: Ha Ha Tonka
+      link: "http://www.hahatonkamusic.com"
+      songs:
+        - Pendergast Machine
+        - St. Nick on the 4th in a Fervor
+        - Usual Suspects
+  thanks: |
+    Special thanks to Santa.
 
 "the-pit-crew":
   number: "2"
   title: "The Pit Crew"
   release_date: "July 17, 2013"
-  blip_id: ""
+  released:
+  blip_embed_id: "AYOTvgsA"
+  blip_og_id: "episode-2-the-pit-crew-6610599"
+  description: |
+    Mike and John move from the RV lots to the garage.  Go behind the scenes with
+    them as they learn firsthand how a race team prepares for race day.
+    From pit practice to playing jokes on the new guy to John getting a first-hand "lesson"
+    from the jack-man , you'll get an entertaining glimpse of the inner workings of a 
+    race team.
+  bands:
+    - name: Death on Two Wheels
+      link: "http://deathontwowheels.com/"
+      songs:
+        - The Rest
+  thanks: |
+    Special thanks to JTG Daugherty Racing, Jennifer Chapple, and Todd Hahn.
 
 "small-town-big-race":
   number: "3"

@@ -6,7 +6,7 @@ class RevvedUpEpisode < OpenStruct
   end
 
   def released?
-    !blip_embed_id.blank?
+    self.released
   end
 
   def full_title
@@ -26,7 +26,9 @@ class RevvedUpEpisode < OpenStruct
   end
 
   def thumbnail_url
-    "/images/revved-up/thumbs/#{abbr}.png"
+    self.released? ?
+      "/images/revved-up/thumbs/#{abbr}.png" :
+      "/images/revved-up/thumbs/#{abbr}-unreleased.png"
   end
 
   def relative_url
