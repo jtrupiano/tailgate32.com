@@ -20,15 +20,14 @@
   number: "1"
   title: "This Is Revved Up"
   release_date: "July 10, 2013"
-  released:
+  released: "yes"
   blip_embed_id: "AYOTuToA"
   blip_og_id: "episode-1-this-is-revved-up-6610006"
   description: |
-    It's Mike and John's first time at the track, and they're intent to find out what the
-    big deal is.  They enlist the help of Santa, a lifelong race fan from Charlotte, who
-    guides them through the RV lots and teaches them how the racing traditions differ
-    from their football equivalents.  They finish up by getting advice from race fans
-    about how to pick their favorite drivers.
+    In the debut episode, Mike and John take to the tailgating lots to learn what makes 
+    the NASCAR fan experience stand out compared to football, seek help picking their 
+    favorite drivers from some grizzly veterans, and prepare for the rest of their summer 
+    at the races.
   bands:
     - name: Ha Ha Tonka
       link: "http://www.hahatonkamusic.com"
