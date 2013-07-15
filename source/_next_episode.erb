@@ -1,0 +1,11 @@
+<div id="next-episode">
+  <h2>Next Up &mdash; Episode <%= @next_episode.number %>: <%= @next_episode.title %></h2>
+  <div class="thumbnail">
+    <a href="<%= @next_episode.relative_url %>" title="Watch <%= @next_episode.title %>"><img src="<%= @next_episode.thumbnail_url %>" alt="<%= @next_episode.title %>" /></a>
+  </div>
+  <div class="description">
+    <p><%= @next_episode.description %></p>
+    <p>Watch <a href="<%= @next_episode.relative_url %>" title="Watch <%= @next_episode.title %>"><%= @next_episode.title %></a> or return to the <a href="<%= @next_episode.archive_url %>">episode archive</a>.</p>
+  </div>
+  <br class="clear" />
+</div>

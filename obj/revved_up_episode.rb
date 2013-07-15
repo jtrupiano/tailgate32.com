@@ -50,4 +50,8 @@ class RevvedUpEpisode < OpenStruct
   def embed_code
     %Q{<iframe src="#{self.embed_url}" width="720" height="433" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf##{self.blip_embed_id}" style="display:none"></embed>}
   end
+
+  def archive_url
+    "/revved-up"
+  end
 end

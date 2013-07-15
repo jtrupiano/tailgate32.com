@@ -57,4 +57,8 @@ class Episode < OpenStruct
   def has_contest?
     !self.contest.nil?
   end
+
+  def archive_url
+    "/episodes"
+  end
 end

@@ -21,9 +21,9 @@
   <meta name="twitter:player:height" content="273" />
   -->
 <% end %>
-<% content_for(:stylesheets) { stylesheet_link_tag :"revved-up-episode" } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :episode } %>
 
-<div class="row">
+<div id="episode" class="row">
   <div class="left">
     <div id="featured-video">
       <h1><%= @episode.full_title %></h1>
@@ -32,6 +32,7 @@
       </div>
       <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="620" data-show-faces="false" data-color-scheme="dark"></div>
     </div>
+    <%= partial :next_episode, :locals => { :next_episode => @next_episode } %>
   </div>
   <div class="right">
     <div id="episode-details">
