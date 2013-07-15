@@ -36,6 +36,7 @@ end
 ###
 
 page "/index.html" do 
+  @revved_up_episode = released_revvedup_episodes.last
   @featured_episodes = [22,20,19,31].map {|i| episodes.reverse[i]}
   @featured_bsides   = [1,0,2,3].map {|i| bsides[i]}
 end
