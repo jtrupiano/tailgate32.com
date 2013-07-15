@@ -59,7 +59,7 @@ page "/revved-up.html"
 released_revvedup_episodes.each_with_index do |episode, i|
   page "#{episode.relative_url}.html", :proxy => "/revved-up-episode.html", :ignore => true do
     @episode = episode
-    @next_episode = released_revvedup_episodes[i-1]
+    @next_episode = released_revvedup_episodes[(i+1) % released_revvedup_episodes.size]
   end
 end
 
