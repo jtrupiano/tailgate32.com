@@ -63,7 +63,23 @@
   number: "3"
   title: "Small Town, Big Race"
   release_date: "July 24, 2013"
-  blip_id: ""
+  released: "yes"
+  blip_embed_id: "AYOT3E8A"
+  blip_ig_id: "episode-3-small-town-big-race-6614507"
+  description: |
+    Darlington, South Carolina.  Home to the first ever superspeedway.  A town of only
+    7,000 people, yet one of racing's most popular destinations.  Through interviews 
+    with Mayor Tony Watkins, track president Chris Browning, and owners of local 
+    establishments, Mike and John explore the full cultural and economic impact that 
+    NASCAR has on such a small city.
+  bands:
+    - name: Death on Two Wheels
+      link: "http://deathontwowheels.com/"
+      songs:
+        - Blew It Out
+        - Giving It All Away
+  thanks: |
+    Special thanks to Chris Browning, Mayor Tony Watkins, and Joe's Grill.
 
 "the-party":
   number: "4"
