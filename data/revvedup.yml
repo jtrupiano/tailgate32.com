@@ -81,15 +81,33 @@
   thanks: |
     Special thanks to Chris Browning, Mayor Tony Watkins, and Joe's Grill.
 
-"the-party":
-  number: "4"
-  title: "The Party"
-  release_date: "July 31, 2013"
-  blip_id: ""
-
 "bobby":
-  number: "5"
+  number: "4"
   title: "Bobby!"
+  release_date: "July 31, 2013"
+  released: "yes"
+  blip_embed_id: "AYOUmQ8A"
+  blip_og_id: "episode-4-bobby-6622251"
+  description: |
+    We talked to his pit crew back in episode 2, but this time we get a crack at the
+    NASCAR racing legend himself.  Check out what Bobby Labonte has to say about
+    his experience becoming a driver, how he balances his career and a healthy family 
+    life, and where his sense of humor and work ethic come from.  Team owner Brad
+    Daugherty and competition director Bobby Hutchens also chime in with stories
+    about their professional relationships with Bobby.
+  bands:
+    - name: Death on Two Wheels
+      link: "http://deathontwowheels.com/"
+      songs:
+        - The Rest
+        - Burn Loretta
+        - Swamp
+  thanks: |
+    Special thanks to Bobby Labonte, Brad Daugherty, Jennifer Chapple, Todd Hahn, and JTG Daugherty Racing.
+
+"the-party":
+  number: "5"
+  title: "The Party"
   release_date: "August 7, 2013"
   blip_id: ""
 
