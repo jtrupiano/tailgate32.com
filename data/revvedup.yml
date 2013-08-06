@@ -109,7 +109,24 @@
   number: "5"
   title: "The Party"
   release_date: "August 7, 2013"
-  blip_id: ""
+  released: "yes"
+  blip_embed_id: "AYOUs0AA"
+  blip_og_id: "episode-5-the-party-6625628"
+  description: |
+    You can't fully experience a NASCAR race without getting a little rowdy.  Check out 
+    some great "NASCAR at Night" stories and join Mike and John as they drink, dance and 
+    joke their way through the party scene.
+  bands:
+    - name: Ha Ha Tonka
+      link: "http://www.hahatonkamusic.com"
+      songs:
+        - Pendergast Machine
+    - name: Death on Two Wheels
+      link: "http://deathontwowheels.com/"
+      songs:
+        - Words
+  thanks: |
+    Special thanks to Bryan Pipkin.
 
 "everyone-is-a-race-fan":
   number: "6"
