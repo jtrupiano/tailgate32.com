@@ -25,10 +25,6 @@ helpers do
   def revvedup_episodes
     @revvedup_episodes ||= data.revvedup.keys.map {|abbr| RevvedUpEpisode.new(data.revvedup[abbr].merge({abbr: abbr}))}
   end
-
-  def released_revvedup_episodes
-    @released_revvedup_episodes ||= revvedup_episodes.select {|ep| ep.released?}
-  end
 end
 
 ###
@@ -36,7 +32,7 @@ end
 ###
 
 page "/index.html" do 
-  @revved_up_episode = released_revvedup_episodes.last
+  @revved_up_episode = revvedup_episodes.last
   @featured_episodes = [22,20,19,31].map {|i| episodes.reverse[i]}
   @featured_bsides   = [1,0,2,3].map {|i| bsides[i]}
 end
@@ -57,11 +53,10 @@ bsides.each do |bside|
 end
 
 page "/revved-up.html"
-released_revvedup_episodes.each_with_index do |episode, i|
+revvedup_episodes.each_with_index do |episode, i|
   page "#{episode.relative_url}.html", :proxy => "/revved-up-episode.html", :ignore => true do
     @episode = episode
-    next_episode_index = ((i == (released_revvedup_episodes.size - 1)) ? 1 : (i+1))
-    @next_episode = released_revvedup_episodes[next_episode_index]
+    @next_episode = revvedup_episodes[(i + 1) % revvedup_episodes.size]
   end
 end
 

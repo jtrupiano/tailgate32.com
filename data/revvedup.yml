@@ -2,7 +2,6 @@
   number: "0"
   title: "The Trailer"
   release_date: "June 15, 2013"
-  released: "yes"
   blip_embed_id: "AYOTjnwC"
   blip_og_id: "revved-up-trailer-6604568"
   description: |
@@ -20,7 +19,6 @@
   number: "1"
   title: "This Is Revved Up"
   release_date: "July 10, 2013"
-  released: "yes"
   blip_embed_id: "AYOTuToA"
   blip_og_id: "episode-1-this-is-revved-up-6610006"
   description: |
@@ -42,7 +40,6 @@
   number: "2"
   title: "The Pit Crew"
   release_date: "July 17, 2013"
-  released: "yes"
   blip_embed_id: "AYOTvgsA"
   blip_og_id: "episode-2-the-pit-crew-6610599"
   description: |
@@ -63,7 +60,6 @@
   number: "3"
   title: "Small Town, Big Race"
   release_date: "July 24, 2013"
-  released: "yes"
   blip_embed_id: "AYOT3E8A"
   blip_og_id: "episode-3-small-town-big-race-6614507"
   description: |
@@ -85,7 +81,6 @@
   number: "4"
   title: "Bobby!"
   release_date: "July 31, 2013"
-  released: "yes"
   blip_embed_id: "AYOUmQ8A"
   blip_og_id: "episode-4-bobby-6622251"
   description: |
@@ -109,7 +104,6 @@
   number: "5"
   title: "The Party"
   release_date: "August 7, 2013"
-  released: "yes"
   blip_embed_id: "AYOUs0AA"
   blip_og_id: "episode-5-the-party-6625628"
   description: |
@@ -132,7 +126,6 @@
   number: "6"
   title: "Everyone Is a Race Fan"
   release_date: "August 14, 2013"
-  released: "yes"
   blip_embed_id: "AYOUzFEA"
   blip_og_id: "episode-6-everyone-s-a-race-fan-6628845"
   description: |

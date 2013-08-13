@@ -5,10 +5,6 @@ class RevvedUpEpisode < OpenStruct
     hsh.keys.each {|key| self.send("#{key}=", hsh[key])}
   end
 
-  def released?
-    self.released
-  end
-
   def full_title
     "Revved Up &mdash; Episode #{self.number}: #{self.title}"
   end
@@ -26,9 +22,7 @@ class RevvedUpEpisode < OpenStruct
   end
 
   def thumbnail_url
-    self.released? ?
-      "/images/revved-up/thumbs/#{abbr}.png" :
-      "/images/revved-up/thumbs/#{abbr}-unreleased.png"
+    "/images/revved-up/thumbs/#{abbr}.png"
   end
 
   def relative_url
