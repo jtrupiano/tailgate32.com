@@ -42,6 +42,10 @@ use Rack::Rewrite do
 
   # redirect links to the schedule to the schedule B-Side
   r301 %r{^/schedule*}, "/b-sides/schedule"
+  
+  # REVVED UP trailer now goes to first episode
+  r301 %r{^/revved-up/the-trailer}, "/revved-up/this-is-revved-up"
+
 end
 
 use ::Rack::TryStatic,
