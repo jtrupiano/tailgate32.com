@@ -132,4 +132,19 @@
   number: "6"
   title: "Everyone Is a Race Fan"
   release_date: "August 14, 2013"
-  blip_id: ""
+  released: "yes"
+  blip_embed_id: "AYOUzFEA"
+  blip_og_id: "episode-6-everyone-s-a-race-fan-6628845"
+  description: |
+    Racing fans come from all walks of life.  Some are born into it, others marry into it, 
+    and the rest just figure it out a little later than everyone else.  And over the course 
+    of the summer, Mike and John discovered that pretty much everyone is a race fan.  
+    Join the brothers for the season finale of REVVED UP.
+  bands:
+    - name: Death on Two Wheels
+      link: "http://deathontwowheels.com/"
+      songs:
+        - Words
+        - Children
+  thanks: |
+    Special thanks to Dale and Janet Sarjeant.
