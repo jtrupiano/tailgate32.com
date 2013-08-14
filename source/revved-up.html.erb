@@ -21,8 +21,7 @@
     <h1>Revved Up &mdash; Episode Archive</h1>
     <% revvedup_episodes.each do |episode| %>
       <div class="item">
-        <a href="<%= episode.relative_url %>">
-          <img src="<%= episode.thumbnail_url %>" alt="<%= episode.full_title %>" />
+        <a href="<%= episode.relative_url %>"><img src="<%= episode.thumbnail_url %>" alt="<%= episode.full_title %>" /></a>
         <h4>Episode <%= episode.number %></h4>
         <h3><%= episode.title %></h3>
       </div>
