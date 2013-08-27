@@ -29,9 +29,10 @@ end
 ###
 
 page "/index.html" do 
-  @featured_episode     = episodes.last
-  @tailgate32_episodes  = [22,20,19,31].map {|i| episodes.reverse[i]}
-  @featured_bsides      = [1,0,2,3].map {|i| bsides[i]}
+  @featured_episode           = episodes.last
+  @tailgate32_episodes        = [19,15,14,28].map {|i| episodes.reverse[i]}
+  @featured_revvedup_episodes = [0,3,5,1].map {|i| revvedup_episodes[i]}
+  @featured_bsides            = [1,0,2,3].map {|i| bsides[i]}
 end
 
 page "/episodes.html"
