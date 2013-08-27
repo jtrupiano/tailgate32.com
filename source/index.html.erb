@@ -15,7 +15,7 @@
 <div id="main">
   <div class="left">
     <div id="video-container">
-      <%= @revved_up_episode.embed_code %>
+      <%= @featured_episode.embed_code %>
     </div>
     <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="620" data-show-faces="false" data-color-scheme="dark"></div>
   </div>
@@ -35,7 +35,7 @@
 <div id="secondary" class="row">
   <h2>Tailgate32: The Ultimate Football Fan Roadtrip</h2>
   <p>Before checking out the speedway, Mike and John took an epic roadtrip to tailgate all 32 NFL stadiums in one 17-week regular season.  Here are a couple of our favorite episodes.  Or you can <a href="/episodes">watch all 32 of them</a>!</p>
-  <% @featured_episodes.each_with_index do |episode, i| %>
+  <% @tailgate32_episodes.each_with_index do |episode, i| %>
     <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
       <a href="/play/<%= episode.abbr %>">
         <img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" />

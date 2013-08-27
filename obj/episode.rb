@@ -45,6 +45,10 @@ class Episode < OpenStruct
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
   end
 
+  def embed_code
+    %Q{<iframe id="ytplayer" width="720" height="405" src="#{self.youtube_embed_url}" frameborder="0" allowFullScreen></iframe>}
+  end
+
   def on_itunes?
     !self.itunes.nil?
   end

@@ -10,11 +10,8 @@ require './obj/event'
 helpers do
   def episodes
     @episodes ||= 
-      data.episodes.keys.reject {|key| 
-        !data.episodes[key].video_id 
-      }.map {|abbr| 
-        contest = data.contests.has_key?(abbr) ? Contest.new(data.contests[abbr]) : nil
-        Episode.new(data.episodes[abbr].merge({abbr: abbr, contest: contest}))
+      data.episodes.keys.map {|abbr| 
+        Episode.new(data.episodes[abbr].merge({abbr: abbr}))
       }
   end
 
@@ -32,9 +29,9 @@ end
 ###
 
 page "/index.html" do 
-  @revved_up_episode = revvedup_episodes.last
-  @featured_episodes = [22,20,19,31].map {|i| episodes.reverse[i]}
-  @featured_bsides   = [1,0,2,3].map {|i| bsides[i]}
+  @featured_episode     = episodes.last
+  @tailgate32_episodes  = [22,20,19,31].map {|i| episodes.reverse[i]}
+  @featured_bsides      = [1,0,2,3].map {|i| bsides[i]}
 end
 
 page "/episodes.html"
