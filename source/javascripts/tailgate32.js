@@ -1,4 +1,8 @@
 $().ready(function() {
+  // set fancybox defaults -- hide the video player when a popup is opened
+  $.fancybox.defaults.beforeLoad = function() { $('#video-container').css('visibility', 'hidden'); };
+  $.fancybox.defaults.afterClose = function() { $('#video-container').css('visibility', 'visible'); };
+
   // Set up contact us fancybox
   $('a.contact-us-link').click(function() {
     // clear the form

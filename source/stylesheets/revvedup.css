@@ -214,11 +214,11 @@ h4 {
   display: none;
 }
 
-  #contact-us {
+  .popup {
     width: 600px;
   }
 
-    #contact-us h2 { color: #222; }
+    .popup h2 { color: #222; }
 
     #contact-us input {
       margin: 0;

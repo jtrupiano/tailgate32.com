@@ -11,6 +11,7 @@
   <meta property="og:description" content="A web series that follows brothers Mike & John as they explore the greatest sports fan traditions in America." />
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag(:home) } %>
+<% content_for(:javascripts) { javascript_include_tag(:home) } %>
 
 <div id="main">
   <div class="left">
@@ -20,14 +21,20 @@
     <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="620" data-show-faces="false" data-color-scheme="dark"></div>
   </div>
   <div class="right">
-    <h1>Get REVVED UP!</h1>
+    <h1>Back on the Road for 2013!</h1>
     <p>
-      Racing fans come from all walks of life.  Some are born into it, others marry into it, 
-      and the rest just figure it out a little later than everyone else.  And over the course 
-      of the summer, Mike and John discovered that pretty much everyone is a race fan.  
-      Join the brothers for the season finale of REVVED UP.
-    <p>Did you miss the first five episodes?  Check out the <a href="/revved-up">archives</a> to see what you've missed.</p>
-    <p>Want to win some swag signed by Bobby Labonte? <a target="_blank" href="http://blip.ly/RevvedUp6">Answer a trivia question</a> about episode 6 to enter the contest.</p>
+      After an <a href="/episodes">epic 2012 NFL tour</a> and an 
+      <a href="/revved-up">unforgettable summer at NASCAR</a>, Mike and John
+      are on the road again this fall to tailgate in a few select NFL locations.
+      Their next couple of stops are:
+    </p>
+    <ul>
+      <li>9/5: Denver</li>
+      <li>9/9: San Diego</li>
+      <li>9/15: Arizona</li>
+      <li>9/22: Washington</li>
+    </ul>
+    <p>Check out the complete <a id="schedule-callout" href="javascript:void(0)">Fall 2013 schedule</a> to see when they're coming to your city.</p>
   </div>
   <br class="clear" />
 </div>
@@ -64,3 +71,44 @@
   <% end %>
   <br class="clear" />
 </div>
+
+<% content_for(:popups) { %>
+  <div id="schedule-popup" class="popup">
+    <h2>Fall 2013 NFL Schedule</h2>
+    <p>It's no 32-stop marathon of a schedule, but we do have 19 stops scheduled for this fall.</p>
+    <dl>
+      <dt>9/5</dt><dd>Denver</dd>
+      <dt>10/24</dt><dd>Tampa Bay</dd>
+      <dt>12/1</dt><dd>Carolina</dd>
+    </dl>
+    <dl>
+      <dt>9/9</dt><dd>San Diego</dd>
+      <dt>10/27</dt><dd>Jacksonville</dd>
+      <dt>12/8</dt><dd>Philadelphia</dd>
+    </dl>
+    <dl>
+      <dt>9/15</dt><dd>Arizona</dd>
+      <dt>11/3</dt><dd>Buffalo</dd>
+      <dt>12/15</dt><dd>St. Louis</dd>
+    </dl>
+    <dl>
+      <dt>9/22</dt><dd>Washington</dd>
+      <dt>11/10</dt><dd>Chicago</dd>
+      <dt>12/22</dt><dd>Baltimore</dd>
+    </dl>
+    <dl>
+      <dt>10/6</dt><dd>Green Bay</dd>
+      <dt>11/17</dt><dd>Pittsburgh</dd>
+      <dt>12/29</dt><dd>Cincinnati</dd>
+    </dl>
+    <dl>
+      <dt>10/13</dt><dd>Cleveland</dd>
+      <dt>11/24</dt><dd>New England</dd>
+    </dl>
+    <dl>
+      <dt>10/20</dt><dd>New York</dd>
+      <dt>11/28</dt><dd>Detroit</dd>
+    </dl>
+    <p>Want to join us at one of these tailgates?  <a href="javascript:void(0)" id="schedule-contact-link">Drop us a line</a> and let us know when we're coming to your city.</p>
+  </div>
+<% } %>

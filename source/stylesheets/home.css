@@ -20,6 +20,10 @@
       margin-bottom: 9px;
     }
 
+    .right ul {
+      list-style-type: none;
+    }
+
   .row .featured-episode {
     float: left;
     width: 234px;
@@ -46,3 +50,20 @@
       text-align: center;
     }
 
+#schedule-popup dl {
+  padding: 0 40px;
+  margin: 10px 0;
+}
+
+  #schedule-popup dt {
+    display: inline-block;
+    width: 40px;
+    text-align: right;
+  }
+
+  #schedule-popup dd {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
+    width: 110px;
+  }
