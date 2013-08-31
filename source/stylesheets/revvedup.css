@@ -16,6 +16,11 @@ img { border: 0; }
 
 a, a:visited { color: inherit; }
 
+  p a, p a:visited { 
+    color: #fff200;
+    text-decoration: none;
+  }
+
 h1 {
   font-family: "Graduate", serif;
   font-size: 28px;
