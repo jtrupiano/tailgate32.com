@@ -1,14 +1,15 @@
-dives:
-  number: "06"
-  title: "Dives w/ Mike and John"
-  date: "March 20, 2013"
-  video_id: "mck8WTa2FE8"
+"best-foods-of-tailgate32":
+  number: "07"
+  title: "Best Foods of Tailgate32"
+  date: "September 4, 2013"
+  video_id: "XtncTBW0rSQ"
   description: |
-    This time we're just goofing off in some fun dive bars in Austin.  Come have a drink 
-    with us!
-
+    Grilled oysters, Mexican hamburgers, and breakfast calzones.  Mike and John count 
+    down their Top 6 tailgating foods they sampled during the season.  Who's gonna come 
+    in at Number 1?
+    
 superbowl:
-  number: "05"
+  number: "06"
   title: "Mike and John Tailgate the Super Bowl"
   short_title: "Tailgate the Super Bowl"
   date: "February 3, 2013"
@@ -18,7 +19,7 @@ superbowl:
     Super Bowl weekend.
 
 kissme:
-  number: "04"
+  number: "05"
   title: "Kiss Me, I'm Shitfaced"
   date: "January 18, 2013"
   video_id: "Q1DYdb7L0uo"
@@ -27,7 +28,7 @@ kissme:
     traditions we've seen all year.
 
 holidays:
-  number: "03"
+  number: "04"
   title: "Happy Holidays 2012"
   date: "December 24, 2012"
   video_id: "CYFD7ZINxvA"
@@ -36,15 +37,24 @@ holidays:
     wishing everyone a Merry Christmas.
 
 declined:
-  number: "02"
+  number: "03"
   title: "Declined"
   date: "August 31, 2012"
   video_id: "GCZBl7JLc1Y"
   description: "John and Mike have a difficult time using their credit cards on the road"
 
 schedule:
-  number: "01"
+  number: "02"
   title: "The Schedule"
   date: "August 1, 2012"
   video_id: "FivnVw92bxI"
   description: "How do you hit 32 games in only 17 weeks?  Just check out the schedule."
+
+dives:
+  number: "01"
+  title: "Dives w/ Mike and John"
+  date: "March 20, 2013"
+  video_id: "mck8WTa2FE8"
+  description: |
+    This time we're just goofing off in some fun dive bars in Austin.  Come have a drink 
+    with us!
