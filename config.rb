@@ -44,9 +44,10 @@ episodes.each_with_index do |episode, i|
 end
 
 page "/b-sides.html"
-bsides.each do |bside|
+bsides.each_with_index do |bside, i|
   page "/b-sides/#{bside.abbr}.html", :proxy => "/b-side.html", :ignore => true do
     @bside = bside
+    @next_bside = bsides[(i+1) % bsides.size]
   end
 end
 

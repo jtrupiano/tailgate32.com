@@ -44,4 +44,8 @@ class Bside < OpenStruct
   def youtube_watch_url
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
   end
+
+  def archive_url
+    "/b-sides"
+  end
 end

@@ -18,9 +18,9 @@
   <meta name="twitter:player:width"  content="435" />
   <meta name="twitter:player:height" content="245" />
 <% end %>
-<% content_for(:stylesheets) { stylesheet_link_tag :bside } %>
+<% content_for(:stylesheets) { stylesheet_link_tag :episode } %>
 
-<div id="bside" class="row">
+<div id="episode" class="row">
   <div class="left">
     <div id="featured-video">
       <h1><%= @bside.full_title %></h1>
@@ -29,7 +29,18 @@
       </div>
       <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="620" data-show-faces="false" data-color-scheme="dark"></div>
     </div>
-    <%= partial :bside_archive %>
+    <div class="divider"></div>
+    <div id="next-episode">
+      <h2>Did You Miss? &mdash; <%= @next_bside.title %></h2>
+      <div class="thumbnail">
+        <a href="<%= @next_bside.relative_url %>" title="Watch <%= @next_bside.title %>"><img src="<%= @next_bside.thumbnail_url %>" alt="<%= @next_bside.title %>" /></a>
+      </div>
+      <div class="description">
+        <p><%= @next_bside.description %></p>
+        <p>Watch <a href="<%= @next_bside.relative_url %>" title="Watch <%= @next_bside.title %>"><%= @next_bside.title %></a> or return to the <a href="<%= @next_bside.archive_url %>">B-Side archive</a>.</p>
+      </div>
+      <br class="clear" />
+    </div>
   </div>
   <div class="right">
     <div id="bside-details" class="widget">
