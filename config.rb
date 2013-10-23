@@ -30,7 +30,7 @@ end
 
 page "/index.html" do 
   @featured_episode           = episodes.last
-  @tailgate32_episodes        = [28,4,2,27].map {|i| episodes.reverse[i]}
+  @tailgate32_episodes        = [31,22,30,21].map {|i| episodes.reverse[i]}
   @featured_revvedup_episodes = [0,3,5,1].map {|i| revvedup_episodes[i]}
   @featured_bsides            = [0,1,2,3].map {|i| bsides[i]}
 end
