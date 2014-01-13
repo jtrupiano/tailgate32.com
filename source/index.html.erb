@@ -11,7 +11,11 @@
   <meta property="og:description" content="A web series that follows brothers Mike & John as they explore the greatest sports fan traditions in America." />
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag(:home) } %>
+<% content_for(:stylesheets) { stylesheet_link_tag '/javascripts/rcarousel/widget/css/rcarousel.css' } %>
 <% content_for(:javascripts) { javascript_include_tag(:home) } %>
+<% content_for(:javascripts) { javascript_include_tag "rcarousel/widget/lib/jquery.ui.core.min.js" } %>
+<% content_for(:javascripts) { javascript_include_tag "rcarousel/widget/lib/jquery.ui.widget.min.js" } %>
+<% content_for(:javascripts) { javascript_include_tag "rcarousel/widget/lib/jquery.ui.rcarousel.min.js" } %>
 
 <div id="main">
   <div class="left">
@@ -21,51 +25,32 @@
     <div class="fb-like" data-href="http://www.facebook.com/Tailgate32" data-send="true" data-width="620" data-show-faces="false" data-color-scheme="dark"></div>
   </div>
   <div class="right">
-    <h1>Back on the Road for 2013!</h1>
-    <p>
-      After an epic <a href="/episodes">2012 NFL tour</a> and an 
-      unforgettable <a href="/revved-up">summer at NASCAR</a>, Mike and John
-      are on the road again to tailgate some of their favorite NFL parking lots.
-      The next couple of stops are:
-    </p>
-    <ul>
-      <li>12/8: Philadelphia</li>
-      <li>12/15: St. Louis</li>
-      <li>12/22: Baltimore</li>
-      <li>12/29: Cincinnati</li>
-    </ul>
-    <p>Check out the complete <a id="schedule-callout" href="javascript:void(0)">Fall 2013 schedule</a> to see when they're coming to your city.</p>
+    <h1>Taking Home The Hardware</h1>
+    <div id="laurel-carousel" class="ui-carousel">
+      <% @carousel_images.each do |img| %>
+        <%= image_tag "laurels/#{img}.png", :width => 240 %>
+      <% end %>
+    </div>
+    <p><%= image_tag 'watch-arrow-yellow.png' %><span id="watch-trailer-link">Watch the trailer now.</p>
+    <p>...or dive right into the <a href="/play/nyg" title="Watch Tailgate32">series</a>.</p>
   </div>
   <br class="clear" />
 </div>
 <div class="divider"></div>
-<div class="row">
-  <h2>Tailgate32: The Ultimate Football Fan Roadtrip</h2>
-  <p>In the fall of 2012 Mike and John took an epic roadtrip to tailgate all 32 NFL stadiums in one 17-week regular season.  We've highlighted a few of the best episodes below.  Or you can <a href="/episodes">watch all 32 of them</a>!</p>
-  <% @tailgate32_episodes.each_with_index do |episode, i| %>
-    <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
-      <a href="/play/<%= episode.abbr %>">
-        <img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" />
-        <h4>Episode <%= episode.number %></h4>
-        <h3><%= episode.title %></h3>
-      </a>
-    </div>
-  <% end %>
-  <br class="clear" />
-</div>
-<div class="divider"></div>
-<div class="row">
-  <h2>REVVED UP: A Foray into America's Other Favorite Sport</h2>
-  <p>After their incredible stroll through the world of football fandom, the brothers hit the racetracks as NASCAR newbies to learn the ropes of a remarkably different fan experience.  Here are a couple of their favorite episodes from the <a href="/revved-up">6-episode mini-series</a>.</p>
-  <% @featured_revvedup_episodes.each_with_index do |episode, i| %>
-    <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
-      <a href="<%= episode.relative_url %>">
-        <img src="<%= episode.thumbnail_url %>" alt="<%= episode.title %>" />
-        <h4>Episode <%= episode.number %></h4>
-        <h3><%= episode.title %></h3>
-      </a>
-    </div>
-  <% end %>
+<div class="row" id="revved-up-feature">
+  <div class="left">
+    <h2>Let's Get REVVED UP!</h2>
+    <p>
+      After their incredible stroll through the world of football fandom, Mike and John 
+      hit the racetracks as NASCAR newbies to learn the ropes of a remarkably different 
+      fan experience.  With appearances from NASCAR drivers, track presidents, town 
+      mayors, team owners, and very, very colorful fans, the brothers showcase racing 
+      culture at its finest. Here are a couple of their favorite episodes from the 
+      <a href="/revved-up" title="Watch REVVED UP">6-episode mini-series</a>.</p>
+  </div>
+  <div class="right">
+    <a href="/revved-up" title="Watch REVVED UP"><%= image_tag 'banner-revved-up.jpg', :alt => 'Watch REVVED UP' %></a>
+  </div>
   <br class="clear" />
 </div>
 <div class="divider"></div>
@@ -85,41 +70,3 @@
   <% end %>
   <br class="clear" />
 </div>
-
-<% content_for(:popups) { %>
-  <div id="schedule-popup" class="popup">
-    <h2>Fall 2013 NFL Schedule</h2>
-    <p>We couldn't repeat all 32 this year, but we've got 18 stops on the schedule this fall.</p>
-    <dl>
-      <dt>9/5</dt><dd>Denver</dd>
-      <dt>10/20</dt><dd>New York</dd>
-      <dt>11/28</dt><dd>Detroit</dd>
-    </dl>
-    <dl>
-      <dt>9/9</dt><dd>San Diego</dd>
-      <dt>10/24</dt><dd>Tampa Bay</dd>
-      <dt>12/1</dt><dd>Carolina</dd>
-    </dl>
-    <dl>
-      <dt>9/15</dt><dd>Arizona</dd>
-      <dt>11/3</dt><dd>Buffalo</dd>
-      <dt>12/8</dt><dd>Philadelphia</dd>
-    </dl>
-    <dl>
-      <dt>9/22</dt><dd>Washington</dd>
-      <dt>11/10</dt><dd>Chicago</dd>
-      <dt>12/15</dt><dd>St. Louis</dd>
-    </dl>
-    <dl>
-      <dt>10/6</dt><dd>Green Bay</dd>
-      <dt>11/17</dt><dd>Pittsburgh</dd>
-      <dt>12/22</dt><dd>Baltimore</dd>
-    </dl>
-    <dl>
-      <dt>10/13</dt><dd>Cleveland</dd>
-      <dt>11/24</dt><dd>New England</dd>
-      <dt>12/29</dt><dd>Cincinnati</dd>
-    </dl>
-    <p>Want to join us at one of these tailgates?  <a href="javascript:void(0)" id="schedule-contact-link">Drop us a line</a> and let us know when we're coming to your city.</p>
-  </div>
-<% } %>

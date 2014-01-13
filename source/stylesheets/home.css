@@ -1,6 +1,6 @@
 #main {
   width: 1000px;
-  margin: 10px auto;
+  margin: 20px auto 0px;
 }
 
   .row {
@@ -16,13 +16,25 @@
     padding-left: 6px;
   }
 
+    .right h1 {
+      text-align: center;
+      color: #fff200;
+    }
+
+    .right #laurel-carousel {
+      width: 240px;
+      margin: 10px 0px;
+    }
+
     .right p {
       margin-bottom: 9px;
     }
 
-    .right ul {
-      list-style-type: none;
-    }
+      .right #watch-trailer-link {
+        position: relative;
+        top: -15px;
+        left: 5px;
+      }
 
   .row .featured-episode {
     float: left;
@@ -50,20 +62,13 @@
       text-align: center;
     }
 
-#schedule-popup dl {
-  padding: 0 40px;
-  margin: 10px 0;
+#revved-up-feature .left {
+  float: left;
+  width: 482px;
+  margin-left: 0px;
 }
 
-  #schedule-popup dt {
-    display: inline-block;
-    width: 40px;
-    text-align: right;
-  }
-
-  #schedule-popup dd {
-    font-weight: bold;
-    display: inline-block;
-    margin: 0 10px;
-    width: 110px;
-  }
+#revved-up-feature .right {
+  float: left;
+  width: 482px;
+}

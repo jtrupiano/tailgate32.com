@@ -68,53 +68,51 @@ h4 {
 
 
 #masthead {
-  height: 182px;
-  width: 994px;
-  padding: 0px 3px;
+  height: 48px;
+  width: 988px;
+  padding: 0px 6px;
   margin: 8px auto;
 }
 
-  #masthead img {
-    margin: 0px 3px;
+  #masthead #home-anchor {
+    float: left;
   }
 
-#menu {
-  font-size: 16px;
-  width: 988px;
-  margin: 0 auto;
-  padding: 12px 6px;
-  border-top: solid 3px #da0000;
-  border-bottom: solid 3px #da0000;
-}
-
-#menu a {
-  text-decoration: none;
-  margin-right: 20px;
-  font-family: "Graduate", serif;
-}
-
-  #menu a:hover { text-decoration: underline; }
-
-  #menu a.last { margin-right: 0; }
-
-  #menu #social-media {
-    float: right;
+  #masthead #menu {
+    font-size: 20px;
+    width: 658px;
+    padding: 23px 0px 0px 30px;
+    float: left;
   }
 
-  #menu #social-media a {
-    margin-right: 0px;
-    margin-left: 12px; 
-  }
+    #menu a {
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: "Graduate", serif;
+    }
 
-  #menu #social-media img {
-    height: 24px;
-    width: 24px;
-  }
+      #menu a:hover { text-decoration: underline; }
 
-  /** Hover Menu **/
-  #watch {
-    display: inline-block;
-  }
+      #menu a.last { margin-right: 0; }
+
+      #menu #social-media {
+        float: right;
+      }
+
+      #menu #social-media a {
+        margin-right: 0px;
+        margin-left: 12px; 
+      }
+
+      #menu #social-media img {
+        height: 24px;
+        width: 24px;
+      }
+
+      /** Hover Menu **/
+      #watch {
+        display: inline-block;
+      }
 
     #watch ul, #watch li {
       margin: 0;
@@ -133,6 +131,7 @@ h4 {
       #watch-menu li {
         background-color: #333;
         border: solid 1px #000;
+        font-size: 16px;
       }
 
         #watch-menu li a {

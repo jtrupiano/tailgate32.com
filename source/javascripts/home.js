@@ -10,15 +10,13 @@ function getUrlVars() {
 }
 
 $().ready(function() {
-  $('#schedule-callout').click(function() {
-    $.fancybox.open($('#schedule-popup'));
+  $('#laurel-carousel').rcarousel({
+    width: 240, 
+    height: 240,
+    step: 1,
+    visible: 1,
+    margin: 50,
+    speed: 250,
+    auto: { enabled: true} 
   });
-
-  $('#schedule-contact-link').click(function() {
-    $.fancybox.open($('#contact-us'));
-  });
-
-  if (getUrlVars()["schedule"] == "y") {
-    $.fancybox.open($('#schedule-popup'));
-  }
 });

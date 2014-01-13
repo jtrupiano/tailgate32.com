@@ -31,27 +31,30 @@
   <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   <div class="divider top"></div>
   <div id="masthead">
-    <a href="/episodes"><%= image_tag "banner-tailgate32.jpg", :title => "Watch Tailgate32", :alt => "Watch Tailgate32" %></a><a href="/revved-up"><%= image_tag "banner-revved-up.jpg", :title => "Watch Revved Up", :alt => "Watch Revved Up" %></a>
-  </div>
-  <div id="menu">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a id="contact-us-nav" class="contact-us-link" href="javascript:void(0)">Contact</a>
-    <a href="/press">Press</a>
-    <div id="watch">
-      <a href="javascript:void(0)">Watch</a>
-      <ul id="watch-menu">
-        <li><a href="/episodes">Tailgate32</a></li>
-        <li><a href="/revved-up">Revved Up</a></li>
-        <li><a href="/b-sides">The B-Sides</a></li>
-      </ul>
+    <div id="home-anchor">
+      <a href="/"><%= image_tag "tailgate32-anchor.png", :title => "Tailgate32 Home", :alt => "Tailgate32 Home" %></a>
     </div>
-    <div id="social-media">
-      <a href="https://twitter.com/#!/tailgate32" target="_blank" title="Follow @tailgate32 on Twitter"><%= image_tag 'icon_twitter.png', :alt => "See @tailgate32 on Twitter" %></a>
-      <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><%= image_tag 'icon_facebook.png', :alt => "Find Tailgate32 on Facebook" %></a>
-      <a href="http://www.youtube.com/user/tailgate32" class="last" target="_blank" title="The Official Tailgate32 YouTube Channel"><%= image_tag 'icon_youtube.png', :alt => "Subscribe to the Tailgate32 YouTube channel" %></a>
+    <div id="menu">
+      <a href="/about">About</a>
+      <a id="contact-us-nav" class="contact-us-link" href="javascript:void(0)">Contact</a>
+      <a href="/press">Press</a>
+      <div id="watch">
+        <a href="javascript:void(0)">Watch</a>
+        <ul id="watch-menu">
+          <li><a href="/episodes">Tailgate32</a></li>
+          <li><a href="/revved-up">Revved Up</a></li>
+          <li><a href="/b-sides">The B-Sides</a></li>
+        </ul>
+      </div>
+      <div id="social-media">
+        <a href="https://twitter.com/#!/tailgate32" target="_blank" title="Follow @tailgate32 on Twitter"><%= image_tag 'icon_twitter.png', :alt => "See @tailgate32 on Twitter" %></a>
+        <a href="https://www.facebook.com/tailgate32" target="_blank" title="Like Tailgate32 on Facebook"><%= image_tag 'icon_facebook.png', :alt => "Find Tailgate32 on Facebook" %></a>
+        <a href="http://www.youtube.com/user/tailgate32" class="last" target="_blank" title="The Official Tailgate32 YouTube Channel"><%= image_tag 'icon_youtube.png', :alt => "Subscribe to the Tailgate32 YouTube channel" %></a>
+      </div>
     </div>
+    <br class="clear" />
   </div>
+  <div class="divider"></div>
 
   <%= yield %>
 

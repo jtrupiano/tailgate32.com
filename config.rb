@@ -30,9 +30,8 @@ end
 
 page "/index.html" do 
   @featured_episode           = episodes.last
-  @tailgate32_episodes        = [26,11,3,25].map {|i| episodes.reverse[i]}
-  @featured_revvedup_episodes = [0,3,5,1].map {|i| revvedup_episodes[i]}
   @featured_bsides            = [0,1,2,3].map {|i| bsides[i]}
+  @carousel_images = %w(iawtv atlwebfest itvfest towebfest lawebfest ugpff snobby-robot)
 end
 
 page "/episodes.html"
