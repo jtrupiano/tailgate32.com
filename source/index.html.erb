@@ -37,7 +37,7 @@
   <br class="clear" />
 </div>
 <div class="divider"></div>
-<div class="row" id="revved-up-feature">
+<div class="row secondary">
   <div class="left">
     <h2>Let's Get REVVED UP!</h2>
     <p>
@@ -45,8 +45,8 @@
       hit the racetracks as NASCAR newbies to learn the ropes of a remarkably different 
       fan experience.  With appearances from NASCAR drivers, track presidents, town 
       mayors, team owners, and very, very colorful fans, the brothers showcase racing 
-      culture at its finest. Here are a couple of their favorite episodes from the 
-      <a href="/revved-up" title="Watch REVVED UP">6-episode mini-series</a>.</p>
+      culture at its finest.  Buckle up and come along for the ride in our 6-episode 
+      mini-series <a href="/revved-up" title="Watch REVVED UP">REVVED UP</a>.</p>
   </div>
   <div class="right">
     <a href="/revved-up" title="Watch REVVED UP"><%= image_tag 'banner-revved-up.jpg', :alt => 'Watch REVVED UP' %></a>
@@ -54,19 +54,21 @@
   <br class="clear" />
 </div>
 <div class="divider"></div>
-<div class="row">
-  <h2>The B-Sides, AKA Mike and John Mostly Goofing Around</h2>
-  <p>
-    Here's an assortment of behind-the-scenes footage and other silly things that Mike 
-    and John have been up to.  You can find plenty more over in our <a href="/b-sides">B-Sides Archive</a>.
-  </p>
-  <% @featured_bsides.each_with_index do |bside, i| %>
-    <div class="featured-episode <%= i == 0 ? 'first' : (i == 3) ? 'last' : '' %>">
-      <a href="/b-sides/<%= bside.abbr %>">
-        <img src="<%= bside.thumbnail_url %>" alt="<%= bside.title %>" />
-        <h3><%= bside.title %></h3>
-      </a>
-    </div>
-  <% end %>
+<div class="row secondary">
+  <div class="left">
+    <h2>Go Behind The Scenes!</h2>
+    <p>
+      Ever wonder what Mike and John are doing when they're not goofing around?  Trick 
+      question, they're always goofing around.  And the B-Sides are the most comprehensive
+      set of evidence demonstrating this very fact.  How many shots does it take
+      to kill John?  Why won't Mike ever give our editor a compliment?
+      And why the hell doesn't this damn credit card work?!  Join us behind the scenes
+      to find all this out and more with our 
+      <a href="/b-sides" title="Watch B-Sides">B-Sides</a>.
+    </p>
+  </div>
+  <div class="right">
+    <a href="/b-sides" title="Watch B-Sides"><%= image_tag 'banner-b-sides.png', :alt => 'Watch B-Sides' %></a>
+  </div>
   <br class="clear" />
 </div>

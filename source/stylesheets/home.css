@@ -36,39 +36,21 @@
         left: 5px;
       }
 
-  .row .featured-episode {
-    float: left;
-    width: 234px;
-    padding: 6px;
-  }
-
-    .featured-episode a:hover img {
-      border: solid 2px #ccc;
-    }
-
-    .featured-episode a, .featured-episode a:visited {
-      text-decoration: none;
-    }
-
-    .row .featured-episode.first { padding-left: 0px; }
-    .row .featured-episode.last { padding-right: 0px; }
-
-    .row .featured-episode img {
-      width: 230px;
-      border: solid 2px #333;
-    }
-
-    .row .featured-episode h3, .row .featured-episode h4 {
-      text-align: center;
-    }
-
-#revved-up-feature .left {
+.secondary .left {
   float: left;
   width: 482px;
   margin-left: 0px;
 }
 
-#revved-up-feature .right {
+.secondary .right {
   float: left;
   width: 482px;
 }
+
+  .secondary .right img {
+    border: solid 2px #333;
+  }
+
+  .secondary .right a:hover img {
+    border: solid 2px #ccc;
+  }
