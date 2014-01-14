@@ -54,3 +54,7 @@
   .secondary .right a:hover img {
     border: solid 2px #ccc;
   }
+
+  .secondary p {
+    margin-bottom: 18px;
+  }

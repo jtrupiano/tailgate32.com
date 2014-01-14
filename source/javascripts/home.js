@@ -12,7 +12,7 @@ function getUrlVars() {
 $().ready(function() {
   $('#laurel-carousel').rcarousel({
     width: 240, 
-    height: 240,
+    height: 206,
     step: 1,
     visible: 1,
     margin: 50,
