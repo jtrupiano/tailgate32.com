@@ -2,17 +2,7 @@
   #featured-press, #other-press {
     margin-bottom: 25px;
   }
-
-  .four-column {
-    text-align: center;
-  }
-
-  .four-column .item {
-    width: 235px;
-    margin: 6px;
-    float: left;
-  }
-
+  
   .four-column .item img {
     width: 219px;
     height: 219px;

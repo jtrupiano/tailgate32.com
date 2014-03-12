@@ -22,6 +22,20 @@ helpers do
   def revvedup_episodes
     @revvedup_episodes ||= data.revvedup.keys.map {|abbr| RevvedUpEpisode.new(data.revvedup[abbr].merge({abbr: abbr}))}
   end
+
+  def awards
+    @awards ||= {
+      :iawtv => 'International Academy of Web Television',
+      :atlwebfest => 'Atlanta Web Festival',
+      :itvfest => 'Independent Television Festival',
+      :lawebfest => 'Los Angeles Web Festival',
+      :hollywebfest => 'HollyWeb Festival',
+      :vwf => 'Vancouver Web Festival',
+      :towebfest => 'Toronto Web Festival',
+      :ugpff => 'Unofficial Google+ Web Festival',
+      :"snobby-robot" => 'Snobby Robot Awards'
+    }
+  end
 end
 
 ###
@@ -29,9 +43,9 @@ end
 ###
 
 page "/index.html" do 
-  @featured_episode           = episodes.last
-  @featured_bsides            = [0,1,2,3].map {|i| bsides[i]}
-  @carousel_images = %w(iawtv atlwebfest itvfest lawebfest hollywebfest vwf towebfest ugpff snobby-robot)
+  @featured_episode   = episodes.last
+  @featured_bsides    = [0,1,2,3].map {|i| bsides[i]}
+  @carousel_images    = awards.keys
 end
 
 page "/episodes.html"

@@ -217,6 +217,17 @@ h4 {
   }
 
 
+.four-column {
+  text-align: center;
+}
+
+.four-column .item {
+  width: 235px;
+  margin: 6px;
+  float: left;
+}
+
+
 /** Popups **/
 #hidden-content {
   display: none;

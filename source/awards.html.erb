@@ -1,0 +1,21 @@
+<% content_for(:title) { "Tailgate32: Awards" } %>
+<% content_for(:description) { "Awards for the Tailgate32 documentary series. #{awards.keys.map {|k| awards[k]}.join(', ')}" } %>
+<% content_for(:stylesheets) { stylesheet_link_tag(:awards) } %>
+
+<div id="awards" class="row">
+  <h1>Taking Home the Hardware!</h1>
+  <p>
+    In addition to the <a href='/press.html'>extensive press coverage</a> that 
+    <a href="/episodes">Tailgate32</a> and <a href="/revved-up">REVVED UP</a> have 
+    received, we've also been cleaning up on the awards circuit.  Here's a sampling 
+    of the recognition to date for both shows.
+  </p>
+  <div class="four-column">
+    <% awards.keys.each do |key| %>
+      <div class="item">
+        <%= image_tag "laurels/#{key}.png", :alt => awards[key], :title => awards[key] %>
+      </div>
+    <% end %>
+    <br class="clear" />
+  </div>
+</div>

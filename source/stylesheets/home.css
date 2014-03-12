@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: underline;
+}
+
 #main {
   width: 1000px;
   margin: 20px auto 0px;
