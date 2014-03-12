@@ -31,7 +31,7 @@ end
 page "/index.html" do 
   @featured_episode           = episodes.last
   @featured_bsides            = [0,1,2,3].map {|i| bsides[i]}
-  @carousel_images = %w(iawtv atlwebfest itvfest lawebfest hollywebfest towebfest ugpff snobby-robot)
+  @carousel_images = %w(iawtv atlwebfest itvfest lawebfest hollywebfest vwf towebfest ugpff snobby-robot)
 end
 
 page "/episodes.html"
