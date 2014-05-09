@@ -32,6 +32,8 @@ helpers do
       :hollywebfest => 'HollyWeb Festival',
       :vwf => 'Vancouver Web Festival',
       :towebfest => 'Toronto Web Festival',
+      :nmff => 'New Media Film Festival',
+      :austinwebfest => 'Austin Web Festival',
       :ugpff => 'Unofficial Google+ Web Festival',
       :"snobby-robot" => 'Snobby Robot Awards'
     }
