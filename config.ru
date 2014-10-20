@@ -6,11 +6,11 @@ require 'rack/rewrite'
 use Rack::Rewrite do 
   # return true if request should be treated as going to a production server
   def production_host?(rack_env)
-    !['tailgate32.com', 'tailgate32-staging.herokuapp.com', 'localhost', '127.0.0.1'].include?(rack_env['SERVER_NAME'])
+    !['www.tailgate32.com', 'tailgate32-staging.herokuapp.com', 'localhost', '127.0.0.1'].include?(rack_env['SERVER_NAME'])
   end
 
   # Redirect everything to tailgate32.footballnation.com
-  r301 %r{.*}, 'http://tailgate32.com$&', :if => Proc.new {|rack_env|
+  r301 %r{.*}, 'http://www.tailgate32.com$&', :if => Proc.new {|rack_env|
     production_host?(rack_env)
   }
 
