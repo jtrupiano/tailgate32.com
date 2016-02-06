@@ -45,8 +45,16 @@ class Episode < OpenStruct
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
   end
 
-  def embed_code
+  def yt_embed_code
     %Q{<iframe id="ytplayer" width="720" height="405" src="#{self.youtube_embed_url}" frameborder="0" allowFullScreen></iframe>}
+  end
+  
+  def vimeo_embed_code
+    %Q{<iframe src="https://player.vimeo.com/video/#{self.vimeo_id}?title=0&byline=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>}
+  end
+
+  def embed_code
+    vimeo_embed_code
   end
 
   def on_itunes?
