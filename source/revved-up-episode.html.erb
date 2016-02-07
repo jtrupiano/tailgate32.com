@@ -7,19 +7,19 @@
   <meta property="og:type"          content="video.episode" />
   <meta property="og:image"         content="<%= @episode.image_url %>" />
   <meta property="og:url"           content="<%= @episode.canonical_url %>" />
-  <meta property="og:video"         content="<%= @episode.og_url %>" />
+  <meta property="og:video:url"     content="<%= @episode.og_url %>" />
+  <meta property="og:video:secure_url" content="<%= @episode.og_url %>" />
   <meta property="og:video:type"    content="application/x-shockwave-flash" />
   <meta property="og:video:width"   content="1920" />
   <meta property="og:video:height"  content="1080" />
-  <meta property="video:series"     content="http://tailgate32.com/revved-up" />
+  <meta property="video:series"     content="http://www.tailgate32.com/revved-up" />
 
-  <meta name="twitter:card"         content="summary" />
-  <!-- Blip makes us :(
   <meta name="twitter:card"          content="player" />
-  <meta name="twitter:player"        content="<%= @episode.embed_url %>" />
+  <meta name="twitter:title"         content="<%= @episode.title_for_meta_tags %>" />
+  <meta name="twitter:description"   content="<%= @episode.description_for_meta_tags %>" />
+  <meta name="twitter:player"        content="<%= @episode.twitter_url %>" />
   <meta name="twitter:player:width"  content="435" />
   <meta name="twitter:player:height" content="273" />
-  -->
 <% end %>
 <% content_for(:stylesheets) { stylesheet_link_tag :episode } %>
 

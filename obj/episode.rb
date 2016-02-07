@@ -18,7 +18,7 @@ class Episode < OpenStruct
   end
 
   def image_url
-    "http://tailgate32.com/images/episodes/#{abbr}.png"
+    "http://www.tailgate32.com/images/episodes/#{abbr}.png"
   end
 
   def thumbnail_url
@@ -30,7 +30,7 @@ class Episode < OpenStruct
   end
 
   def canonical_url
-    "http://tailgate32.com#{relative_url}"
+    "http://www.tailgate32.com#{relative_url}"
   end
 
   def youtube_embed_url
@@ -49,6 +49,14 @@ class Episode < OpenStruct
     %Q{<iframe id="ytplayer" width="720" height="405" src="#{self.youtube_embed_url}" frameborder="0" allowFullScreen></iframe>}
   end
   
+  def og_url
+    "https://player.vimeo.com/video/#{self.vimeo_id}?autoplay=1"
+  end
+
+  def twitter_url
+    "https://player.vimeo.com/video/#{self.vimeo_id}"
+  end
+
   def vimeo_embed_code
     %Q{<iframe src="https://player.vimeo.com/video/#{self.vimeo_id}?title=0&byline=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>}
   end

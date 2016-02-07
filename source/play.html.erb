@@ -7,14 +7,17 @@
   <meta property="og:type"          content="video.episode" />
   <meta property="og:image"         content="<%= @episode.image_url %>" />
   <meta property="og:url"           content="<%= @episode.canonical_url %>" />
-  <meta property="og:video"         content="<%= @episode.youtube_og_url %>" />
+  <meta property="og:video"         content="<%= @episode.og_url %>" />
+  <meta property="og:video:secure_url" content="<%= @episode.og_url %>" />
   <meta property="og:video:type"    content="application/x-shockwave-flash" />
   <meta property="og:video:width"   content="1920" />
   <meta property="og:video:height"  content="1080" />
-  <meta property="video:series"     content="http://tailgate32.com" />
+  <meta property="video:series"     content="http://www.tailgate32.com" />
 
   <meta name="twitter:card"          content="player" />
-  <meta name="twitter:player"        content="<%= @episode.youtube_embed_url %>" />
+  <meta name="twitter:title"         content="<%= @episode.title_for_meta_tags %>" />
+  <meta name="twitter:description"   content="<%= @episode.description_for_meta_tags %>" />
+  <meta name="twitter:player"        content="<%= @episode.twitter_url %>" />
   <meta name="twitter:player:width"  content="435" />
   <meta name="twitter:player:height" content="245" />
 <% end %>
