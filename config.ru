@@ -14,7 +14,6 @@ use Rack::Rewrite do
     production_host?(rack_env)
   }
 
-  r301 "/b-sides/superbowl", "/b-sides/super-bowl"
 
   ###########################################
   ############## Legacy Routes ##############
