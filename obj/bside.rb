@@ -30,7 +30,7 @@ class Bside < OpenStruct
   end
 
   def canonical_url
-    "http://tailgate32.com#{relative_url}"
+    "http://www.tailgate32.com#{relative_url}"
   end
 
   def youtube_embed_url
@@ -43,6 +43,18 @@ class Bside < OpenStruct
 
   def youtube_watch_url
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
+  end
+
+  def twitter_url
+    "https://player.vimeo.com/video/#{self.vimeo_id}"
+  end
+
+  def vimeo_embed_code
+    %Q{<iframe src="https://player.vimeo.com/video/#{self.vimeo_id}?title=0&byline=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>}
+  end
+
+  def embed_code
+    vimeo_embed_code
   end
 
   def archive_url
