@@ -45,6 +45,10 @@ class Bside < OpenStruct
     "https://www.youtube.com/watch?v=#{self.video_id}&feature=channel&list=UL"
   end
 
+  def og_url
+    "https://player.vimeo.com/video/#{self.vimeo_id}?autoplay=1"
+  end
+
   def twitter_url
     "https://player.vimeo.com/video/#{self.vimeo_id}"
   end
