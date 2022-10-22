@@ -1,13 +1,17 @@
 source "https://rubygems.org"
 
-ruby '1.9.3'
+ruby '2.6.6'
+
+# force a working middleman v3 build !!
+gem 'haml', '>= 4.0.5', '< 6.0'
+gem 'compass', '1.0.3'
+gem 'middleman', '3.0.14'
 
 gem 'thin'
 gem 'rack-rewrite'
-gem "middleman", "~>3.0.0"
 
 group :development do
-  gem 'ruby-debug19'
+  gem 'byebug'
   gem 'watchr'
   gem 'rb-fsevent'
 end
